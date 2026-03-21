@@ -14,10 +14,22 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 <div class="vp-card-container">
   <VPCard
-    title="Discord"
-    desc="u9cRFw6f"
+    title="WDG Discord"
+    desc="efnyMunbs"
     logo="/images/202312/discord.svg"
-    link="https://discord.gg/u9cRFw6f"
+    link="https://discord.gg/efnyMunbs"
     background="rgba(88, 101, 242, 0.15)"
+  />
+  <VPCard
+    title="胡桃重製版 QQ 用戶群 1"
+    desc="97571544"
+    logo="/images/202312/tencent.svg"
+    background="rgba(228, 0, 54, 0.15)"
+  />
+  <VPCard
+    title="胡桃重製版 QQ 用戶群 2"
+    desc="120482308"
+    logo="/images/202312/tencent.svg"
+    background="rgba(228, 0, 54, 0.15)"
   />
 </div>

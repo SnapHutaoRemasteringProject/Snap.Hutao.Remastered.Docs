@@ -1,4 +1,4 @@
----
+﻿---
 category:
   - Open Source
   - Development
@@ -24,7 +24,7 @@ If you possess expertise in any of the technologies mentioned on this page and a
 
 **DGP-Studio Member Benefits:**
 
-- [x] Design and implement features for Snap Hutao Manjusaka and associated projects
+- [x] Design and implement features for Snap Hutao and associated projects
 - [x] Connect with developers of other well-known Genshin Impact community projects
 - [x] Get free GitHub Copilot
 - [x] Get a free 1Password Team account
@@ -35,7 +35,7 @@ You can view the current list of public organization members on the [GitHub DGP-
 
 <VPBanner
 title="C# .NET Development"
-content="<b>Responsibilities:</b><br>Snap Hutao Manjusaka client and server development"
+content="<b>Responsibilities:</b><br>Snap Hutao client and server development"
 logo="/images/202312/C_sharp.svg"
 :actions='[
 {
@@ -43,14 +43,14 @@ text: "Join the Developer Community",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
-text: "Snap Hutao Manjusaka 2025 Development Roadmap",
+text: "Snap Hutao 2025 Development Roadmap",
 link: "https://github.com/DGP-Studio/Snap.Hutao/issues/2333",
 type: "default",
 },
 ]'
 />
 
-You can choose a project of interest from the Snap Hutao Manjusaka 2025 Development Roadmap and be responsible for its implementation. You can post replies in the relevant issues or seek collaboration to solve problems encountered in development through the developer community group.
+You can choose a project of interest from the Snap Hutao 2025 Development Roadmap and be responsible for its implementation. You can post replies in the relevant issues or seek collaboration to solve problems encountered in development through the developer community group.
 
 ---
 
@@ -70,7 +70,7 @@ text: "Join the Developer Community",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
-text: "Snap Hutao Manjusaka Documentation",
+text: "Snap Hutao Documentation",
 link: "https://github.com/DGP-Studio/Snap.Hutao.Docs",
 type: "default",
 },

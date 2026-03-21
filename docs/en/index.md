@@ -1,4 +1,4 @@
----
+﻿---
 layout: home
 
 title: Home
@@ -7,7 +7,7 @@ titleTemplate: Snap Hutao-Manjusaka
 hero:
   name: Snap Hutao-Manjusaka
   text: Open-source multifunctional toolkit for Windows platform
-  tagline: The program is based on the secondary development of Hutao Toolbox, including advanced launcher, wish record export, real-time notes and other functions, comprehensively improving the gaming experience for desktop players.
+  tagline: The program is based on the secondary development of Hutao Toolbox, including advanced launcher, wish record export, real-time notes and other functions, comprehensively improving the gaming experience for desktop players. The documentation is universal for the Hutao project, include any branch!
   image:
     src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
     alt: Snap Hutao-Manjusaka

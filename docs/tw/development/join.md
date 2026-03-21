@@ -8,7 +8,7 @@ tag:
   - 社區
 icon: iconfont icon-group
 order: 1
-description: 如果你有本頁所述技術之一且有興趣加入 Snap Hutao Manjusaka 開發團隊以完善項目，並接觸到更多的原神開源項目，歡迎加入我們！
+description: 如果你有本頁所述技術之一且有興趣加入 Snap Hutao 開發團隊以完善項目，並接觸到更多的原神開源項目，歡迎加入我們！
 ---
 
 # 加入我們
@@ -23,11 +23,10 @@ description: 如果你有本頁所述技術之一且有興趣加入 Snap Hutao M
 
 **Millennium-Science-Technology-R-D-Inst 成員福利：**
 
-- [x] ~~為 Snap Hutao 和關聯項目設計並實現功能~~
-- [x] ~~與其他知名原神社區項目的開發者建立聯繫~~
-- [x] ~~獲取免費的 GitHub Copilot Pro 訂閱~~
-- [x] ~~獲取免費的 1Password Team 賬號~~
-- [x] 啥都木有
+- [x] 為 Snap Hutao 和關聯項目設計並實現功能
+- [x] 與其他知名原神社區項目的開發者建立聯繫
+- [x] 獲取免費的 GitHub Copilot Pro 訂閱
+- [x] 獲取免費的 1Password Team 賬號
 
 [GitHub Millennium-Science-Technology-R-D-Inst People](https://github.com/orgs/Millennium-Science-Technology-R-D-Inst/people)
 
@@ -48,11 +47,15 @@ content="<b>負責內容：</b><br>Snap Hutao 客戶端和服務端開發"
 logo="/images/202312/C_sharp.svg"
 :actions='[
 {
-text: "加入開發者交流群",
-link:"",
+text: "加入 MSTRDI 開發者交流群",
+link:"https://qm.qq.com/q/ffc6Wx7VgA",
 },
 {
-text: "Snap Hutao Manjusaka 2026 開發規劃",
+text: "加入 RP 開發者交流群",
+link:"https://qm.qq.com/q/37YVJHDCQg",
+},
+{
+text: "Snap Hutao 2026 開發規劃",
 link: "",
 type: "default",
 },
@@ -75,11 +78,11 @@ content="<b>負責內容：</b><br>定期檢查並更新過時的文檔"
 logo="/images/202312/documents.svg"
 :actions='[
 {
-text: "加入開發者交流群",
-link:"",
+text: "加入 MSTRDI 開發者交流群",
+link:"https://qm.qq.com/q/ffc6Wx7VgA",
 },
 {
-text: "Snap Hutao Manjusaka 文檔",
+text: "Snap Hutao 文檔",
 link: "https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs",
 type: "default",
 },

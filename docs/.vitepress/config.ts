@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+﻿import { defineConfig } from 'vitepress'
 import tailwindcss from '@tailwindcss/vite'
 import markdownItContainer from 'markdown-it-container'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
@@ -143,7 +143,8 @@ export default defineConfig({
                             {
                                 text: 'Service Availability',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -178,7 +179,8 @@ export default defineConfig({
                             {
                                 text: '服务可用性',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -213,7 +215,8 @@ export default defineConfig({
                             {
                                 text: 'Доступность сервиса',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -248,7 +251,8 @@ export default defineConfig({
                             {
                                 text: 'Ketersediaan Layanan',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -283,7 +287,8 @@ export default defineConfig({
                             {
                                 text: 'サービスの可用性',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -318,7 +323,8 @@ export default defineConfig({
                             {
                                 text: '服務可用性',
                                 items: [
-                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                    { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
+                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
                                 ],
                             },
                             {
@@ -468,7 +474,7 @@ export default defineConfig({
         ],
         footer: {
             message: '使用 <a href="https://vitepress.dev/" target="_blank">VitePress</a> 构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
-            copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute`,
+            copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute with 2025-${new Date().getFullYear()} SnapHutao Remastering Project` ,
         },
         editLink: {
             pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
