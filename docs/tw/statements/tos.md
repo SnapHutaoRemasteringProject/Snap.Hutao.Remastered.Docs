@@ -5,7 +5,7 @@ comment: false
 editLink: false
 icon: iconfont icon-license
 order: 4
-description: Snap Hutao Manjusaka 的用戶使用協議和法律聲明。
+description: Snap Hutao Remastered 的用戶使用協議和法律聲明。
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/tos.html
 ---
 

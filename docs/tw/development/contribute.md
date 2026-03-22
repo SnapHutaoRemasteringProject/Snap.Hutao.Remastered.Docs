@@ -10,17 +10,17 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 
 胡桃工具箱使用 `C#` 和 `.NET 框架` 開發桌面客戶端和服務端。我們廣泛接受來自開源社區的反饋。如果你有興趣貢獻代碼，請閱讀本頁的指導文檔。
 
-你可以在 GitHub 上查看所有當前[未解決的問題](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/issues)。
+你可以在 GitHub 上查看所有當前[未解決的問題](https://github.com/hoshiizumiya/Snap.Hutao-Remastered/issues)。
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 設置 Snap.Hutao 項目
-更多貢獻詳情可參考 github 上的 [CONTRIBUTING.md](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka?tab=contributing-ov-file#contribute-your-code)  
+更多貢獻詳情可參考 github 上的 [CONTRIBUTING.md](https://github.com/hoshiizumiya/Snap.Hutao-Remastered?tab=contributing-ov-file#contribute-your-code)  
 此指南並非強制要求，針對不同情況，可以根據個人習慣調整。
 1. 下載並安裝 [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/)
    - 需要安裝以下組件：
      - `.NET desktop development`（.NET 桌面開發）
      - `Desktop development with C++`（使用 C++ 的桌面開發）
      - `Windows application development`（Windows 應用程序開發）
-2. 使用 Git 克隆項目倉庫：`git@github.com:hoshiizumiya/Snap.Hutao-Manjusaka.git`。
+2. 使用 Git 克隆項目倉庫：`git@github.com:hoshiizumiya/Snap.Hutao-Remastered.git`。
 3. 將分支切換到 `develop`。
 4. 使用 Visual Studio 打開項目解決方案（Solution）對應的 .slnx 文件，即可開始開發。
 
@@ -45,4 +45,4 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 - 每次 `push` 後，GitHub Actions 腳本會自動運行以構建最新解決方案：
   - 對於 `main`、`develop` 和 `feat` 分支，腳本將自動上傳構建的 `Snap Hutao Alpha` 壓縮包以供測試。
   - 其他分支僅驗證代碼可構建性，不提供上傳功能。
-- 可在 [Alpha 流水線](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/actions/workflows/alpha.yml)中查看所有編譯記錄。
+- 可在 [Alpha 流水線](https://github.com/hoshiizumiya/Snap.Hutao-Remastered/actions/workflows/alpha.yml)中查看所有編譯記錄。

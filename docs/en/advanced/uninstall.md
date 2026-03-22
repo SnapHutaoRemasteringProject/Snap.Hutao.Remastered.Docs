@@ -4,19 +4,19 @@ icon: iconfont icon-delete
 tag: [Uninstall]
 order: 9
 comment: false
-description: Uninstalling Snap Hutao Manjusaka is a simple and quick process. You can follow the tutorial on this page to uninstall Snap Hutao Manjusaka to the extent that suits you best.
+description: Uninstalling Snap Hutao Remastered is a simple and quick process. You can follow the tutorial on this page to uninstall Snap Hutao Remastered to the extent that suits you best.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/uninstall.html&has_description=False
 ---
 
-# Uninstall Snap Hutao Manjusaka
+# Uninstall Snap Hutao Remastered
 
-Uninstalling Snap Hutao Manjusaka is a straightforward process. If you want to completely remove the program and its associated data, please follow these steps:
+Uninstalling Snap Hutao Remastered is a straightforward process. If you want to completely remove the program and its associated data, please follow these steps:
 
-## Uninstalling the Snap Hutao Manjusaka Application
+## Uninstalling the Snap Hutao Remastered Application
 
 1. Open the **Start Menu**.
-2. Search for `Snap Hutao Manjusaka`.
-3. Right-click on Snap Hutao Manjusaka and select **"Uninstall"**.
+2. Search for `Snap Hutao Remastered`.
+3. Right-click on Snap Hutao Remastered and select **"Uninstall"**.
 
 ## Clearing the Data Folder (for Complete Uninstallation)
 
@@ -30,13 +30,13 @@ Uninstalling Snap Hutao Manjusaka is a straightforward process. If you want to c
 
 ![uninstall-error](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp)
 
-If you see a prompt like "You'll need a new app to open this hutao link" after uninstalling Snap Hutao Manjusaka as shown above, it means that the real-time notes scheduled task was not cleared before uninstallation. This issue only occurs in older versions of Snap Hutao Manjusaka.
+If you see a prompt like "You'll need a new app to open this hutao link" after uninstalling Snap Hutao Remastered as shown above, it means that the real-time notes scheduled task was not cleared before uninstallation. This issue only occurs in older versions of Snap Hutao Remastered.
 
 Solution:
 
-1. Reinstall Snap Hutao Manjusaka.
+1. Reinstall Snap Hutao Remastered.
 2. Clear the real-time notes scheduled task in the settings.
-3. Uninstall Snap Hutao Manjusaka again.
+3. Uninstall Snap Hutao Remastered again.
 
 If you cannot find the relevant task in the system's scheduled tasks but the problem persists, please refer to [this document](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18) for further solutions.
 
@@ -48,12 +48,12 @@ The `Userdata.db` file contains all of your client data, including your sensitiv
 
 #### Backing Up Data
 
-1. Go to the Snap Hutao Manjusaka data directory (default path is `%userprofile%/Documents/Hutao`).
+1. Go to the Snap Hutao Remastered data directory (default path is `%userprofile%/Documents/Hutao`).
 2. Copy the `Userdata.db` file from the folder to your chosen backup location.
 
 #### Restoring Data
 
-1. Copy the backed-up `Userdata.db` file back into the Snap Hutao Manjusaka data directory.
-2. Launch Snap Hutao Manjusaka to restore your data.
+1. Copy the backed-up `Userdata.db` file back into the Snap Hutao Remastered data directory.
+2. Launch Snap Hutao Remastered to restore your data.
 
-By following the above steps, you can safely backup or restore all of your Snap Hutao Manjusaka data.
+By following the above steps, you can safely backup or restore all of your Snap Hutao Remastered data.

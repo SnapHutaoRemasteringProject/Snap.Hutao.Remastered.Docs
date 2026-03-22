@@ -33,7 +33,7 @@ export const catalogTrees = {
           "path": "zh/advanced/loopback"
         },
         "uninstall": {
-          "title": "卸载胡桃工具箱-Manjusaka",
+          "title": "卸载胡桃重制版",
           "path": "zh/advanced/uninstall"
         }
       }
@@ -261,7 +261,7 @@ export const catalogTrees = {
           "path": "en/advanced/loopback"
         },
         "uninstall": {
-          "title": "Uninstall Snap Hutao Manjusaka",
+          "title": "Uninstall Snap Hutao Remastered",
           "path": "en/advanced/uninstall"
         }
       }
@@ -301,7 +301,7 @@ export const catalogTrees = {
           "path": "en/development/join"
         },
         "platform": {
-          "title": "Snap Hutao Manjusaka Open Platform",
+          "title": "Snap Hutao Remastered Open Platform",
           "path": "en/development/platform"
         },
         "symposium1": {
@@ -351,7 +351,7 @@ export const catalogTrees = {
           "path": "en/features/hutao-API"
         },
         "hutao-passport": {
-          "title": "Snap Hutao Manjusaka Passport",
+          "title": "Snap Hutao Remastered Passport",
           "path": "en/features/hutao-passport"
         },
         "hutao-settings": {
@@ -1201,7 +1201,7 @@ export const catalogTrees = {
           "path": "tw/advanced/loopback"
         },
         "uninstall": {
-          "title": "卸載胡桃工具箱-Manjusaka",
+          "title": "卸載胡桃重製版",
           "path": "tw/advanced/uninstall"
         }
       }

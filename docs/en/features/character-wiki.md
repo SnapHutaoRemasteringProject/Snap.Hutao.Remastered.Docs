@@ -4,14 +4,14 @@ category: [Feature, Tutorial]
 tag: [Character, WIKI, Data]
 order: 11
 comment: false
-description: Snap Hutao Manjusaka's Character WIKI feature integrates basic information, talent values, constellations, and other important data for Genshin Impact characters, providing players with a convenient way to look up character information.
+description: Snap Hutao Remastered's Character WIKI feature integrates basic information, talent values, constellations, and other important data for Genshin Impact characters, providing players with a convenient way to look up character information.
 ---
 
 # Character WIKI
 
 ![characters-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp)
 
-Character Data is a comprehensive built-in query tool in Snap Hutao Manjusaka that covers detailed data such as basic information, talent values, constellations, and character ascension materials of Genshin Impact characters, providing players with a one-stop information query service.
+Character Data is a comprehensive built-in query tool in Snap Hutao Remastered that covers detailed data such as basic information, talent values, constellations, and character ascension materials of Genshin Impact characters, providing players with a one-stop information query service.
 
 ## Included Data
 
@@ -33,7 +33,7 @@ Character Data is a comprehensive built-in query tool in Snap Hutao Manjusaka th
   - Supports switching to view talent values at the corresponding level.
 - **Constellations**
 - **Recommended Builds**
-  - Provides common character team compositions, weapon recommendations, and artifact set recommendations based on statistical information from the "Snap Hutao Manjusaka Database."
+  - Provides common character team compositions, weapon recommendations, and artifact set recommendations based on statistical information from the "Snap Hutao Remastered Database."
 - **Other Information**
   - Includes character splash art, namecard, avatar, special dish, outfit information, character stories, and background stories.
 

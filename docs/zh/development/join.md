@@ -83,7 +83,7 @@ link:"https://qm.qq.com/q/ffc6Wx7VgA",
 },
 {
 text: "Snap Hutao 文档",
-link: "https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs",
+link: "https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs",
 type: "default",
 },
 ]'

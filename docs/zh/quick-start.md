@@ -5,7 +5,7 @@ category: [功能, 教程]
 comment: false
 icon: iconfont icon-launch
 order: 5
-description: 遵循这篇快速开始文档，你将可以快速地将 Snap Hutao-Manjusaka 胡桃工具箱设置为可用状态。
+description: 遵循这篇快速开始文档，你将可以快速地将 胡桃重制版 设置为可用状态。
 banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
 ---
 
@@ -37,18 +37,18 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-== 使用 MSI 安装包安装
+== 使用 Deployment.exe安装
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">提示：MSI 安装包是新式的针对 Windows 系统的安装包</p>
+    <p class="hint-container-title">提示：Deployment.exe是我们制作的新版安装器 可以自动配置证书等</p>
   </div>
 
 <VPCard
 title="GitHub"
-desc="Snap Hutao Manjusaka 所有版本均会发布于主代码库中"
+desc="Snap Hutao Remastered 所有版本均会发布于主代码库中"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -67,8 +67,8 @@ background="rgba(155, 233, 168, 0.15)"
 <VPCard
 title="Snap Hutao Remastered 官网"
 desc="重做了高级功能的项目"
-logo="https://snap.hutaorp.org/logo.png"
-link="https://snap.hutaorp.org/"
+logo="https://snaphutaorp.org/logo.png"
+link="https://snaphutaorp.org/"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>
@@ -85,7 +85,7 @@ background="rgba(155, 233, 168, 0.15)"
 </div>
 :::
 
-如果你有兴趣通过你的力量让 Snap Hutao Manjusaka 项目变得更好，欢迎[加入我们](development/join.md)！
+如果你有兴趣通过你的力量让 Snap Hutao Remastered 项目变得更好，欢迎[加入我们](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 

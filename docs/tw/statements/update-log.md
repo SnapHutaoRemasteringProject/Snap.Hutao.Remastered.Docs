@@ -69,7 +69,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
   - ✨聖誕快樂
   - ✨自動簽到功能上線
   - ✨胡桃-彼岸 的文檔主頁上線鏈接
-  - ✨項目更名 Snap Hutao Manjusaka
+  - ✨項目更名 Snap Hutao Remastered
   - ✨胡桃雲功能上線
   - ✨完善了部分多語言支持
   - ✨新的 logo 和圖標

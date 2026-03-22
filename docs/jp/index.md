@@ -2,15 +2,15 @@
 layout: home
 
 title: ホーム
-titleTemplate: Snap Hutao-Manjusaka
+titleTemplate: Snap Hutao-Remastered
 
 hero:
-  name: Snap Hutao-Manjusaka
+  name: Snap Hutao-Remastered
   text: Windows向けオープンソース多機能ツールボックス
   tagline: 高度なランチャー、祈願記録の出力、リアルタイムノートなど、PCプレイヤーの体験を全面的に向上させます。
   image:
-    src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
-    alt: Snap Hutao-Manjusaka
+    src: https://snaphutaorp.org/logo.png
+    alt: Snap Hutao-Remastered
   actions:
     - theme: brand
       text: はじめる

@@ -1,7 +1,7 @@
 {
-  "name": "snap.hutao.manjusaka.docs",
+  "name": "snap.hutao.Remastered.docs",
   "version": "2.0.0",
-  "description": "Documents site for Snap Hutao-Manjusaka project",
+  "description": "Documents site for Snap Hutao-Remastered project",
   "license": "MIT",
   "type": "module",
   "scripts": {

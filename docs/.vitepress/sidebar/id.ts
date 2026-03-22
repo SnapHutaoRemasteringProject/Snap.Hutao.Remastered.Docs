@@ -32,7 +32,7 @@ export const idSidebar = {
         },
         {
           icon: "iconfont icon-set",
-          text: "Fitur Snap Hutao Manjusaka",
+          text: "Fitur Snap Hutao Remastered",
           children: [
             "setup",
             "feedback-center",

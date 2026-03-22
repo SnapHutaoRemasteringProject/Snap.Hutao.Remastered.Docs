@@ -2,15 +2,15 @@
 layout: home
 
 title: Beranda
-titleTemplate: Snap Hutao-Manjusaka
+titleTemplate: Snap Hutao-Remastered
 
 hero:
-  name: Snap Hutao-Manjusaka
+  name: Snap Hutao-Remastered
   text: Toolkit Serbaguna Open-source untuk Windows
   tagline: Fitur peluncur tingkat lanjut, ekspor riwayat permohonan, catatan waktu nyata, dan lainnya untuk pemain desktop.
   image:
-    src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
-    alt: Snap Hutao-Manjusaka
+    src: https://snaphutaorp.org/logo.png
+    alt: Snap Hutao-Remastered
   actions:
     - theme: brand
       text: Mulai

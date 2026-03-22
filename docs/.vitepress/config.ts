@@ -5,8 +5,8 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
-    base: '/Snap.Hutao-Manjusaka.Docs/',
-    title: 'Snap Hutao Manjusaka',
+    base: '/Snap.Hutao-Remastered.Docs/',
+    title: 'Snap Hutao Remastered',
     outDir: './dist',
     publicDir: 'public',
     ignoreDeadLinks: true,
@@ -129,7 +129,7 @@ export default defineConfig({
             link: '/en/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit this page on GitHub'
                 },
                 nav: [
@@ -165,7 +165,7 @@ export default defineConfig({
             link: '/zh/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上编辑此页'
                 },
                 nav: [
@@ -201,7 +201,7 @@ export default defineConfig({
             link: '/ru/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: 'Редактировать эту страницу на GitHub'
                 },
                 nav: [
@@ -237,7 +237,7 @@ export default defineConfig({
             link: '/id/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit halaman ini di GitHub'
                 },
                 nav: [
@@ -273,7 +273,7 @@ export default defineConfig({
             link: '/jp/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: 'GitHub でこのページを編集'
                 },
                 nav: [
@@ -309,7 +309,7 @@ export default defineConfig({
             link: '/tw/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上編輯此頁'
                 },
                 nav: [
@@ -470,14 +470,14 @@ export default defineConfig({
             }
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka' },
+            { icon: 'github', link: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered' },
         ],
         footer: {
             message: '使用 <a href="https://vitepress.dev/" target="_blank">VitePress</a> 构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
             copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute with 2025-${new Date().getFullYear()} SnapHutao Remastering Project` ,
         },
         editLink: {
-            pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+            pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
             text: 'Edit this page on GitHub'
         },
     },
@@ -495,8 +495,8 @@ export default defineConfig({
                 name: 'base-redirect',
                 configureServer(server: any) {
                     server.middlewares.use((req: any, res: any, next: any) => {
-                        if (req.url === '/Snap.Hutao-Manjusaka.Docs') {
-                            res.writeHead(301, { Location: '/Snap.Hutao-Manjusaka.Docs/' })
+                        if (req.url === '/Snap.Hutao-Remastered.Docs') {
+                            res.writeHead(301, { Location: '/Snap.Hutao-Remastered.Docs/' })
                             res.end()
                         } else {
                             next()
@@ -510,7 +510,7 @@ export default defineConfig({
 (function() {
     try {
         var path = window.location.pathname;
-        var base = '/Snap.Hutao-Manjusaka.Docs/';
+        var base = '/Snap.Hutao-Remastered.Docs/';
 
         // Remove base from path
         var cleanPath = path;

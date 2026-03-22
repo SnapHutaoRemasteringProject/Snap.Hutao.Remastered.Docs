@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: Snap Hutao Manjusaka
-  text: 胡桃工具箱-Manjusaka
+  name: Snap Hutao Remastered
+  text: 胡桃重制版
   tagline: 重定向中...  Redirecting...
 ---
 

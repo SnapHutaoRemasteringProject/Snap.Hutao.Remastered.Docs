@@ -8,13 +8,13 @@ tag:
   - Community
 icon: iconfont icon-group
 order: 1
-description: If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao Manjusaka development team to enhance the project and engage with more open-source projects related to Genshin Impact, we welcome you to join us!
+description: If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao Remastered development team to enhance the project and engage with more open-source projects related to Genshin Impact, we welcome you to join us!
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/join.html
 ---
 
 # Join Us
 
-If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao Manjusaka development team to enhance the project and engage with more Genshin Impact open-source projects, we warmly welcome you to join us!
+If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao Remastered development team to enhance the project and engage with more Genshin Impact open-source projects, we warmly welcome you to join us!
 
 **We do not set specific skill thresholds. A spirit of exploring new fields, a passion for technology, and a responsible attitude are the most needed qualities in the open-source community.**
 
@@ -54,7 +54,7 @@ You can choose a project of interest from the Snap Hutao 2025 Development Roadma
 
 ---
 
-If you have unique ideas and can develop a prototype, we also welcome development based on non-C# .NET technologies. You can contact us through the developer community group. For example, the current Snap Hutao Manjusaka's [Generic Backend Service](https://github.com/DGP-Studio/Generic-API) is developed based on Python FastAPI.
+If you have unique ideas and can develop a prototype, we also welcome development based on non-C# .NET technologies. You can contact us through the developer community group. For example, the current Snap Hutao Remastered's [Generic Backend Service](https://github.com/DGP-Studio/Generic-API) is developed based on Python FastAPI.
 
 ---
 

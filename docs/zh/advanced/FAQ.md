@@ -12,7 +12,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何创建胡桃的桌面快捷方式（非管理员模式）
 ::: tip 新方案
-胡桃工具箱 Manjusaka 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
+胡桃工具箱 Remastered 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
 :::
 ::: info
 下面的内容以过时仅保留参考
@@ -29,7 +29,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何创建胡桃的桌面快捷方式（管理员模式）
 ::: tip 新方案
-胡桃工具箱 Manjusaka 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
+胡桃工具箱 Remastered 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
 :::
 ::: info
 下面的内容以过时仅保留参考
@@ -38,7 +38,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何让胡桃工具箱开机自动启动
 ::: tip 新方案
-胡桃工具箱 Manjusaka 支持通过设置页面一键开启开机自启，同时同步可以设置是否以管理员模式自启动，推荐使用此方法。
+胡桃工具箱 Remastered 支持通过设置页面一键开启开机自启，同时同步可以设置是否以管理员模式自启动，推荐使用此方法。
 :::
 ::: info
 下面的内容以过时仅保留参考

@@ -2,15 +2,15 @@
 layout: home
 
 title: 首頁
-titleTemplate: 胡桃工具箱-Manjusaka
+titleTemplate: 胡桃重製版
 
 hero:
-  name: 胡桃工具箱-Manjusaka
+  name: 胡桃重製版
   text: 為 Windows 平臺打造的開源多功能工具箱
   tagline: 程序基於胡桃工具箱二次開發，涵蓋高級啟動器、祈願記錄導出、實時便箋等功能，全面提升桌面端玩家的遊戲體驗。
   image:
-    src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
-    alt: 胡桃工具箱-Manjusaka
+    src: https://snaphutaorp.org/logo.png
+    alt: 胡桃重製版
   actions:
     - theme: brand
       text: 開始使用

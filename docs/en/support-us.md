@@ -5,12 +5,12 @@ comment: false
 icon: iconfont icon-like
 index: false
 headerDepth: 2
-description: The Snap Hutao Manjusaka project accepts donations from the community to sustain its operations, and we sincerely thank everyone who has supported this project.
+description: The Snap Hutao Remastered project accepts donations from the community to sustain its operations, and we sincerely thank everyone who has supported this project.
 ---
 
 # Support Us
 
-Snap Hutao Manjusaka, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. Our development team members are currently self-funding the project's operation and, through modern technology, have minimized operating costs as much as possible. The current major expenses are for the network system components required for server operation (you can find our summarized annual expenditures at the bottom of this page). If you have surplus funds to support Snap Hutao Manjusaka, your generous donation will not only assist the development team but will also benefit every Snap Hutao Manjusaka user. Currently, you can donate to us through the following channels:
+Snap Hutao Remastered, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. Our development team members are currently self-funding the project's operation and, through modern technology, have minimized operating costs as much as possible. The current major expenses are for the network system components required for server operation (you can find our summarized annual expenditures at the bottom of this page). If you have surplus funds to support Snap Hutao Remastered, your generous donation will not only assist the development team but will also benefit every Snap Hutao Remastered user. Currently, you can donate to us through the following channels:
 
 ## Donation Channels
 
@@ -22,13 +22,13 @@ We accept donations through the following methods:
 
 > We refuse any sponsorship aimed at obtaining user data.
 
-If you are a corporate entity and wish to support Snap Hutao Manjusaka through your product, please contact us via email at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [homepage](README.md#sponsorship).
+If you are a corporate entity and wish to support Snap Hutao Remastered through your product, please contact us via email at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [homepage](README.md#sponsorship).
 
 ## Annual Expenses
 
 ### 2023 Total
 
-> The following information is based on the 2023 Snap Hutao Manjusaka project support summary. The specific current data may differ from this.
+> The following information is based on the 2023 Snap Hutao Remastered project support summary. The specific current data may differ from this.
 > All expenditure amounts are in Chinese Yuan (CNY). If the original expenditure currency was not in CNY, it was calculated based on the exchange rate on February 22, 2024.
 
 |          Item          | Expense (CNY) |
@@ -40,7 +40,7 @@ If you are a corporate entity and wish to support Snap Hutao Manjusaka through y
 
 ### 2024 Total
 
-> The following information is based on the 2024 Snap Hutao Manjusaka project support summary. The specific current data may differ from this.
+> The following information is based on the 2024 Snap Hutao Remastered project support summary. The specific current data may differ from this.
 > All expenditure amounts are in Chinese Yuan (CNY). If the original expenditure currency was not in CNY, it was calculated based on the exchange rate on January 10, 2025.
 
 |          Item          | Expense (CNY) |

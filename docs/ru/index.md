@@ -2,15 +2,15 @@
 layout: home
 
 title: Главная
-titleTemplate: Snap Hutao-Manjusaka
+titleTemplate: Snap Hutao-Remastered
 
 hero:
-  name: Snap Hutao-Manjusaka
+  name: Snap Hutao-Remastered
   text: Открытый многофункциональный инструментарий для Windows
   tagline: Продвинутый лаунчер, экспорт истории молитв, заметки в реальном времени и многое другое для игроков на ПК.
   image:
-    src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
-    alt: Snap Hutao-Manjusaka
+    src: https://snaphutaorp.org/logo.png
+    alt: Snap Hutao-Remastered
   actions:
     - theme: brand
       text: Начать

@@ -23,8 +23,8 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 |-----------------|--------------------------------------------------------------------|
 | **最小対応OSバージョン** | Windows 10 Build 19045.5371（22H2）<br/>Windows 11 Build 22621（22H2） |
 | **推奨OSバージョン**   | Windows 11 Build 26100（24H2）以降                                     |
-| **必須コンポーネント**   | Windows Update、App Installer                                       |
-| 任意コンポーネント       | WebView2 Runtime、**MSVC ランタイム**                                    |
+| **必須コンポーネント**   | Windows Update、App Installer、**MSVC ランタイム**                       |
+| 任意コンポーネント       | WebView2 Runtime                                                    |
 
 **非対応のOSバージョン**:
 
@@ -35,59 +35,24 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 > **2025年1月のWindows更新プログラム [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) は、Windows 10上でSnap Hutaoを実行するための必須条件です。これはBuild 19045.5371以降に含まれています。**
 
-
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Snap Hutao のダウンロード
 
 ### 新規インストール
 
-**MSIX インストールパッケージ**または **Snap.Hutao.Deployment インストーラー**を使用して、Snap Hutaoをインストールできます。以下のソースからインストールパッケージを入手できます。
-
 ::: tabs
 
-== Snap.Hutao.Deployment インストーラーを使用
-
-Snap.Hutao.Deployment は開発チームが独自に作成したワンクリックインストーラーで、**必要なすべてのコンポーネントを同時にインストールします**。ほとんどの一般ユーザーや、MSIX アプリパッケージのインストールに失敗したユーザーに適しています。
-
-<div class="vp-card-container">
-
-<VPCard
-title="胡桃自動判断"
-desc="最適な回線を自動的に判断してダウンロード"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao-deployment/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
-
-<VPCard
-title="GitHub"
-desc="Snap Hutao Deployment もオープンソースプロジェクトです"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== MSIX インストールパッケージを使用
+== Deployment.exe インストーラーを使用
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">注意</p>
-    <p>Snap Hutao のインストールには Snap.Hutao.Deployment を使用することをお勧めします。MSIX インストールパッケージを使用してインストールした際に発生する問題は、積極的に処理されません。</p>
+    <p class="hint-container-title">ヒント：Deployment.exeは証明書などを自動的に設定できる新しいインストーラーです</p>
   </div>
 
 <VPCard
-title="胡桃自動判断"
-desc="最適な回線を自動的に判断してダウンロード"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
-<VPCard
 title="GitHub"
-desc="Snap Hutao のすべてのバージョンは、メインコードリポジトリに公開されます"
+desc="Snap Hutao Remastered のすべてのバージョンはメインコードリポジトリにリリースされます"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -95,17 +60,42 @@ background="rgba(155, 233, 168, 0.15)"
 
 :::
 
----
+## コミュニティ開発の派生バージョン
+
+コミュニティの力から！
+:::tabs 
+
+== Snap Hutao Remastered
+
+<div class="vp-card-container">
+<VPCard
+title="Snap Hutao Remastered 公式ウェブサイト"
+desc="高度な機能を再設計したプロジェクト"
+logo="https://snaphutaorp.org/logo.png"
+link="https://snaphutaorp.org/"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+
+== Snap Hutao オリジナル修正
+<div class="vp-card-container">
+<VPCard
+title="Snap Hutao オリジナル"
+desc="WDG 提供"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/wangdage12/Snap.Hutao"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+:::
 
 もしあなたの力で Snap Hutao プロジェクトをより良くすることに興味がある場合は、ぜひ[ご参加ください](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
-特記事項がない限り、[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) を実行するか、最新版の MSIX インストールパッケージをインストールすることで、アップデートを完了できます。
+通常、アプリケーション内のアップデートプロンプトに従うことでアップデートが完了します。
 
-1.9.0 バージョン以降、Snap Hutao にはアップデートパッケージを取得するための組み込みアップデート通知機能があります。アップデートに失敗した場合は、[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) を使用して上書きインストールを試してみてください。
-
-- データを手動で削除しない限り、データは影響を受けません。
+データディレクトリを手動で削除しない限り、ローカルデータは影響を受けません。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> オプションコンポーネントのインストール
 

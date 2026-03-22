@@ -36,7 +36,7 @@ const handleRedirect = () => {
   if (typeof window === 'undefined') return
 
   const path = window.location.pathname
-  const base = '/Snap.Hutao-Manjusaka.Docs/'
+  const base = '/Snap.Hutao-Remastered.Docs/'
   const supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw']
 
   const detectTargetLang = () => {

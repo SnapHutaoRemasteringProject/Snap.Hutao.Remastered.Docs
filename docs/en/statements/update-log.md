@@ -51,7 +51,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[❓Known Issues]** The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
 
 Optimized download links for mainland China:  
-github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.3.0/Snap.Hutao.Installer-V2.0.3.0.7z  
+github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Remastered/releases/download/V2.0.3.0/Snap.Hutao.Installer-V2.0.3.0.7z  
 github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
 
 ## V2.0.2.0 Release
@@ -67,7 +67,7 @@ github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
 - **[❓Known Issues]** The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
 
 Optimized download links for mainland China:  
-github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.2.0/Snap.Hutao.Installer-V2.0.2.0.7z  
+github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Remastered/releases/download/V2.0.2.0/Snap.Hutao.Installer-V2.0.2.0.7z  
 github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
 
 ## 🎁🎄V2.0.1.0 Release🎄🎁
@@ -75,7 +75,7 @@ github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
 - **[🎉New]** Merry Christmas
 - **[🎉New]** Auto check-in feature launched
 - **[🎉New]** Documentation homepage for Snap Hu Tao Link
-- **[🎉New]** Project renamed to Snap Hutao Manjusaka
+- **[🎉New]** Project renamed to Snap Hutao Remastered
 - **[🎉New]** Hu Tao Cloud functionality launched
 - **[✨Optimization]** Enhanced partial multilingual support
 - **[🎉New]** New logo and icons

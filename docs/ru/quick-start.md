@@ -23,8 +23,8 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 |-----------------------------------------|-----------------------------------------------------------------------|
 | **Минимально поддерживаемая версия ОС** | Windows 10 Build 19045.5371 (22H2)<br/> Windows 11 Build 22621 (22H2) |
 | **Рекомендуемая версия ОС**             | Windows 11 Build 26100 (24H2) или более поздняя                       |
-| **Обязательные компоненты**             | Windows Update, App Installer                                         |
-| Необязательные компоненты               | WebView2 Runtime, **MSVC Runtime**                                    |
+| **Обязательные компоненты**             | Windows Update, App Installer, **MSVC Runtime**                       |
+| Необязательные компоненты               | WebView2 Runtime                                                      |
 
 **Неподдерживаемые версии ОС**:
 
@@ -39,54 +39,20 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ### Новая установка
 
-Для установки Snap Hutao можно использовать **пакет установки MSIX** или **установщик Snap.Hutao.Deployment**. Вы можете получить установочный пакет из следующих источников.
-
 ::: tabs
 
-== Использовать Snap.Hutao.Deployment
-
-Snap.Hutao.Deployment — это созданный командой разработчиков установщик в один клик, который **установит все необходимые компоненты**. Подходит для большинства обычных пользователей, а также для пользователей, у которых не получается установить с помощью установочного пакета MSIX.
-
-<div class="vp-card-container">
-
-<VPCard
-title="Автоопределение Snap Hutao"
-desc="Автоматически определяет лучший способ загрузки"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao-deployment/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
-
-<VPCard
-title="GitHub"
-desc="Snap Hutao Deployment также является проектом с открытым исходным кодом"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== Использовать установочный пакет MSIX
+== Использовать Deployment.exe Installer
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">Внимание</p>
-    <p>Мы рекомендуем использовать Snap.Hutao.Deployment для установки Snap Hutao, любые проблемы, возникающие при установке с помощью установочного пакета MSIX, не будут активно обрабатываться.</p>
+    <p class="hint-container-title">Совет: Deployment.exe — наш новый установщик, который может автоматически настраивать сертификаты и т.д.</p>
   </div>
 
 <VPCard
-title="Автоопределение Snap Hutao"
-desc="Автоматически определяет лучший способ загрузки"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
-<VPCard
 title="GitHub"
-desc="Все версии Snap Hutao публикуются в основном репозитории кода"
+desc="Все версии Snap Hutao Remastered выпускаются в основном репозитории кода"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -94,17 +60,42 @@ background="rgba(155, 233, 168, 0.15)"
 
 :::
 
----
+## Производные версии, разработанные сообществом
+
+От силы сообщества!
+:::tabs 
+
+== Snap Hutao Remastered
+
+<div class="vp-card-container">
+<VPCard
+title="Официальный сайт Snap Hutao Remastered"
+desc="Проект, который переработал расширенные функции"
+logo="https://snaphutaorp.org/logo.png"
+link="https://snaphutaorp.org/"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+
+== Snap Hutao Original Fix
+<div class="vp-card-container">
+<VPCard
+title="Snap Hutao Original"
+desc="Представлено WDG"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/wangdage12/Snap.Hutao"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+:::
 
 Если вы заинтересованы в том, чтобы сделать проект Snap Hutao лучше, добро пожаловать к [нам](development/join.md)!
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Обновление Snap Hutao
 
-Если не указано иное, вы можете обновить программу, запустив [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) или установив последнюю версию установочного пакета MSIX.
+Обычно, следуя подсказкам обновления в приложении, вы завершите обновление.
 
-Начиная с версии 1.9.0, в Snap Hutao есть встроенная функция уведомления об обновлениях, которая напоминает о необходимости получить пакет обновления. Если обновление не удалось, попробуйте использовать [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) для переустановки, чтобы решить проблему.
-
-- Данные не будут затронуты, если не удалить каталог данных вручную.
+Пока вы не удалите каталог данных вручную, ваши локальные данные не будут затронуты.
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Установка дополнительных компонентов
 

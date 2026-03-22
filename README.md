@@ -1,6 +1,6 @@
-﻿# Snap.Hutao.Docs-Manjusaka
+﻿# Snap.Hutao.Docs-Remastered
 
-This repository contains the documentation for the [Snap Hutao-Manjusaka project](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka). You can view the live version at []().
+This repository contains the documentation for the [Snap Hutao-Remastered project](https://github.com/hoshiizumiya/Snap.Hutao-Remastered). You can view the live version at []().
 
 We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](/i18n.html).
 
@@ -18,12 +18,12 @@ Once the prerequisites are met, follow these steps:
 1.  **Clone the Repository:**
     Open your terminal or command prompt and run the following command to clone this project to your local machine:
     ```bash
-    git clone https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs.git
+    git clone https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs.git
     ```
 
 2.  **Navigate to the Project Directory:**
     ```bash
-    cd Snap.Hutao-Manjusaka.Docs
+    cd Snap.Hutao-Remastered.Docs
     ```
 
 3.  **Install Dependencies:**
@@ -46,4 +46,4 @@ After the setup is complete, you can start the local development server:
 
 ## Good news
 
-The Snap Hutao-Manjusaka documentation is now build with vitepress from vuepress!
+The Snap Hutao-Remastered documentation is now build with vitepress from vuepress!
