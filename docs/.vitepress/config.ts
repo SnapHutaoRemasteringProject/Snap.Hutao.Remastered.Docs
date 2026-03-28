@@ -5,7 +5,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
-    base: '/Snap.Hutao.Remastered.Docs/',
+    base: '/',
     title: 'Snap Hutao Remastered',
     outDir: './dist',
     publicDir: 'public',
