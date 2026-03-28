@@ -12,7 +12,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何創建胡桃的桌面快捷方式（非管理員模式）
 ::: tip 新方案
-胡桃工具箱 Remastered 支持通過設置頁面一鍵創建桌面快捷方式，推薦使用此方法。
+胡桃工具箱 支持通過設置頁面一鍵創建桌面快捷方式，推薦使用此方法。
 :::
 ::: info
 下面的內容以過時僅保留參考
@@ -29,7 +29,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何創建胡桃的桌面快捷方式（管理員模式）
 ::: tip 新方案
-胡桃工具箱 Remastered 支持通過設置頁面一鍵創建桌面快捷方式，推薦使用此方法。
+胡桃工具箱 支持通過設置頁面一鍵創建桌面快捷方式，推薦使用此方法。
 :::
 ::: info
 下面的內容以過時僅保留參考
@@ -38,7 +38,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 如何讓胡桃工具箱開機自動啟動
 ::: tip 新方案
-胡桃工具箱 Remastered 支持通過設置頁面一鍵開啟開機自啟，同時同步可以設置是否以管理員模式自啟動，推薦使用此方法。
+胡桃工具箱 支持通過設置頁面一鍵開啟開機自啟，同時同步可以設置是否以管理員模式自啟動，推薦使用此方法。
 :::
 ::: info
 下面的內容以過時僅保留參考

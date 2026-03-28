@@ -4,21 +4,21 @@ category: [公告]
 icon: iconfont icon-license
 order: 3
 comment: false
-description: 请详细阅读本页以获取 Snap Hutao 项目的用户数据处理和隐私权益。
+description: 请详细阅读本页以获取 Snap Hutao Remastered 项目的用户数据处理和隐私权益。
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/privacy-notice.html
 ---
 
 # 用户数据和隐私权益
 
-Snap Hutao 致力于保护用户的隐私和数据安全，以下是我们关于用户数据处理和隐私权益的详细说明。
+Snap Hutao Remastered 致力于保护用户的隐私和数据安全，以下是我们关于用户数据处理和隐私权益的详细说明。
 
 ## 个人信息数据
 
-Snap Hutao 的设计初衷即为尊重用户隐私，项目本身不会主动收集任何个人信息数据。
+Snap Hutao Remastered 的设计初衷即为尊重用户隐私，项目本身不会主动收集任何个人信息数据。
 
 ## 常规数据使用说明
 
-Snap Hutao 工具箱在运行过程中会按照以下规则处理和使用用户的数据：
+Snap Hutao Remastered 工具箱在运行过程中会按照以下规则处理和使用用户的数据：
 
 ### 本地存储
 
@@ -61,12 +61,9 @@ Snap Hutao 工具箱在运行过程中会按照以下规则处理和使用用户
 
 ## 可信任的域名
 
-以下是 Snap Hutao 项目官方持有的可信任域名。请警惕此列表以外的域名，以防不明来源的信息（包括网站、邮件等）。
+以下是 Snap Hutao Remastered 项目官方持有的可信任域名。请警惕此列表以外的域名，以防不明来源的信息（包括网站、邮件等）。
 
-- **hut.ao**
-- **snapgenshin.com**
-- **dgp-studio.cn** （仅用于公开的邮件联系）
-- **snapgenshin.cn** （仅用于发送系统邮件）
-- **snaphutao.com**
+- **snaphutaorp.org**
+- **hutaorp.org**
 
 请始终确认您访问的资源来源于上述域名，确保数据安全。

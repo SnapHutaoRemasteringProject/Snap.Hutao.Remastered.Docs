@@ -15,19 +15,19 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 Snap Hutao использует `C#` и `.NET Framework` для разработки настольного клиента и сервера. Мы приветствуем отзывы от сообщества открытого исходного кода. Если вы заинтересованы в том, чтобы внести свой вклад в код, пожалуйста, прочтите это руководство.
 
-Вы можете просмотреть все текущие [нерешенные проблемы](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90) на GitHub.
+Вы можете просмотреть все текущие [нерешенные проблемы](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues) на GitHub.
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> Настройка проекта Snap.Hutao
-
-1. Скачайте и установите [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+Для получения более подробной информации о внесении вклада, пожалуйста, обратитесь к [CONTRIBUTING.md](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered?tab=contributing-ov-file#contribute-your-code) на GitHub.  
+Это руководство не является обязательным; вы можете адаптировать его в соответствии с вашими личными привычками для различных ситуаций.
+1. Скачайте и установите [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/)
    - Необходимо установить следующие компоненты:
      - `.NET desktop development` (Разработка классических приложений .NET)
      - `Desktop development with C++` (Разработка классических приложений на C++)
      - `Windows application development` (Разработка приложений Windows)
-2. Установите плагин `Single-project MSIX Packaging Tools for VS 2022`, предоставляемый Microsoft, из магазина расширений Visual Studio.
-3. Используйте Git для клонирования репозитория проекта: `https://github.com/DGP-Studio/Snap.Hutao.git`.
-4. Переключитесь на ветку `develop`.
-5. Откройте решение проекта (Solution) в Visual Studio, и можно начинать разработку.
+2. Используйте Git для клонирования репозитория проекта: `git@github.com:SnapHutaoRemasteringProject/Snap.Hutao.Remastered.git`.
+3. Переключитесь на ветку `develop`.
+4. Откройте решение проекта (Solution) в Visual Studio, используя соответствующий файл .slnx, и можно начинать разработку.
 
 ## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> Включение отладки
 
@@ -44,10 +44,10 @@ Snap Hutao использует `C#` и `.NET Framework` для разработ
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Тестирование сборки пакета
 
 ::: warning Внимание
-Если вы хотите протестировать последнюю Alpha-версию, пожалуйста, сначала загрузите и установите [**DGP_Studio_CA.crt**](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) в **доверенные корневые центры сертификации**.
+Если вы хотите протестировать последнюю Alpha-версию, пожалуйста, сначала загрузите и установите [**SnapHutaoRemasteringProjectRootCA.cer**](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/refs/heads/main/SnapHutaoRemasteringProjectRootCA.cer) в **доверенные корневые центры сертификации**.
 :::
 
 - После каждого `push` скрипты GitHub Actions автоматически запускаются для сборки последнего решения:
   - Для веток `main`, `develop` и `feat` скрипт автоматически загружает собранный архив `Snap Hutao Alpha` для тестирования.
   - Другие ветки только проверяют возможность сборки кода и не предоставляют функцию загрузки.
-- Вы можете просмотреть все записи компиляции в [конвейере Alpha](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml).
+- Вы можете просмотреть все записи компиляции в [конвейере Alpha](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/actions/workflows/alpha.yml).

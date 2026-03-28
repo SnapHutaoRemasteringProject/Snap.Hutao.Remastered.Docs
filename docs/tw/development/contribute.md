@@ -20,7 +20,7 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
      - `.NET desktop development`（.NET 桌面開發）
      - `Desktop development with C++`（使用 C++ 的桌面開發）
      - `Windows application development`（Windows 應用程序開發）
-2. 使用 Git 克隆項目倉庫：`git@github.com:hoshiizumiya/Snap.Hutao.Remastered.git`。
+2. 使用 Git 克隆項目倉庫：`git@github.com:SnapHutaoRemasteringProject/Snap.Hutao.Remastered.git`。
 3. 將分支切換到 `develop`。
 4. 使用 Visual Studio 打開項目解決方案（Solution）對應的 .slnx 文件，即可開始開發。
 
@@ -39,7 +39,7 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 測試打包程序
 
 ::: warning 注意事項
-如果希望試用最新 Alpha 版本，請先下載並安裝 [**DGP_Studio_CA.crt**](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) 到 **受信任的根證書頒發機構**。
+如果希望試用最新 Alpha 版本，請先下載並安裝 [**SnapHutaoRemasteringProjectRootCA.cer**](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/refs/heads/main/SnapHutaoRemasteringProjectRootCA.cer) 到 **受信任的根證書頒發機構**。
 :::
 
 - 每次 `push` 後，GitHub Actions 腳本會自動運行以構建最新解決方案：

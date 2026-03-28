@@ -61,12 +61,9 @@ Snap Hutao 工具箱在運行過程中會按照以下規則處理和使用用戶
 
 ## 可信任的域名
 
-以下是 Snap Hutao 項目官方持有的可信任域名。請警惕此列表以外的域名，以防不明來源的信息（包括網站、郵件等）。
+以下是 Snap Hutao Remastered 項目官方持有的可信任域名。請警惕此列表以外的域名，以防不明來源的信息（包括網站、郵件等）。
 
-- **hut.ao**
-- **snapgenshin.com**
-- **dgp-studio.cn** （僅用於公開的郵件聯繫）
-- **snapgenshin.cn** （僅用於發送系統郵件）
-- **snaphutao.com**
+- **snaphutaorp.org**
+- **hutaorp.org**
 
 請始終確認您訪問的資源來源於上述域名，確保數據安全。

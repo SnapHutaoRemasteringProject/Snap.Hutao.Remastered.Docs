@@ -61,12 +61,9 @@ Snap Hutao Cloud Service will encrypt and store the following information:
 
 ## Trusted Domains
 
-The following are the trusted domains officially held by the Snap Hutao project. Please be wary of information from domains outside this list to avoid unknown sources (including websites, emails, etc.).
+The following are the trusted domains officially held by the Snap Hutao Remastered project. Please be wary of information from domains outside this list to avoid unknown sources (including websites, emails, etc.).
 
-- **hut.ao**
-- **snapgenshin.com**
-- **dgp-studio.cn** (Only used for public email contact)
-- **snapgenshin.cn** (Only used for sending system emails)
-- **snaphutao.com**
+- **snaphutaorp.org**
+- **hutaorp.org**
 
 Please always verify that the resources you are accessing come from the above domains to ensure data security.

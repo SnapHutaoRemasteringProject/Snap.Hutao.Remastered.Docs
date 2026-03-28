@@ -11,19 +11,19 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/developm
 
 Snap Hutao Remastered is developed using `C#` and the `.NET Framework` for both the desktop client and server. We greatly appreciate feedback from the open-source community. If you are willing to contribute your code, please read the following guidelines.
 
-You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90) on GitHub.
+You can find all [unsolved opened issues](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues) on GitHub.
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> Setup Snap Hutao Remastered Project
-
-1.  Download and install [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+For more contribution details, please refer to [CONTRIBUTING.md](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered?tab=contributing-ov-file#contribute-your-code) on GitHub.  
+This guide is not mandatory; you can adjust it according to your personal habits for different situations.
+1.  Download and install [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/)
     - You need to install the following components:
       - `.NET desktop development`
       - `Desktop development with C++`
       - `Windows application development`
-2.  Install `Single-project MSIX Packaging Tools for VS 2022` provided by Microsoft from the Visual Studio Marketplace.
-3.  Use Git to clone the project repository: `https://github.com/DGP-Studio/Snap.Hutao.git`.
-4.  Switch the branch to `develop`.
-5.  Open the project solution with Visual Studio, and then you are ready to start developing.
+2.  Use Git to clone the project repository: `git@github.com:SnapHutaoRemasteringProject/Snap.Hutao.Remastered.git`.
+3.  Switch the branch to `develop`.
+4.  Open the project solution (Solution) with Visual Studio using the corresponding .slnx file, and you can start developing.
 
 ## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> Enable Debug
 
@@ -40,10 +40,10 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Test Binary Package
 
 ::: warning Attention
-If you want to try the latest Alpha version, please download and install [**DGP_Studio_CA.crt**](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) to **Trusted Root Certification Authorities** first.
+If you want to try the latest Alpha version, please download and install [**SnapHutaoRemasteringProjectRootCA.cer**](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/refs/heads/main/SnapHutaoRemasteringProjectRootCA.cer) to **Trusted Root Certification Authorities** first.
 :::
 
 - After each `push`, a GitHub Actions script will automatically run to build the latest solution:
   - For the `main`, `develop`, and `feat` branches, the script will automatically upload the built `Snap Hutao Remastered Alpha` archive for testing.
   - Other branches will only verify code buildability and will not provide an upload feature.
-- You can view all build logs in the [Alpha pipeline](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml).
+- You can view all build logs in the [Alpha pipeline](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/actions/workflows/alpha.yml).

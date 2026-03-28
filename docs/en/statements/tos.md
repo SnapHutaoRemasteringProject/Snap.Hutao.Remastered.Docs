@@ -14,11 +14,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## General Provisions
 
-- This "User Agreement and Legal Disclaimer" (hereinafter referred to as "Terms" or "User Agreement") applies to all software works developed by the DGP-Studio development team (hereinafter referred to as "the team" or "we"), the official website of each development project, and affiliated self-hosted media accounts.
+- This "User Agreement and Legal Disclaimer" (hereinafter referred to as "Terms" or "User Agreement") applies to all software works developed by the SnapHutaoRemasteringProject development team (hereinafter referred to as "the team" or "we"), the official website of each development project, and affiliated self-hosted media accounts.
   - Please read all the contents of this User Agreement carefully. If you have any objections to any terms of this User Agreement after reading it, please immediately stop using any projects developed by the team.
   - If you are under 18 years old, please read and fully understand this agreement with the accompaniment of a legal guardian, and obtain the consent of the legal guardian before using any projects developed by the team.
   - If you have installed, used, or referenced any projects developed by the team during development, it means that you have actively read (read it completely) and fully agree to the terms listed in this User Agreement, that is, you have fully understood this Agreement and promised to accept the constraints of the agreement, legal statements, privacy policies, rules, norms, statements, notices, and other content related to any projects developed by the team.
   - This "User Agreement" is a user agreement and legal disclaimer entered into by the user (hereinafter referred to as "you") and any projects developed by the team. This agreement has legal effect on both the user and the team.
+  - SnapHutaoRemasteringProject reserves the right of final interpretation.
+  - Millennium Science Technology Research Development Institute and DGP-Studio reserve the right of final interpretation.
 
 ## Nature of the Project, Services, and Definition of Responsibilities and Obligations
 
@@ -76,4 +78,4 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 14. Both you and the development team are independent entities, and under no circumstances does this agreement constitute any express or implied guarantee or condition of the development team towards users. There is also no agency, partnership, joint venture, or employment relationship between the two parties.
 
-15. In this "User Agreement and Legal Statement," the term "our party" or "the development team" (as distinguished from "you" or "the user") refers to the entire team of DGP-Studio Development Team, including each individual member.
+15. In this "User Agreement and Legal Statement," the term "our party" or "the development team" (as distinguished from "you" or "the user") refers to the entire team of SnapHutaoRemasteringProject Development Team, including each individual member.

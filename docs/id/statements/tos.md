@@ -14,11 +14,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## Ketentuan Umum
 
-- "Perjanjian Pengguna dan Penafian Hukum" ini (selanjutnya disebut "Ketentuan" atau "Perjanjian Pengguna") berlaku untuk semua karya perangkat lunak yang dikembangkan oleh tim pengembang DGP-Studio (selanjutnya disebut "tim" atau "kami"), situs web resmi setiap proyek pengembangan, dan akun media mandiri yang terafiliasi.
+- "Perjanjian Pengguna dan Penafian Hukum" ini (selanjutnya disebut "Ketentuan" atau "Perjanjian Pengguna") berlaku untuk semua karya perangkat lunak yang dikembangkan oleh tim pengembang SnapHutaoRemasteringProject (selanjutnya disebut "tim" atau "kami"), situs web resmi setiap proyek pengembangan, dan akun media mandiri yang terafiliasi.
   - Harap baca seluruh isi Perjanjian Pengguna ini dengan saksama. Jika Anda memiliki keberatan terhadap salah satu ketentuan dalam Perjanjian Pengguna ini setelah membacanya, harap segera berhenti menggunakan proyek apa pun yang dikembangkan oleh tim.
   - Jika Anda berusia di bawah 18 tahun, harap baca dan pahami sepenuhnya perjanjian ini dengan didampingi oleh wali yang sah, dan dapatkan persetujuan dari wali yang sah sebelum menggunakan proyek apa pun yang dikembangkan oleh tim.
   - Jika Anda telah menginstal, menggunakan, atau merujuk proyek apa pun yang dikembangkan oleh tim selama pengembangan, itu berarti Anda telah secara aktif membaca (membaca sepenuhnya) dan sepenuhnya menyetujui ketentuan yang tercantum dalam Perjanjian Pengguna ini, yaitu, Anda telah sepenuhnya memahami Perjanjian ini dan berjanji untuk menerima batasan dari perjanjian, pernyataan hukum, kebijakan privasi, aturan, norma, pernyataan, pemberitahuan, dan konten lain yang terkait dengan proyek apa pun yang dikembangkan oleh tim.
   - "Perjanjian Pengguna" ini adalah perjanjian pengguna dan penafian hukum yang dibuat antara pengguna (selanjutnya disebut "Anda") dan setiap proyek yang dikembangkan oleh tim. Perjanjian ini memiliki kekuatan hukum bagi pengguna dan tim.
+  - SnapHutaoRemasteringProject berhak atas interpretasi akhir.
+  - Millennium Science Technology Research Development Institute dan DGP-Studio berhak atas interpretasi akhir.
 
 ## Sifat Proyek, Layanan, dan Definisi Tanggung Jawab serta Kewajiban
 
@@ -76,4 +78,4 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 14. Baik Anda maupun tim pengembang adalah entitas independen, dan dalam keadaan apa pun perjanjian ini tidak merupakan jaminan atau syarat tersurat maupun tersirat dari tim pengembang kepada pengguna. Juga tidak ada hubungan agensi, kemitraan, usaha patungan, atau hubungan kerja antara kedua belah pihak.
 
-15. Dalam "Perjanjian Pengguna dan Pernyataan Hukum" ini, istilah "pihak kami" atau "tim pengembang" (sebagai pembeda dari "Anda" atau "pengguna") mengacu pada seluruh tim Tim Pengembang DGP-Studio, termasuk setiap anggota individu.
+15. Dalam "Perjanjian Pengguna dan Pernyataan Hukum" ini, istilah "pihak kami" atau "tim pengembang" (sebagai pembeda dari "Anda" atau "pengguna") mengacu pada seluruh tim Tim Pengembang SnapHutaoRemasteringProject, termasuk setiap anggota individu.

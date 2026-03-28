@@ -61,12 +61,9 @@ Layanan Cloud Snap Hutao akan mengenkripsi dan menyimpan informasi berikut:
 
 ## Domain Terpercaya
 
-Berikut adalah domain terpercaya yang secara resmi dimiliki oleh proyek Snap Hutao. Harap waspada terhadap informasi dari domain di luar daftar ini untuk menghindari sumber yang tidak dikenal (termasuk situs web, email, dll.).
+Berikut adalah domain terpercaya yang secara resmi dimiliki oleh proyek Snap Hutao Remastered. Harap waspada terhadap informasi dari domain di luar daftar ini untuk menghindari sumber yang tidak dikenal (termasuk situs web, email, dll.).
 
-- **hut.ao**
-- **snapgenshin.com**
-- **dgp-studio.cn** (Hanya digunakan untuk kontak email publik)
-- **snapgenshin.cn** (Hanya digunakan untuk mengirim email sistem)
-- **snaphutao.com**
+- **snaphutaorp.org**
+- **hutaorp.org**
 
 Harap selalu pastikan bahwa sumber daya yang Anda akses berasal dari domain di atas untuk menjamin keamanan data.
