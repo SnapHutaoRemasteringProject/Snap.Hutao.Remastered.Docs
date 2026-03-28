@@ -6,10 +6,10 @@ order: 1
 comment: false
 externalLinkIcon: false
 description: Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/jp/statements/update-log.html
 ---
 
-# Update Logs Older than Version 2.0.0
+# Update Logs Older than Version 1.18.0
 
 ## 1.17.1
 
@@ -105,7 +105,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed the issue of abnormal injection configuration acquisition in non-administrator mode
 - **[Fix]** Fixed the incorrect layout in the wish record history page
 - **[Fix]** Fixed the issue where the wish record timing page did not exclude Dream Eater Mousse
-- **[Fix]** Fixed the issue where Starward/BetterGI could not be launched after launching the game [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3041)
 - **[Fix]** Fixed the issue where real-time notes could not be refreshed [#3065](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
 
 ## 1.15.14
@@ -213,20 +212,20 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 - **[New]** Added new navigation animation for homepage cards jumping to corresponding pages
 - **[New]** Game launch page added Ldiff pre-download/update game support
-- **[Optimization]** Supported MiHoYo/HoYoLAB dynamic avatars
-- **[Fix]** Fixed the issue where hotkey registration failure had no prompt
-- **[Fix]** Fixed the issue where notification icon creation failure had no prompt
-- **[Fix]** Fixed the issue where special circumstances caused Hu Tao process not to exit normally, preventing re-launch [#2794](https://github.com/DGP-Studio/Snap.Hutao/issues/2794)
-- **[Fix]** Fixed the issue where unlocking to excessively high frame rates would cause game crash or 10612-4001 popup prompt. Please do not use injection function to gain unfair advantages in some challenges, we reserve the right to disable this function [#2794](https://github.com/DGP-Studio/Snap.Hutao/issues/2794)
-- **[Fix]** Fixed the issue where notification area icon would not be recreated after restarting resource manager [#2737](https://github.com/DGP-Studio/Snap.Hutao/issues/2737)
-- **[Fix]** Fixed the issue where using Embedded Yae to import achievements would cause crash [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
-- **[Fix]** Fixed the issue where the first startup after update would incorrectly prompt Bilibili channel server does not support account function notification [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
-- **[Fix]** Fixed the issue where viewing some characters' some talents or skills would cause infinite loop [#2789](https://github.com/DGP-Studio/Snap.Hutao/issues/2789)
+- **[Optimization]** Supported MiHoYo dynamic avatars
+- **[Fix]** Fixed hotkey registration failure having no prompt
+- **[Fix]** Fixed notification icon creation failure having no prompt
+- **[Fix]** Fixed special circumstances causing Hu Tao process not to exit normally, preventing re-launch [#2794](https://github.com/DGP-Studio/Snap.Hutao/issues/2794)
+- **[Fix]** Fixed unlocking to excessively high frame rates causing game crash or 10612-4001 popup prompt. Please do not use injection function to gain unfair advantages in some challenges, we reserve the right to disable this function [#2794](https://github.com/DGP-Studio/Snap.Hutao/issues/2794)
+- **[Fix]** Fixed notification area icon not recreating after restarting resource manager [#2737](https://github.com/DGP-Studio/Snap.Hutao/issues/2737)
+- **[Fix]** Fixed using Embedded Yae to import achievements causing crash [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
+- **[Fix]** Fixed first startup after update incorrectly prompting Bilibili channel server does not support account function notification [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
+- **[Fix]** Fixed viewing some characters' some talents or skills causing infinite loop [#2789](https://github.com/DGP-Studio/Snap.Hutao/issues/2789)
 - **[Fix]** Other known issues
 
 ## 1.14.9
 
-- **[New]** Character profile page now correctly displays hyperlinks in some character skills/talents.
+- **[New]** Character profile page character entries now correctly display hyperlinks in some character skills/talents.
 - **[Optimization]** Guide window can now display in-app notifications.
 - **[New]** Homepage cards can now be reordered by dragging in settings page.
 - **[Fix]** Fixed multiple issues that could cause the program to crash.
@@ -393,7 +392,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 - **[Fix]** Fixed wish record page cache refresh unable normal effective issue [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)
 - **[Fix]** Fixed homepage enable card number not full one row unable normal display issue [#2416](https://github.com/DGP-Studio/Snap.Hutao/issues/2416)
-- **[Fix]** Fixed 5.2 after high fate characters unable add to cultivation plan issue [#2422](https://github.com/DGP-Studio/Snap.Hutao/issues/2422)
+- **[Fix]** Fixed 5.1 version update after high fate characters unable add to cultivation plan issue [#2422](https://github.com/DGP-Studio/Snap.Hutao/issues/2422)
 - **[Fix]** Fixed target folder not exist unable change data folder issue [#2425](https://github.com/DGP-Studio/Snap.Hutao/issues/2425)
 - **[Fix]** Fixed some users due file encryption unable change data folder issue [#2433](https://github.com/DGP-Studio/Snap.Hutao/issues/2433)
 - **[Fix]** Fixed popup dialog time unable open task bar icon menu issue [#2434](https://github.com/DGP-Studio/Snap.Hutao/issues/2434)
@@ -413,7 +412,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed some devices unable correct enumerate container application cause crash issue
 - **[Fix]** Fixed user service not initialize complete startup game unable normal use MiHoYo account login issue
 - **[Fix]** Fixed unable get wish record through webpage cache issue [#2363](https://github.com/DGP-Studio/Snap.Hutao/issues/2363)
-- **[Fix]** Fixed real-time notes notification UID might display Unknown issue
+- **[Fix]** Fixed real-time notes notification prompt content not correct, notification will repeat popup, and notification will ignore user set silent prompt issue [#2363](https://github.com/DGP-Studio/Snap.Hutao/issues/2363)
 - **[Fix]** Fixed Spiral Abyss not display upper half effect issue
 - **[Fix]** Fixed cultivation plan resin estimate might cause crash issue
 - **[Fix]** Fixed cultivation plan resin estimate data might overflow issue [#2361](https://github.com/DGP-Studio/Snap.Hutao/issues/2361)
@@ -435,7 +434,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[New]** Guide interface added static picture file download prompt
 - **[New]** User panel added MiHoYo scan code login method [#870](https://github.com/DGP-Studio/Snap.Hutao/issues/870)
 - **[Optimization]** Hu Tao Passport modify password/logout account now default to current login account
-- **[Optimization]** Hu Tao Passport wish record cloud service and CDN cloud service no longer display as 1970 year when no duration obtained
+- **[Optimization]** Hu Tao Passport wish record cloud service and CDN cloud service no longer display 1970 year when no duration obtained
 - **[Optimization]** Adjusted Hu Tao notification display method, now unable manually close serious (red)/important (yellow) type notifications
 - **[Optimization]** Compact webpage window added load indicator/refresh button
 - **[Optimization]** Optimized frequent change window size might cause application content flicker issue
@@ -449,8 +448,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Optimization]** Startup game function game file management now correct skip already complete update file
 - **[Optimization]** Guide interface now no longer auto go next step after select language
 - **[Optimization]** Application inner error prompt now can copy text
-- **[Optimization]** Optimized part text punctuation and expression
-- **[Optimization]** Optimized part page display effect
+- **[Optimization]** Optimized some text punctuation and expression
+- **[Optimization]** Optimized some page display effect
 - **[Optimization]** Optimized program overall frame rate performance
 - **[Optimization]** Optimized multi-thread scheduling memory occupation
 - **[Optimization]** Optimized item icon load speed
@@ -503,10 +502,14 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed achievement complete time display error issue [#2184](https://github.com/DGP-Studio/Snap.Hutao/issues/2184)
 - **[Fix]** Fixed cultivation plan backpack unable refresh issue [#2212](https://github.com/DGP-Studio/Snap.Hutao/issues/2212)
 - **[Fix]** Fixed compact webpage window video fast forward/backward hotkey invalid issue
-- **[Fix]** Fixed part system select file window trigger crash issue
-- **[Fix]** Fixed update Hu Tao time select download source not effective issue
-- **[Optimization]** Now will check network proxy and Loopback status at startup, guide user unloopback limit when unable normal network
-- **[Optimization]** Compact webpage window now remember last close time page
+- **[Fix]** Fixed part control in deep color mode display error issue [#1633](https://github.com/DGP-Studio/Snap.Hutao/issues/1633)
+- **[Fix]** Fixed from Url protocol import achievement time unable normal display interface issue [#1763](https://github.com/DGP-Studio/Snap.Hutao/issues/1763)
+- **[Fix]** Fixed part situation unable normal display skill icon issue [#1784](https://github.com/DGP-Studio/Snap.Hutao/issues/1784)
+- **[Fix]** Fixed part activity announcement time error issue
+- **[Fix]** Fixed multiple element alignment issue
+- **[Optimization]** Optimized part page display effect
+- **[Optimization]** Refactored underlying code
+- **[Optimization]** Other small changes
 
 ## 1.12.3 <Badge text="hotfix" type="warning" />
 
@@ -522,7 +525,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed startup game re select game path might crash issue
 - **[Fix]** Fixed game file management repair game time might stuck issue
 - **[Fix]** Fixed window too small unable use mouse switch achievement archive issue [#2181](https://github.com/DGP-Studio/Snap.Hutao/issues/2181)
-- **[Fix]** Fixed no login Hu Tao cloud upload Spiral Abyss record jump login crash issue [#2169](https://github.com/DGP-Studio/Snap.Hutao/issues/2169)
+- **[Fix]** Fixed no login or no Hu Tao cloud service duration time enter my character/Spiral Abyss page unable continue operation issue [#2170](https://github.com/DGP-Studio/Snap.Hutao/issues/2170)
 - **[Fix]** Fixed international server unable normal refresh Fantastic Theater issue [#2170](https://github.com/DGP-Studio/Snap.Hutao/issues/2170)
 - **[Fix]** Fixed weapon add to cultivation plan time might crash issue [#2168](https://github.com/DGP-Studio/Snap.Hutao/issues/2168)
 - **[Optimization]** Optimized game file management pre-download prompt icon display effect
@@ -544,10 +547,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed use SophonChunk mode switch game server might crash issue
 - **[Fix]** Fixed startup game injection option part specific situation logic error issue
 - **[Fix]** Fixed startup game injection fail force end game after injection option switch unable interact issue
-- **[Fix]** Fixed international server unable get wish record URL issue [#2141](https://github.com/DGP-Studio/Snap.Hutao/issues/2141)
+- **[Fix]** Fixed international server get wish record display `verification key expired` issue [#2141](https://github.com/DGP-Studio/Snap.Hutao/issues/2141)
 - **[Fix]** Fixed Spiral Abyss page in non-Chinese situation part monster detail might unable complete expand issue [#2152](https://github.com/DGP-Studio/Snap.Hutao/issues/2152)
 - **[Fix]** Fixed special situation auto click hotkey initialize fail cause crash issue
-- **[Optimization]** Now startup game page detect account after if already exist corresponding account will auto select
+- **[Optimization]** Optimized startup game page switch server time performance, now use multi-thread slice download resource file
+- **[Optimization]** Optimized startup game page switch server time logic, now advance check corresponding directory have needed file permission
 
 ## 1.11.9 <Badge text="hotfix" type="warning" />
 
@@ -572,12 +576,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed daily first startup Hu Tao might crash issue [#2101](https://github.com/DGP-Studio/Snap.Hutao/issues/2101)
 - **[Fix]** Fixed error report window might not correct display issue
 - **[Fix]** Fixed homepage announcement continuous time display error issue
-- **[Fix]** Fixed game file management in part type disk might crash issue [#2077](https://github.com/DGP-Studio/Snap.Hutao/issues/2077)
+- **[Fix]** Fixed part disk in game file management might crash issue [#2077](https://github.com/DGP-Studio/Snap.Hutao/issues/2077)
 - **[Fix]** Fixed get wish record through webpage cache might crash issue [#2083](https://github.com/DGP-Studio/Snap.Hutao/issues/2083)
 - **[Fix]** Fixed window size after cross display restart size might not correct issue
-- **[Optimization]** Calendar card now highlight current cultivation plan today can brush material [#2045](https://github.com/DGP-Studio/Snap.Hutao/issues/2045)
-- **[Optimization]** My character and character profile now not display 1 star ~ 3 star filter option [#2110](https://github.com/DGP-Studio/Snap.Hutao/issues/2110)
-- **[Optimization]** Add MiHoYo/HoYoLAB account now will display dialog prevent user operation when not complete add
+- **[Optimization]** Optimized update game button enable logic
+- **[Optimization]** Monster level upper limit raise to 110 level [#1988](https://github.com/DGP-Studio/Snap.Hutao/issues/1988)
+- **[Optimization]** Now encounter verification auto popup verification window [#1616](https://github.com/DGP-Studio/Snap.Hutao/issues/1616)
 
 ## 1.11.6 <Badge text="hotfix" type="warning" />
 
@@ -597,7 +601,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed update cultivation plan time part list not normal process issue [#2022](https://github.com/DGP-Studio/Snap.Hutao/issues/2022)
 - **[Fix]** Fixed cultivation plan sync backpack item might unresponsive issue [#2044](https://github.com/DGP-Studio/Snap.Hutao/issues/2044)
 - **[Fix]** Fixed cultivation plan sync backpack item quantity might not correct issue [#2061](https://github.com/DGP-Studio/Snap.Hutao/issues/2061)
-- **[Fix]** Fixed MiHoYo mobile verification code login not click get directly input verification code crash issue [#2058](https://github.com/DGP-Studio/Snap.Hutao/issues/2058)
+- **[Fix]** Fixed MiHoYo mobile verification code login might fail issue
 - **[Optimization]** Optimized update game button enable logic
 - **[Optimization]** Monster level upper limit raise to 110 level [#1988](https://github.com/DGP-Studio/Snap.Hutao/issues/1988)
 - **[Optimization]** Now encounter verification auto popup verification window [#1616](https://github.com/DGP-Studio/Snap.Hutao/issues/1616)
@@ -615,36 +619,52 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed game resource pre-download complete time already complete mark might not display issue
 - **[Fix]** Fixed cultivation calculate page material statistics might unresponsive issue [#2014](https://github.com/DGP-Studio/Snap.Hutao/issues/2014)
 - **[Fix]** Fixed MiHoYo mobile verification code login might fail issue
-- **[Optimization]** In cultivation calculate page material statistics added not collected priority
-- **[Optimization]** In cultivation calculate page material statistics now display today can get material
+- **[Optimization]** Optimized cultivation calculate error prompt statement, make error prompt more clear [#1163](https://github.com/DGP-Studio/Snap.Hutao/issues/1163)
+- **[Optimization]** Optimized cultivation calculate interface, now will display each specific target [#1016](https://github.com/DGP-Studio/Snap.Hutao/issues/1016)
+- **[Optimization]** Optimized main interface Hu Tao account info display, no longer display user email [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
+- **[Optimization]** Updated Hu Tao API error prompt
+- **[Optimization]** Optimized settings page layout, user now can view Snap Hutao produce data and cache directory size in settings
+- **[Optimization]** Removed Microsoft Store related button
+- **[Optimization]** Other large underlying refactor
 
 ## 1.11.3
 
 - **[New]** Added calendar card in homepage [#1923](https://github.com/DGP-Studio/Snap.Hutao/issues/1923)
 - **[New]** Added artifact attribute recommendation in my character page
 - **[Fix]** Fixed Spiral Abyss page part monster unable correct display issue
-- **[Fix]** Fixed character profile/weapon profile page might stuck issue [#1999](https://github.com/DGP-Studio/Snap.Hutao/issues/1999)
-- **[Fix]** Fixed switch game server crash issue
-- **[Optimization]** Prohibited game file operation not complete time direct close operation window behavior [#2002](https://github.com/DGP-Studio/Snap.Hutao/issues/2002)
-- **[Optimization]** In Spiral Abyss record interface added monster wave data (data source [@妮可少女](https://space.bilibili.com/3537104994831140))
+- **[Fix]** Fixed character profile/weapon profile/monster profile/achievement management interface in default view not list time, switch to list view time picture may not load issue
+- **[Fix]** Fixed due check system proxy setting cause occasional unable normal exit program issue
+- **[Fix]** Fixed backpack item switch cultivation plan time not follow switch issue [#1609](https://github.com/DGP-Studio/Snap.Hutao/issues/1609)
+- **[Fix]** Fixed modify single achievement complete status time error cancel select achievement category issue [#1631](https://github.com/DGP-Studio/Snap.Hutao/issues/1631)
+- **[Fix]** Fixed hotkey setting near title bar time open auxiliary button panel be title bar block issue [#1632](https://github.com/DGP-Studio/Snap.Hutao/issues/1632)
+- **[Fix]** Fixed part new announcement start/end time not correct match issue [#1613](https://github.com/DGP-Studio/Snap.Hutao/issues/1613)
+- **[Fix]** Fixed wish record page statistics page sign chronicle wish data proportion display as NaN issue [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
+- **[Optimization]** Removed task bar icon right click menu task list
+- **[Optimization]** Added cultivation plan delete secondary confirm dialog [#1608](https://github.com/DGP-Studio/Snap.Hutao/issues/1608)
+- **[Optimization]** Added prompt for HoYoLAB 2001 error code [#1542](https://github.com/DGP-Studio/Snap.Hutao/issues/1542)
+- **[Optimization]** In guide interface draw quality choose page sign added draw quality comparison [#1595](https://github.com/DGP-Studio/Snap.Hutao/issues/1595)
+- **[Optimization]** Non-administrator mode disable auto click hotkey setting
+- **[Optimization]** Other performance improvement
+- **[🌏 Localization]** Client added Vietnamese
 
 ## 1.11.2
 
 - **[New]** Achievement management page added filter only commission achievement function [#897](https://github.com/DGP-Studio/Snap.Hutao/issues/897)
-- **[New]** In settings page added startup game download game function limit speed function
-- **[New]** Settings page wish record import export added UIGF version upgrade webpage tool link
-- **[Fix]** Fixed part device copy application inner file prompt unable encrypt specified file issue
-  - This issue previously caused
-    - Unable normal create desktop shortcut
-    - Unable normal unlock game frame rate
-- **[Fix]** Fixed startup game page download game time CPU occupy abnormal issue [#1964](https://github.com/DGP-Studio/Snap.Hutao/issues/1964)
-- **[Fix]** Fixed update game not effective issue
-- **[Fix]** Fixed my character page grid view switch to no artifact character cause program crash issue [#1954](https://github.com/DGP-Studio/Snap.Hutao/issues/1954)
-- **[Fix]** Fixed real-time notes request fail code -1 issue
-- **[Fix]** Fixed part device achievement management page unable normal switch archive issue [#1987](https://github.com/DGP-Studio/Snap.Hutao/issues/1987)
-- **[Optimization]** Achievement management page achievement title and prompt now allow select and copy [#1726](https://github.com/DGP-Studio/Snap.Hutao/issues/1726)
-- **[Optimization]** Achievement management search achievement now simultaneously filter achievement category [#1907](https://github.com/DGP-Studio/Snap.Hutao/issues/1907)
-- **[Optimization]** Enhanced client stability
+- **[New]** In advanced launcher added touch screen mode startup original god option [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
+- **[New]** In settings added Geetest verification interface config function, through correct config this option to no sense verification MiHoYo request
+- **[New]** In settings added enable console option, user now can through enable this option in troubleshoot problem time get more error prompt
+- **[New]** Added full new software update handle logic
+- **[Fix]** Fixed MiHoYo interface get character info produce `5003` error issue [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+- **[Fix]** Fixed game launcher frame rate unlock function invalid in game 4.3 version issue [#1190](https://github.com/DGP-Studio/Snap.Hutao/issues/1190)
+- **[Fix]** Fixed specific situation MiHoYo announcement countdown data error issue
+- **[Fix]** Fixed wrong PowerShell statement
+- **[Optimization]** Optimized cultivation calculate error prompt statement, make error prompt more clear [#1163](https://github.com/DGP-Studio/Snap.Hutao/issues/1163)
+- **[Optimization]** Optimized cultivation calculate interface, now will display each specific target [#1016](https://github.com/DGP-Studio/Snap.Hutao/issues/1016)
+- **[Optimization]** Optimized main interface Hu Tao account info display, no longer display user email [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
+- **[Optimization]** Updated Hu Tao API error prompt
+- **[Optimization]** Optimized settings page layout, user now can view Snap Hutao produce data and cache directory size in settings
+- **[Optimization]** Removed Microsoft Store related button
+- **[Optimization]** Other large underlying refactor
 
 ## 1.11.1
 
@@ -671,11 +691,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed homepage announcement not complete load time switch to other page cause crash issue [#1845](https://github.com/DGP-Studio/Snap.Hutao/issues/1845)
 - **[Fix]** Fixed convert game server time read local package version info fail cause crash issue [#1851](https://github.com/DGP-Studio/Snap.Hutao/issues/1851)
 - **[Fix]** Fixed international server get wish record display `verification key expired` issue [#1873](https://github.com/DGP-Studio/Snap.Hutao/issues/1873)
-- **[Fix]** Fixed no login MiHoYo or HoYoLAB time navigate to my character/Spiral Abyss page unable continue operation issue [#1877](https://github.com/DGP-Studio/Snap.Hutao/issues/1877)
-- **[Fix]** Fixed part device refresh real-time notes cause crash issue [#1893](https://github.com/DGP-Studio/Snap.Hutao/issues/1893)
-- **[Fix]** Fixed homepage announcement not display, homepage announcement detail in dark mode part text color not correct issue
-- **[Fix]** Fixed application inner background unable correct timing switch issue
-- **[Optimization]** Adjusted application inner notification display position [#1832](https://github.com/DGP-Studio/Snap.Hutao/issues/1832)
+- **[Fix]** Fixed no login or no Hu Tao cloud service duration time enter my character/Spiral Abyss page unable continue operation issue [#1877](https://github.com/DGP-Studio/Snap.Hutao/issues/1877)
+- **[Fix]** Fixed real-time notes sometimes unable correct refresh quest progress issue
 - **[Optimization]** Optimized network request error application inner prompt information
 - **[Optimization]** Optimized software update flow, now prompt user whether download update
 - **[Optimization]** Optimized download update time experience, now can choose mirror download
@@ -765,7 +782,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Optimization]** Optimized part text display effect
 - **[Optimization]** Optimized part page load speed
 - **[Optimization]** Other performance improvement
-- **[🌏 Localization]** Client added Vietnamese
+- **[🌏 Localization]** Client added French
 
 ## 1.10.2
 
@@ -785,14 +802,14 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Fix]** Fixed modify single achievement complete status time error cancel select achievement category issue [#1631](https://github.com/DGP-Studio/Snap.Hutao/issues/1631)
 - **[Fix]** Fixed hotkey setting near title bar time open auxiliary button panel be title bar block issue [#1632](https://github.com/DGP-Studio/Snap.Hutao/issues/1632)
 - **[Fix]** Fixed part new announcement start/end time not correct match issue [#1613](https://github.com/DGP-Studio/Snap.Hutao/issues/1613)
-- **[Fix]** Fixed wish record page statistics page sign wish data proportion display as NaN issue [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
+- **[Fix]** Fixed wish record page statistics page sign chronicle wish data proportion display as NaN issue [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
 - **[Optimization]** Removed task bar icon right click menu task list
 - **[Optimization]** Added cultivation plan delete secondary confirm dialog [#1608](https://github.com/DGP-Studio/Snap.Hutao/issues/1608)
 - **[Optimization]** Added prompt for HoYoLAB 2001 error code [#1542](https://github.com/DGP-Studio/Snap.Hutao/issues/1542)
 - **[Optimization]** In guide interface draw quality choose page sign added draw quality comparison [#1595](https://github.com/DGP-Studio/Snap.Hutao/issues/1595)
 - **[Optimization]** Non-administrator mode disable auto click hotkey setting
 - **[Optimization]** Other performance improvement
-- **[🌏 Localization]** Client added French
+- **[🌏 Localization]** Client added Vietnamese
 
 ## 1.10.1 <Badge text="hotfix" type="warning" />
 
@@ -827,17 +844,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 - **[New]** Wish record page global statistics page sign added chronicle wish column
 - **[Fix]** Fixed wish record page cache refresh invalid issue
-- **[Fix]** Fixed Chinese Traditional unable correct load metadata issue
-
-## 1.9.8
-
-- **[New]** Added UIGF v2.3 data format export wish record
-- **[Fix]** Fixed frame rate unlock invalid issue [#733](https://github.com/DGP-Studio/Snap.Hutao/issues/733)
 - **[Optimization]** In non-administrator mode run program time, administrator mode have require function will have text prompt
 - **[Optimization]** HoYoLAB support
 - **[Optimization]** Internationalization support
 
-## 1.9.7
+## 1.9.8
 
 - **[New]** In advanced launcher added with [Better Genshin Impact](https://bgi.huiyadan.com/) program linkage startup function, user now can through Snap Hutao startup game time, auto startup BGI [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
 - **[New]** Added multiple client background picture source option, include:
@@ -859,7 +870,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[Optimization]** Optimized wish record page statistics page bottom scroll bar alignment
 - **[Optimization]** Optimized wish record page global statistics page item display logic
 
-## 1.9.6
+## 1.9.7
 
 - **[New]** Homepage dashboard, include Hu Tao cloud account, game launcher, wish record, achievement statistics and real-time notes
 - **[New]** Enable new information bar function will auto hide application inner notification
@@ -873,61 +884,29 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
     - Include HoYoverse default, Epic and Google Pay
   - Enable frame rate unlock after, can modify frame rate upper limit in game startup time and immediate effective
 
-## 1.9.5
+## 1.9.6
 
-- **[New]** Game launcher resource download added resource link copy button [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
-- **[New]** List/grid view switch status global memory [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
-- **[Fix]** Fixed static resource download page download static resource package unable normal all complete issue [#1242](https://github.com/DGP-Studio/Snap.Hutao/issues/1242)
-- **[Optimization]** Optimized game launcher resource download navigation button change to link copy button [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
-- **[Optimization]** Optimized Hu Tao software update announcement display logic, no longer display low version update notification [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
-- **[Optimization]** User button option in full client range will auto memory [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
-- **[Optimization]** Enhanced client stability
-
-## 1.9.4 <Badge text="hotfix" type="warning" />
-
-- **[Fix]** Fixed Bilibili server user enter main interface crash issue
-
-## 1.9.3
-
-- **[Fix]** Fixed new install user initial enter main interface crash issue
-
-## 1.9.2
-
-- **[New]** Wish record page Hu Tao cloud service added service expire time and developer prompt
-- **[New]** Wish record page added statistics page, can view wish data statistics from Hu Tao cloud
-- **[Fix]** Fixed wish record page cache refresh invalid issue
+- **[New]** Wish record cloud sync based Hu Tao account system
+  - Current in Afdian sponsor user and test user will get correspond duration cloud sync permission
+  - This function will continue optimize in next several 1.6 version
+- **[Fix]** Fixed channel server real-time notes unable get data issue
 - **[Fix]** Fixed HoYoLAB account login issue
 - **[Optimization]** Redesigned static file get flow
 
 ## 1.9.0
 
-::: important Important Change
-Snap Hutao in recent obtained SignPath foundation sponsor code signature certificate. From 1.9.0 version start, we will use full new certificate for Snap Hutao installation package signature.
-
-Have new signature program will incompatible with old version, user in from 1.8.4 and older version update to 1.9.0 and newer version time, need first uninstall old version then full new install new version client. Due Hu Tao data directory design, user will not lose any important data.
-
-You can read [1.9.0 version important change detail](../blog/version-1-9-0-breaking-changes.md) article to more deep understand this version update signature change on Snap Hutao project change.
-:::
-
 - **[New]** Game launcher now support multiple game path [#525](https://github.com/DGP-Studio/Snap.Hutao/issues/526)
 - **[New]** In user panel added MiHoYo scan code login method [#870](https://github.com/DGP-Studio/Snap.Hutao/issues/870)
 - **[New]** Client added auto detect network status, and display result in settings page [#1116](https://github.com/DGP-Studio/Snap.Hutao/pull/1161)
-- **[New]** In game launcher added touch screen mode startup original god option [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
-- **[New]** In settings added modify game announcement source option, now user can choose international server announcement and according client language display correspond language announcement [#1112](https://github.com/DGP-Studio/Snap.Hutao/issues/1112)
-    - Only when Crowdin translation library have correspond language regular expression time can correct display announcement (currently confirmed support Simplified Chinese, Traditional Chinese and English)
-  - In settings added enable console option, user now can through enable this option in troubleshoot problem time get more error prompt
-  - Added full new software update handle logic
-- **[Fix]** Fixed MiHoYo interface get character info produce `5003` error issue [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
-- **[Fix]** Fixed game launcher frame rate unlock function invalid in game 4.3 version issue [#1190](https://github.com/DGP-Studio/Snap.Hutao/issues/1190)
-- **[Fix]** Fixed specific situation MiHoYo announcement countdown data error issue
-- **[Fix]** Fixed wrong PowerShell statement
-- **[Optimization]** Optimized cultivation calculate error prompt statement, make error prompt more clear [#1163](https://github.com/DGP-Studio/Snap.Hutao/issues/1163)
-- **[Optimization]** Optimized cultivation calculate interface, now will display each specific target [#1016](https://github.com/DGP-Studio/Snap.Hutao/issues/1016)
-- **[Optimization]** Optimized main interface Hu Tao account info display, no longer display user email [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
-- **[Optimization]** Updated Hu Tao API error prompt
-- **[Optimization]** Optimized settings page layout, user now can view Snap Hutao produce data and cache directory size in settings
-- **[Optimization]** Removed Microsoft Store related button
-- **[Optimization]** Other large underlying refactor
+- **[New]** In advanced launcher added touch screen mode startup original god option [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
+- **[New]** My Characters page added sorting [#2512](https://github.com/DGP-Studio/Snap.Hutao/issues/2512)
+- **[New]** My Characters page added display character and weapon ascension levels
+- **[New]** Cultivation plan added filtering
+- **[Optimization]** Frame rate unlock function performance
+- **[Optimization]** Multi-client function
+- **[Optimization]** Frame rate unlock and game multi-open function now need user manual unlock advanced function in settings
+- **[Optimization]** Settings page layout
+- **[Optimization]** Windows 10 tile icon
 
 ## 1.8.5 <Badge text="Test Version" type="info" />
 
@@ -940,8 +919,8 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 - **[Fix]** Fixed specific situation other program pull up Hu Tao appear text language not correct issue [#1147](https://github.com/DGP-Studio/Snap.Hutao/issues/1147)
 - **[Fix]** Fixed created desktop shortcut unable find PowerShell issue [#1151](https://github.com/DGP-Studio/Snap.Hutao/issues/1151) [#1154](https://github.com/DGP-Studio/Snap.Hutao/issues/1154)
 - **[Optimization]** Optimized startup time experience
-  - Startup time migration database failure will popup prompt
-  - Close or restart time will wait startup initialization complete
+  - Startup time migration database failure will pop up prompt
+  - Close or restart will wait startup initialization complete
 
 ## 1.8.3 <Badge text="hotfix" type="warning" />
 
@@ -979,10 +958,9 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 
 - **[New]** Upgrade .NET version to 8 [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
 - **[Fix]** Fixed Hu Tao Passport register/logout/reset password prompt not translate issue [#1087](https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by @Tangweirui2021
-- **[Fix]** Fixed cultivation plan page material item list first item switch plan after unable refresh issue [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)
-- **[Fix]** Fixed unable get international server wish record URL issue [#1081](https://github.com/DGP-Studio/Snap.Hutao/issues/1081)
-- **[Fix]** Fixed specific condition error log unable normal get and upload issue
-- **[Fix]** Fixed export wish record time not correct issue
+- **[Fix]** Fixed cultivation plan item inner item list unable scroll issue [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068)
+- **[Fix]** Fixed get user MiHoYo data time return `5003` error issue [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+- **[Fix]** Fixed wish record export time not correct issue
 - **[Fix]** Fixed MiHoYo webpage popup data abnormal issue
 - **[Optimization]** Optimized metadata initialization add more detailed failure info
 
@@ -1032,7 +1010,6 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 - **[Optimization]** Optimized Hu Tao cloud service prompt text added internationalization support
 - **[Optimization]** Redesigned Hu Tao Passport page UI, now integrate in settings page [#911](https://github.com/DGP-Studio/Snap.Hutao/issues/1021)
 - **[Optimization]** Redesigned startup game page UI
-- **[Optimization]** Now user can choose game startup parameter in advanced launcher
 
 ## 1.7.14 <Badge text="hotfix" type="warning" />
 
@@ -1060,8 +1037,8 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 
 - **[New]** Added administrator mode F8 mouse click function
   - In upcoming original god 4.1 and 4.2 version, this function can help skip plot part you not like
-- **[Fix]** Fixed wish record page global statistics page sign chronicle wish data proportion display as NaN issue [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
-- **[Fix]** Fixed part device copy application inner file prompt unable encrypt specified file issue
+- **[Fix]** Fixed wish record page statistics page sign chronicle wish data proportion display as NaN issue [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
+- **[Fix]** Fixed part application inner clear timing task plan fail situation
   - This issue previously caused
     - Unable normal create desktop shortcut
     - Unable normal unlock game frame rate
@@ -1112,7 +1089,7 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 
 ## 1.7.5
 
-- **[New]** Achievement record page added achievement correspond version number data
+- **[New]** Added achievement record page achievement correspond version number data
 - **[New]** Spiral Abyss interface added monster wave data (data source [@妮可少女](https://space.bilibili.com/3537104994831140))
 - **[New]** In settings page added Microsoft Store evaluation button [#876](https://github.com/DGP-Studio/Snap.Hutao/issues/876)
 - **[New]** In user button upper added new document button, user click will jump to current interface correspond function document [#875](https://github.com/DGP-Studio/Snap.Hutao/issues/875)
@@ -1254,7 +1231,7 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 - **[New]** Enable new information bar function will auto hide application inner notification
 - **[New]** Hide official TapTap account login server version
 - **[Fix]** Fixed upload Spiral Abyss data after unable get Hu Tao cloud reward issue
-- **[Fix]** Fixed HoYoLAB account sign issue
+- **[Fix]** Fixed HoYoLAB account login issue
 - **[Fix]** Fixed get draw record process value empty time produce issue
 - **[Optimization]** **Project refactor, software performance improve 20%**
 - **[Optimization]** Added support WIKI function localization translation

@@ -2,15 +2,15 @@
 layout: home
 
 title: Главная
-titleTemplate: Snap Hutao-Remastered
+titleTemplate: Snap Hutao Remastered
 
 hero:
-  name: Snap Hutao-Remastered
+  name: Snap Hutao Remastered
   text: Открытый многофункциональный инструментарий для Windows
   tagline: Продвинутый лаунчер, экспорт истории молитв, заметки в реальном времени и многое другое для игроков на ПК.
   image:
     src: https://snaphutaorp.org/logo.png
-    alt: Snap Hutao-Remastered
+    alt: Snap Hutao Remastered
   actions:
     - theme: brand
       text: Начать

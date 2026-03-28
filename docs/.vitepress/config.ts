@@ -5,7 +5,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
-    base: '/Snap.Hutao-Remastered.Docs/',
+    base: '/Snap.Hutao.Remastered.Docs/',
     title: 'Snap Hutao Remastered',
     outDir: './dist',
     publicDir: 'public',
@@ -43,6 +43,51 @@ export default defineConfig({
                     }
                 },
             })
+
+            // 添加 GitHub issue 链接转换插件
+            // 将 #xxx 格式的文本转换为 GitHub issue 链接
+            // 使用更简单的方法：在文本渲染前替换
+            const defaultRender = md.renderer.rules.text || function(tokens, idx, options, env, self) {
+                return self.renderToken(tokens, idx, options)
+            }
+            
+            md.renderer.rules.text = function(tokens, idx, options, env, self) {
+                const token = tokens[idx]
+                const content = token.content
+                
+                // 使用正则表达式匹配 # 后跟数字的模式
+                // 避免匹配已经是链接的部分
+                const regex = /(?<![a-zA-Z0-9/])#(\d+)(?![a-zA-Z0-9])/g
+                
+                let lastIndex = 0
+                let match
+                let result = ''
+                
+                while ((match = regex.exec(content)) !== null) {
+                    // 添加匹配前的文本
+                    if (match.index > lastIndex) {
+                        result += content.substring(lastIndex, match.index)
+                    }
+                    
+                    // 添加链接
+                    const issueNumber = match[1]
+                    result += `<a href="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues/${issueNumber}" target="_blank" rel="noopener noreferrer">#${issueNumber}</a>`
+                    
+                    lastIndex = regex.lastIndex
+                }
+                
+                // 添加剩余的文本
+                if (lastIndex < content.length) {
+                    result += content.substring(lastIndex)
+                }
+                
+                // 如果没有匹配，使用默认渲染
+                if (result === '') {
+                    return defaultRender(tokens, idx, options, env, self)
+                }
+                
+                return result
+            }
         },
         html: true,
         container: {
@@ -129,7 +174,7 @@ export default defineConfig({
             link: '/en/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit this page on GitHub'
                 },
                 nav: [
@@ -165,7 +210,7 @@ export default defineConfig({
             link: '/zh/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上编辑此页'
                 },
                 nav: [
@@ -201,7 +246,7 @@ export default defineConfig({
             link: '/ru/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Редактировать эту страницу на GitHub'
                 },
                 nav: [
@@ -237,7 +282,7 @@ export default defineConfig({
             link: '/id/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit halaman ini di GitHub'
                 },
                 nav: [
@@ -273,7 +318,7 @@ export default defineConfig({
             link: '/jp/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'GitHub でこのページを編集'
                 },
                 nav: [
@@ -309,7 +354,7 @@ export default defineConfig({
             link: '/tw/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上編輯此頁'
                 },
                 nav: [
@@ -470,14 +515,14 @@ export default defineConfig({
             }
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered' },
+            { icon: 'github', link: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered' },
         ],
         footer: {
             message: '使用 <a href="https://vitepress.dev/" target="_blank">VitePress</a> 构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
             copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute with 2025-${new Date().getFullYear()} SnapHutao Remastering Project` ,
         },
         editLink: {
-            pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Remastered.Docs/edit/dev/docs/:path',
+            pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
             text: 'Edit this page on GitHub'
         },
     },
@@ -495,8 +540,8 @@ export default defineConfig({
                 name: 'base-redirect',
                 configureServer(server: any) {
                     server.middlewares.use((req: any, res: any, next: any) => {
-                        if (req.url === '/Snap.Hutao-Remastered.Docs') {
-                            res.writeHead(301, { Location: '/Snap.Hutao-Remastered.Docs/' })
+                        if (req.url === '/Snap.Hutao.Remastered.Docs') {
+                            res.writeHead(301, { Location: '/Snap.Hutao.Remastered.Docs/' })
                             res.end()
                         } else {
                             next()
@@ -510,7 +555,7 @@ export default defineConfig({
 (function() {
     try {
         var path = window.location.pathname;
-        var base = '/Snap.Hutao-Remastered.Docs/';
+        var base = '/Snap.Hutao.Remastered.Docs/';
 
         // Remove base from path
         var cleanPath = path;

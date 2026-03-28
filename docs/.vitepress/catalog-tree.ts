@@ -201,7 +201,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 V2.1.0 版本",
+          "title": "🎉 已成功更新至 1.19.0 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -212,9 +212,9 @@ export const catalogTrees = {
           "title": "用户使用协议和法律声明",
           "path": "zh/statements/tos"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "早于 2.0.0 版本的更新日志",
-          "path": "zh/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "早于 1.18.0 版本的更新日志",
+          "path": "zh/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "更新日志",
@@ -433,7 +433,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 2.1.0",
+          "title": "🎉 Successfully Updated to Version 1.19.0",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -448,9 +448,9 @@ export const catalogTrees = {
           "title": "Update Logs Older than Version 1.15.0",
           "path": "en/statements/update-log-pre-1.15.0-archive"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "Update Logs Older than Version 2.0.0",
-          "path": "en/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "Update Logs Older than Version 1.18.0",
+          "path": "en/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "Update Logs",
@@ -673,7 +673,7 @@ export const catalogTrees = {
           "path": "ru/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 V2.1.0 版本",
+          "title": "🎉 Успешно обновлено до версии 1.19.0",
           "path": "ru/statements/latest"
         },
         "privacy-notice": {
@@ -684,9 +684,9 @@ export const catalogTrees = {
           "title": "Пользовательское соглашение и Юридические уведомления",
           "path": "ru/statements/tos"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "Update Logs Older than Version 2.0.0",
-          "path": "ru/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "Update Logs Older than Version 1.18.0",
+          "path": "ru/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "Журнал обновлений",
@@ -909,7 +909,7 @@ export const catalogTrees = {
           "path": "id/statements"
         },
         "latest": {
-          "title": "🎉 Berhasil Update ke Versi V2.1.0",
+          "title": "🎉 Berhasil Update ke Versi 1.19.0",
           "path": "id/statements/latest"
         },
         "privacy-notice": {
@@ -920,9 +920,9 @@ export const catalogTrees = {
           "title": "Perjanjian Pengguna dan Pemberitahuan Hukum",
           "path": "id/statements/tos"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "Update Logs Older than Version 2.0.0",
-          "path": "id/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "Update Logs Older than Version 1.18.0",
+          "path": "id/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "Log Pembaruan",
@@ -1141,7 +1141,7 @@ export const catalogTrees = {
           "path": "jp/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.15.7 版本",
+          "title": "🎉 バージョン 1.19.0 への更新に成功しました",
           "path": "jp/statements/latest"
         },
         "privacy-notice": {
@@ -1152,9 +1152,9 @@ export const catalogTrees = {
           "title": "ユーザー利用規約および法的声明",
           "path": "jp/statements/tos"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "Update Logs Older than Version 2.0.0",
-          "path": "jp/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "Update Logs Older than Version 1.18.0",
+          "path": "jp/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "更新日志",
@@ -1369,7 +1369,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 V2.1.0 版本",
+          "title": "🎉 已成功更新至 1.19.0 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {
@@ -1380,9 +1380,9 @@ export const catalogTrees = {
           "title": "用戶使用協議和法律聲明",
           "path": "tw/statements/tos"
         },
-        "update-log-pre-2.0.0-archive": {
-          "title": "早於 2.0.0 版本的更新日誌",
-          "path": "tw/statements/update-log-pre-2.0.0-archive"
+        "update-log-pre-1.18.0-archive": {
+          "title": "早於 1.18.0 版本的更新日誌",
+          "path": "tw/statements/update-log-pre-1.18.0-archive"
         },
         "update-log": {
           "title": "更新日誌",

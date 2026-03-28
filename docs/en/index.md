@@ -2,15 +2,15 @@
 layout: home
 
 title: Home
-titleTemplate: Snap Hutao-Remastered
+titleTemplate: Snap Hutao Remastered
 
 hero:
-  name: Snap Hutao-Remastered
+  name: Snap Hutao Remastered
   text: Open-source multifunctional toolkit for Windows platform
   tagline: The program is based on the secondary development of Hutao Toolbox, including advanced launcher, wish record export, real-time notes and other functions, comprehensively improving the gaming experience for desktop players. The documentation is universal for the Hutao project, include any branch!
   image:
     src: https://snaphutaorp.org/logo.png
-    alt: Snap Hutao-Remastered
+    alt: Snap Hutao Remastered
   actions:
     - theme: brand
       text: Get Started

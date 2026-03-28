@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: 提交 Snap Hutao Remastered 客户端问题报告 / Submit Snap Hutao Remastered Client Issues
-    url: https://github.com/hoshiizumiya/Snap.Hutao-Remastered/issues/new
+    url: https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues/new
     about: 客户端问题请点击此处跳转至主库提交 / Please click here to redirect to main repository for client issues
