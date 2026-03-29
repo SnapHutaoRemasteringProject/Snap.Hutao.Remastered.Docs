@@ -4,21 +4,21 @@ category: [公告]
 icon: iconfont icon-license
 order: 3
 comment: false
-description: 請詳細閱讀本頁以獲取 Snap Hutao 項目的用戶數據處理和隱私權益。
+description: 請詳細閱讀本頁以獲取 Snap Hutao Remastered 項目的用戶數據處理和隱私權益。
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/privacy-notice.html
 ---
 
 # 用戶數據和隱私權益
 
-Snap Hutao 致力於保護用戶的隱私和數據安全，以下是我們關於用戶數據處理和隱私權益的詳細說明。
+Snap Hutao Remastered 致力於保護用戶的隱私和數據安全，以下是我們關於用戶數據處理和隱私權益的詳細說明。
 
 ## 個人信息數據
 
-Snap Hutao 的設計初衷即為尊重用戶隱私，項目本身不會主動收集任何個人信息數據。
+Snap Hutao Remastered 的設計初衷即為尊重用戶隱私，項目本身不會主動收集任何個人信息數據。
 
 ## 常規數據使用說明
 
-Snap Hutao 工具箱在運行過程中會按照以下規則處理和使用用戶的數據：
+Snap Hutao Remastered 工具箱在運行過程中會按照以下規則處理和使用用戶的數據：
 
 ### 本地存儲
 

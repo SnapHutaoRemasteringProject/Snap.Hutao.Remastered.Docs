@@ -12,7 +12,7 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 
 你可以在 GitHub 上查看所有當前[未解決的問題](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues)。
 
-## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 設置 Snap.Hutao 項目
+## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 設置 Snap.Hutao.Remastered 項目
 更多貢獻詳情可參考 github 上的 [CONTRIBUTING.md](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered?tab=contributing-ov-file#contribute-your-code)  
 此指南並非強制要求，針對不同情況，可以根據個人習慣調整。
 1. 下載並安裝 [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/)
@@ -28,7 +28,7 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 
 1. 下載並安裝 [Sysinternals Suite](https://www.microsoft.com/store/productid/9P7KNL5RWT25)（微軟商店）或從[微軟官網](https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite)下載。
 2. 找到並啟動 `DebugView`（在開始菜單或解壓後的文件中）。
-3. 啟動 Snap Hutao 主程序。
+3. 啟動 Snap Hutao Remastered 主程序。
 4. 觀察 `DebugView` 輸出的調試信息。
 
 ## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" color="rgb(130,80,223)"/> 發起 Pull Request
@@ -43,6 +43,6 @@ description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服
 :::
 
 - 每次 `push` 後，GitHub Actions 腳本會自動運行以構建最新解決方案：
-  - 對於 `main`、`develop` 和 `feat` 分支，腳本將自動上傳構建的 `Snap Hutao Alpha` 壓縮包以供測試。
+  - 對於 `main`、`develop` 和 `feat` 分支，腳本將自動上傳構建的 `Snap Hutao Remastered Alpha` 壓縮包以供測試。
   - 其他分支僅驗證代碼可構建性，不提供上傳功能。
 - 可在 [Alpha 流水線](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/actions/workflows/alpha.yml)中查看所有編譯記錄。
