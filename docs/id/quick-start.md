@@ -37,11 +37,39 @@ Ikuti panduan mulai cepat ini untuk menyiapkan Snap Hutao dengan cepat.
 
 ::: tabs
 
-== Gunakan Deployment.exe Installer
+== Gunakan Snap.Hutao.Remastered.Deployment Installer
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">Tip: Deployment.exe adalah installer baru kami yang dapat mengonfigurasi sertifikat, dll. secara otomatis</p>
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment adalah installer baru kami yang dapat mengonfigurasi sertifikat, dll. secara otomatis</p>
+  </div>
+
+<VPCard
+title="Tautan Dipercepat"
+desc="Menyediakan unduhan installer dalam situs ini"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+<VPCard
+title="Github"
+desc="Tautan asli Github"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== Unduh dari Github Release
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">
+    Disarankan untuk menggunakan Snap.Hutao.Remastered.Deployment
+    Jika tidak, Anda perlu menginstal sertifikat secara manual dan mengunduh paket msix
+    </p>
   </div>
 
 <VPCard
@@ -53,7 +81,6 @@ background="rgba(155, 233, 168, 0.15)"
 />
 
 </div>
-
 :::
 
 ## Versi Turunan yang Dikembangkan Komunitas
@@ -184,50 +211,3 @@ Login dengan memasukkan SToken secara manual untuk mengirimkan Cookie.
 ### Apakah Masalah Instalasi Bisa Diselesaikan dengan Memperbaiki Komponen Sistem
 
 Anda bisa mencoba memperbaiki komponen yang hilang berdasarkan pesan kesalahan, tetapi tim pengembang Snap Hutao tidak akan memberikan dukungan.
-
----
-
-::: warning
-Masalah berikut hanya berlaku untuk instalasi MSIX. Silakan coba instalasi [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) terlebih dahulu.
-:::
-
-### Komputer Saya Tidak Bisa Membuka Paket Instalasi Format MSIX
-
-Periksa apakah sistem kehilangan App Installer.
-
-1.  Instal [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
-2.  Pastikan Anda menggunakan citra Windows 10 atau 11 resmi untuk menginstal sistem.
-
-### Paket Instalasi MSIX Memberi Tahu `Sertifikat Penerbit Paket Aplikasi Ini Tidak Dapat Diverifikasi`
-
-Instal sertifikat [GlobalSign Code Signing Root R45](https://secure.globalsign.com/cacert/codesigningrootr45.crt) secara manual ke `Trusted Root Certification Authorities`.
-
-### Paket Instalasi MSIX Memberi Tahu Kesalahan Kebijakan Grup atau Memerlukan Lisensi Pengembang
-
-1.  Buka Pengaturan Windows.
-2.  Buka "Sistem - Untuk pengembang".
-3.  Aktifkan sakelar "Mode pengembang".
-
----
-
-### Instalasi Paket MSIX Gagal dengan Pesan Kesalahan
-
-| Pesan Kesalahan | Alasan |
-| :---: | :---: |
-| Kode Kesalahan `0x80040154` | Izin akun pengguna Windows salah |
-| Pesan Kesalahan `Aplikasi tidak dimulai` | Izin App Installer salah atau rusak |
-| Kode Kesalahan `0x80073CF0` | Izin direktori salah |
-| Kode Kesalahan `0x80070005` | Izin akun pengguna Windows salah |
-| Kode Kesalahan `0x80070570` | Izin akun pengguna Windows salah |
-| Kode Kesalahan `0x8007065E` | Izin akun pengguna Windows salah |
-
-#### Langkah-langkah Solusi
-
-1.  Klik kanan pada menu Mulai dan pilih `PowerShell (Admin)`.
-2.  Jalankan kode berikut untuk menyelesaikan instalasi:
-
-    ```PowerShell
-    cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
-    ```
-
-3.  Tidak ada pesan kesalahan merah menunjukkan instalasi berhasil.

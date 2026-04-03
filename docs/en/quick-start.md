@@ -37,11 +37,39 @@ Follow this quick start guide to quickly set up Snap Hutao Remastered.
 
 ::: tabs
 
-== Use Deployment.exe Installer
+== Use Snap.Hutao.Remastered.Deployment Installer
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">Tip: Deployment.exe is our new installer that can automatically configure certificates, etc.</p>
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment is our new installer that can automatically configure certificates, etc.</p>
+  </div>
+
+<VPCard
+title="Accelerated Link"
+desc="Provides installer download within this site"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+<VPCard
+title="Github"
+desc="Github original link"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== Download from Github Release
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">
+    It is recommended to use Snap.Hutao.Remastered.Deployment
+    Otherwise you need to manually install certificates and download the msix package
+    </p>
   </div>
 
 <VPCard
@@ -53,7 +81,6 @@ background="rgba(155, 233, 168, 0.15)"
 />
 
 </div>
-
 :::
 
 ## Community-developed Derivative Versions
@@ -184,50 +211,3 @@ Log in by manually entering SToken to submit the Cookie.
 ### Can the Installation Problem Be Solved by Repairing System Components
 
 You can try to repair missing components based on error messages, but the Snap Hutao Remastered development team will not provide support.
-
----
-
-::: warning
-The following issues only apply to MSIX installation. Please try [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) installation first.
-:::
-
-### My Computer Cannot Open MSIX Format Installation Package
-
-Check if the system is missing App Installer.
-
-1.  Install [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
-2.  Make sure you are using the official Windows 10 or 11 image to install the system.
-
-### MSIX Installation Package Prompts `The Publisher Certificate of This Application Package Cannot Be Verified`
-
-Manually install the [GlobalSign Code Signing Root R45](https://secure.globalsign.com/cacert/codesigningrootr45.crt) certificate to `Trusted Root Certification Authorities`.
-
-### MSIX Installation Package Prompts Group Policy Error or Requires a Developer License
-
-1.  Open Windows Settings.
-2.  Open "System - For developers".
-3.  Turn on the "Developer mode" switch.
-
----
-
-### Installation of MSIX Package Fails with an Error Message
-
-| Error Message                             | Reason                                       |
-| ----------------------------------------- | -------------------------------------------- |
-| `0x80040154` Error Code                   | Incorrect Windows user account permissions   |
-| `Application did not start` Error message | App Installer permissions error or corrupted |
-| `0x80073CF0` Error Code                   | Incorrect directory permissions              |
-| `0x80070005` Error Code                   | Incorrect Windows user account permissions   |
-| `0x80070570` Error Code                   | Incorrect Windows user account permissions   |
-| `0x8007065E` Error Code                   | Incorrect Windows user account permissions   |
-
-#### Solution Steps
-
-1.  Right-click on the Start menu and select `PowerShell (Admin)`.
-2.  Execute the following code to complete the installation:
-
-    ```PowerShell
-    cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
-    ```
-
-3.  No red error messages indicate successful installation.

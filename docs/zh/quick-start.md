@@ -37,11 +37,39 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-== 使用 Deployment.exe安装
+== 使用 Snap.Hutao.Remastered.Deployment安装
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">提示：Deployment.exe是我们制作的新版安装器 可以自动配置证书等</p>
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment是我们制作的新版安装器 可以自动配置证书等</p>
+  </div>
+
+<VPCard
+title="加速链接"
+desc="提供本站内的安装器下载"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+<VPCard
+title="Github"
+desc="Github原始链接"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== 在 Github Release下载
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">
+    推荐使用 Snap.Hutao.Remastered.Deployment
+    否则你需要手动安装证书 并下载msix包
+    </p>
   </div>
 
 <VPCard
@@ -53,7 +81,6 @@ background="rgba(155, 233, 168, 0.15)"
 />
 
 </div>
-
 :::
 
 ## 二次开发衍生版本
@@ -65,10 +92,10 @@ background="rgba(155, 233, 168, 0.15)"
 
 <div class="vp-card-container">
 <VPCard
-title="Snap Hutao Remastered 官网"
+title="Snap Hutao Remastered"
 desc="重做了高级功能的项目"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>
