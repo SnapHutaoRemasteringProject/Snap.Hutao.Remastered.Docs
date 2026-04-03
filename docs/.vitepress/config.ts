@@ -540,8 +540,8 @@ export default defineConfig({
                 name: 'base-redirect',
                 configureServer(server: any) {
                     server.middlewares.use((req: any, res: any, next: any) => {
-                        if (req.url === '/Snap.Hutao.Remastered.Docs') {
-                            res.writeHead(301, { Location: '/Snap.Hutao.Remastered.Docs/' })
+                        if (req.url === '') {
+                            res.writeHead(301, { Location: '/' })
                             res.end()
                         } else {
                             next()
@@ -555,7 +555,7 @@ export default defineConfig({
 (function() {
     try {
         var path = window.location.pathname;
-        var base = '/Snap.Hutao.Remastered.Docs/';
+        var base = '/';
 
         // Remove base from path
         var cleanPath = path;
