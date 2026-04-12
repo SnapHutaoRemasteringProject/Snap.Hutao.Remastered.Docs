@@ -62,6 +62,23 @@ background="rgba(155, 233, 168, 0.15)"
 
 </div>
 
+== 使用带界面的安装器进行安装
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui存在误报问题 不建议使用</p>
+  </div>
+
+<VPCard
+title="加速链接"
+desc="提供本站内的安装器下载"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
 == 在 Github Release下载
 
 <div class="vp-card-container">

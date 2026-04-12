@@ -62,6 +62,23 @@ background="rgba(155, 233, 168, 0.15)"
 
 </div>
 
+== Use UI Installer for Installation
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui has false positive issues and is not recommended</p>
+  </div>
+
+<VPCard
+title="Accelerated Link"
+desc="Provides installer download within this site"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
 == Download from Github Release
 
 <div class="vp-card-container">

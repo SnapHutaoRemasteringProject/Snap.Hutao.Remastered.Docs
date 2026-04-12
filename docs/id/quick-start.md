@@ -62,6 +62,23 @@ background="rgba(155, 233, 168, 0.15)"
 
 </div>
 
+== Gunakan UI Installer untuk Instalasi
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui memiliki masalah false positive dan tidak direkomendasikan</p>
+  </div>
+
+<VPCard
+title="Tautan Dipercepat"
+desc="Menyediakan unduhan installer dalam situs ini"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
 == Unduh dari Github Release
 
 <div class="vp-card-container">

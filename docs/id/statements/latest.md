@@ -16,12 +16,20 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Berhasil Update ke Versi 1.19.0
+# 🎉 Berhasil Update ke Versi 1.19.1
 
 **Bahasa Indonesia** | [English](/en/statements/latest.html)
 
-- **【✨Optimisasi】** Menghapus proses penyesuaian waktu (#66)  
+- **【🎉Baru】** Halaman Karakter Saya mendukung ekspor batch status pengembangan karakter sebagai dokumen teks [#82]
+- **【🎉Baru】** Antarmuka utama menampilkan hitung mundur untuk waktu acara yang tersisa [#76]
 
-- **【🔨Perbaikan】** Memperbaiki masalah dimana refresh stoken menyebabkan impor duplikat semua catatan wish (#74)  
-- **【🔨Perbaikan】** Memperbaiki getar abnormal progress bar saat mengklik tombol "Cek Pembaruan" dua kali selama pembaruan versi (#67)  
-- **【🔨Perbaikan】** Memperbaiki masalah "Tidak ada respons terhadap pembaruan" (#64)
+- **【🎉Baru】** Tampilan status tugas latar belakang untuk menghindari penilaian salah sebagai tidak responsif
+- **【✨Optimalisasi】** Adaptasi pembaruan program internal [#96]
+- **【✨Optimalisasi】** Menambahkan prompt pemelihara selama tahap OOBE: Snap Hutao Remastered tidak dikelola oleh penulis asli [#90]
+
+- **【🔨Perbaikan】** Memperbaiki masalah dimana proses tidak keluar setelah menutup game [#98]
+- **【🔨Perbaikan】** Memperbaiki keluar proses game yang abnormal [#92]
+- **【🔨Perbaikan】** Memperbaiki pengecualian saat menyegarkan catatan wish [#78]
+- **【🔨Perbaikan】** Memperbaiki kesalahan saat menambahkan pengembangan karakter [#87]
+- **【🔨Perbaikan】** Menangani masalah dimana Deployment.exe dilaporkan salah sebagai Malgent!MSR oleh beberapa perangkat lunak antivirus [#91]
+- **【🔨Perbaikan】** Memperbaiki beberapa tautan di Pusat Umpan Balik tidak menunjuk dengan benar

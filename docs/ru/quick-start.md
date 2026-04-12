@@ -66,6 +66,23 @@ background="rgba(155, 233, 168, 0.15)"
 
 </div>
 
+== Использовать UI-установщик для установки
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui имеет проблемы с ложными срабатываниями и не рекомендуется</p>
+  </div>
+
+<VPCard
+title="Ускоренная ссылка"
+desc="Предоставляет загрузку установщика на этом сайте"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
 == Загрузить с Github Release
 
 <div class="vp-card-container">

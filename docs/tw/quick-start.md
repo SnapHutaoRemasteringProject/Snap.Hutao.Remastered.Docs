@@ -45,7 +45,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
   </div>
 
 <VPCard
-title="加速連結"
+title="加速鏈接"
 desc="提供本站內的安裝器下載"
 logo="/assets/logo.png"
 link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
@@ -54,9 +54,26 @@ background="rgba(155, 233, 168, 0.15)"
 
 <VPCard
 title="Github"
-desc="Github原始連結"
+desc="Github原始鏈接"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== 使用帶界面的安裝器進行安裝
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui存在誤報問題 不建議使用</p>
+  </div>
+
+<VPCard
+title="加速鏈接"
+desc="提供本站內的安裝器下載"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -92,10 +109,10 @@ background="rgba(155, 233, 168, 0.15)"
 
 <div class="vp-card-container">
 <VPCard
-title="Snap Hutao Remastered 官網"
+title="Snap Hutao Remastered"
 desc="重做了高級功能的項目"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>
