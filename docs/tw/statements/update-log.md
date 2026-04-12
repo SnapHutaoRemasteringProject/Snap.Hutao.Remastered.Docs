@@ -25,7 +25,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【🔨修復】** 處理Deployment.exe被部分殺毒軟件誤報為Malgent!MSR的問題 [#91]
 - **【🔨修復】** 反饋中心部分鏈接指向未修改
 
-# 更新日誌
 ## 1.19.0 Release
 
 - **【✨優化】** 移除調整時間過程（#66）  

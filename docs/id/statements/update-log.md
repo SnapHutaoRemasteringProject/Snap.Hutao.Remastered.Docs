@@ -26,7 +26,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【🔨Perbaikan】** Menangani masalah dimana Deployment.exe dilaporkan salah sebagai Malgent!MSR oleh beberapa perangkat lunak antivirus [#91]
 - **【🔨Perbaikan】** Memperbaiki beberapa tautan di Pusat Umpan Balik tidak menunjuk dengan benar
 
-# Log Pembaruan
 ## 1.19.0 Release
 
 - **【✨Optimalisasi】** Menghapus proses penyesuaian waktu (#66)  
