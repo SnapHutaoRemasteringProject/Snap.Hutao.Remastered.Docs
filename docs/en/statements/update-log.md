@@ -10,7 +10,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.1 Release<Badge text="Latest" type="tip" />
+## 1.19.2 Release<Badge text="Latest" type="tip" />
+
+- **【🎉New】** Home page displays the current version game event calendar
+- **【🎉New】** Settings display current version game event calendar entries that are not in progress
+
+- **【✨Optimization】** Optimized home page loading speed
+- **【✨Optimization】** Optimized app auto-start update logic under non-administrator privileges
+
+- **【🔨Fix】** Fixed display issue in the Pass account dialog
+
+## 1.19.1 Release
 
 - **【🎉New】** My Characters page supports batch exporting character development status as text documents [#82]
 - **【🎉New】** Main interface displays countdown for remaining event time [#76]

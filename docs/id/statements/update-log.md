@@ -1,4 +1,4 @@
----
+﻿---
 category:
   - Announcement
 icon: iconfont icon-update
@@ -10,7 +10,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.19.1 Release<Badge text="terbaru" type="tip" />
+## 1.19.2 Release<Badge text="terbaru" type="tip" />
+
+- **【🎉Baru】** Halaman utama menampilkan kalender event game versi saat ini
+- **【🎉Baru】** Pengaturan menampilkan kalender event game versi saat ini yang belum berlangsung
+
+- **【✨Optimalisasi】** Mengoptimalkan kecepatan pemuatan halaman utama
+- **【✨Optimalisasi】** Mengoptimalkan logika pembaruan auto-start aplikasi tanpa hak administrator
+
+- **【🔨Perbaikan】** Memperbaiki masalah tampilan dialog akun Pass
+
+## 1.19.1 Release
 
 - **【🎉Baru】** Halaman Karakter Saya mendukung ekspor batch status pengembangan karakter sebagai dokumen teks [#82]
 - **【🎉Baru】** Antarmuka utama menampilkan hitung mundur untuk waktu acara yang tersisa [#76]
