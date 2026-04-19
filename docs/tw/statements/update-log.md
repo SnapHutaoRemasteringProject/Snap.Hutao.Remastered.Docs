@@ -10,7 +10,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日誌
 ## 1.19.2 Release<Badge text="最新版" type="tip" />
-
 - **【🎉新增】** 主頁顯示當前版本遊戲事件日曆
 - **【🎉新增】** 設置中顯示未在進行中的當前版本遊戲事件日曆
 
