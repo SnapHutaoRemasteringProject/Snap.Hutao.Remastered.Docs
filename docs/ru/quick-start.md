@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [Функции, Руководство]
@@ -30,8 +30,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 1. Windows Enterprise, включая ветки **LTSC и LTSB**
 2. Версии Windows IoT
-3. **Упрощённые или модифицированные версии Windows. Проблемы, возникающие на неофициальных сборках, не будут обрабатываться**
-4. Проблемы в сборках Windows Insider Preview не рассматриваются
+3. **Упрощённые или модифицированные версии Windows. Проблемы, возникающие на неофициальных сборках, не будут обрабатываться**, пожалуйста, получите последнюю официальную систему с сайта [windows](https://www.microsoft.com/software-download/windows11) для установки.
+4. Проблемы в сборках Windows Insider Preview могут не обрабатываться в зависимости от ситуации. 
+5. Версии Windows 10, которые достигли конца срока поддержки, не будут получать дальнейших обновлений или исправлений. Пожалуйста, обновите систему до последней версии и попробуйте воспроизвести проблему.
 
 > **Обновление Windows от января 2025 года [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) обязательно для запуска Snap Hutao на Windows 10. Оно включено в версию 19045.5371 и выше.**
 
@@ -60,7 +61,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Оригинальная ссылка Github"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 

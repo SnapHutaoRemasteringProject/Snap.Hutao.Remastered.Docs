@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [機能, チュートリアル]
@@ -30,8 +30,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 1. Windows Enterprise（**LTSCおよびLTSBブランチ**を含む）
 2. Windows IoT バージョン
-3. **軽量化または非公式なWindowsシステム。Microsoft公式フルバージョン以外で発生した問題には対応しません**
-4. Windows Insider Preview バージョンに関する問題には対応しません
+3. **軽量化または非公式なWindowsシステム。Microsoft公式フルバージョン以外で発生した問題には対応しません**, 最新の公式システムイメージは[windows](https://www.microsoft.com/software-download/windows11)サイトから入手してください。
+4. Windows Insider Preview ビルドで発生した問題は、状況に応じて積極的に対応しない可能性があります。
+5. Windows 10 のサポートが終了したバージョンは、これ以上の更新や修正が提供されません。最新のシステムバージョンにアップグレードし、問題を再現してみてください。
 
 > **2025年1月のWindows更新プログラム [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) は、Windows 10上でSnap Hutaoを実行するための必須条件です。これはBuild 19045.5371以降に含まれています。**
 
@@ -60,7 +61,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Githubのオリジナルリンク"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -97,7 +98,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Snap Hutao Remastered のすべてのバージョンはメインコードリポジトリにリリースされます"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 

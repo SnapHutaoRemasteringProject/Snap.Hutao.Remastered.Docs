@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [Functionality, Tutorial]
@@ -26,8 +26,9 @@ Ikuti panduan mulai cepat ini untuk menyiapkan Snap Hutao dengan cepat.
 
 1. Edisi Windows Enterprise, termasuk cabang **LTSC dan LTSB**
 2. Edisi Windows IoT
-3. **Versi Windows yang ringan atau dimodifikasi; masalah pada versi non-resmi Microsoft tidak akan ditangani**
-4. Masalah pada build Windows Insider Preview tidak akan ditangani
+3. **Versi Windows yang ringan atau dimodifikasi; masalah pada versi non-resmi Microsoft tidak akan ditangani**, harap dapatkan citra sistem resmi terbaru dari situs web [windows](https://www.microsoft.com/software-download/windows11) untuk instalasi.
+4. Masalah pada build Windows Insider Preview mungkin tidak akan ditangani secara aktif tergantung pada situasinya. 
+5. Versi Windows 10 yang telah mencapai akhir umur pakai tidak akan menerima pembaruan atau perbaikan lebih lanjut. Harap tingkatkan ke versi sistem terbaru dan coba reproduce masalahnya.
 
 > **Pembaruan Windows Januari 2025 [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) adalah persyaratan wajib untuk menjalankan Snap Hutao di Windows 10. Ini termasuk dalam Windows 10 Build 19045.5371 dan yang lebih baru.**
 
@@ -56,7 +57,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Tautan asli Github"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -93,7 +94,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Semua versi Snap Hutao Remastered dirilis di repositori kode utama"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
