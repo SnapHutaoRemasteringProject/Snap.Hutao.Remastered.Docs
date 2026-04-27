@@ -24,11 +24,11 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 **不支持的系統版本**：
 
-1. Windows 企業版，包括**LTSC 和 LTSB 分支**
-2. Windows IoT 版本
-3. **精簡版系統，所有來自非微軟官方完整版系統的問題均不會積極處理**，請前往 [windows](https://www.microsoft.com/software-download/windows11) 網站獲取最新版系統鏡像安裝。
-4. Windows Insider 預覽版本的問題將視情況可能不會被積極處理。
-5. Windows 10 版本已結束生命週期支持，其問題將不會得到處理，請升級到最新的系統版本並嘗試復現。
+1. Windows 企業版，包括**LTSC 和 LTSB 分支** 
+2. Windows IoT 版本 
+3. **精簡版系統，所有來自非微軟官方完整版系統的問題均不會積極處理**，請前往 [windows](https://www.microsoft.com/software-download/windows11) 網站獲取最新版系統鏡像安裝。 
+4. Windows Insider 預覽版本的問題將視情況可能不會被積極處理。 
+5. Windows 10 版本已結束生命週期支持，其問題將不會得到處理，請升級到最新的系統版本並嘗試復現。 
 
 > **2025年1月發佈的 Windows [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) 補丁是在 Windows 10 平臺運行 Snap Hutao 的必要條件，其已包含在 Windows 10 Build 19045.5371 及更高版本中。**
 
@@ -132,7 +132,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 如果你有興趣通過你的力量讓 Snap Hutao Remastered 項目變得更好，歡迎[加入我們](development/join.md)！
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
 通常，遵循應用內的更新提示即可完成更新。
 

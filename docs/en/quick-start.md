@@ -132,7 +132,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 If you are interested in making the Snap Hutao Remastered project better through your own efforts, you are welcome to [join us](development/join.md)!
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
 
 Usually, following the update prompts within the application will complete the update.
 

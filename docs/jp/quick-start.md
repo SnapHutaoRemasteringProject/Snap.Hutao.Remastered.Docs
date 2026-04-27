@@ -136,7 +136,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 もしあなたの力で Snap Hutao プロジェクトをより良くすることに興味がある場合は、ぜひ[ご参加ください](development/join.md)！
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
 通常、アプリケーション内のアップデートプロンプトに従うことでアップデートが完了します。
 
