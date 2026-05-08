@@ -16,14 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.19.2
+# 🎉 Successfully Updated to Version 1.19.3
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉New】** Home page displays the current version game event calendar
-- **【🎉New】** Settings display current version game event calendar entries that are not in progress
+- **【🎉New】** Supports automatic consecutive sign-in after date updates, with new installations defaulting to enabled sign-in
+- **【🎉New】** Home page game version event information window toggle
+- **【🎉New】** Portable open synthesis table option
+- **【🎉New】** More relaxed map teleportation function checks allowing map opening in domains
 
-- **【✨Optimization】** Optimized home page loading speed
-- **【✨Optimization】** Optimized app auto-start update logic under non-administrator privileges
+- **【✨Optimization】** Particular cases of auto-start stability
+- **【✨Optimization】** Update logic for old version icon registration information
+- **【✨Optimization】** Name of created shortcut icons
 
-- **【🔨Fix】** Fixed display issue in the Pass account dialog
+- **【🔨Fix】** Taskbar tray icon tooltip text display
+- **【🔨Fix】** Hutao tray icon missing after Task Manager restart
+- **【🔨Fix】** Unable to copy redemption code
+- **【🔨Fix】** Application may freeze when exiting after preparing metadata or calling exit through notification icon menu
+- **【🔨Fix】** uifg export timezone issue
+- **【🔨Fix】** Internal program update adaptation

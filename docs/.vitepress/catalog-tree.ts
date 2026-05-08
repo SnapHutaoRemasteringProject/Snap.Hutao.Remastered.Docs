@@ -201,7 +201,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.2 版本",
+          "title": "🎉 已成功更新至 1.19.3 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -433,7 +433,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 1.19.2",
+          "title": "🎉 Successfully Updated to Version 1.19.3",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -1369,7 +1369,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.2 版本",
+          "title": "🎉 已成功更新至 1.19.3 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {
