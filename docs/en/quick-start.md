@@ -158,7 +158,7 @@ Click [this link](https://aka.ms/SegoeFluentIcons) to download the font ZIP file
 
 MSVC Runtime Library is a necessary component to unlock the frame rate function. If you are prompted with "Missing XXX.dll" or "Missing XXX component", please install the latest version of MSVCRT.
 
-Click [this link](https://aka.ms/vs/17/release/vc_redist.x64.exe) to download the MSVC Runtime Library (x64) installation file and complete the installation.
+Click [this link](https://aka.ms/vc14/vc_redist.x64.exe) to download the MSVC Runtime Library (x64) installation file and complete the installation.
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Add the First MiHoYo Account
 
@@ -217,7 +217,7 @@ Log in by manually entering SToken to submit the Cookie.
 
 1.  Click the target App icon and select "Manual Input".
 2.  Enter a valid Cookie and confirm. After a moment, the account will be added.
-    ::::
+::::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> Installation FAQ
 
@@ -229,3 +229,50 @@ Log in by manually entering SToken to submit the Cookie.
 ### Can the Installation Problem Be Solved by Repairing System Components
 
 You can try to repair missing components based on error messages, but the Snap Hutao Remastered development team will not provide support.
+
+---
+
+::: warning
+The following issues only apply to MSIX installation. Please try [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) installation first.
+:::
+
+### My Computer Cannot Open MSIX Format Installation Package
+
+Check if the system is missing App Installer.
+
+1.  Install [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+2.  Make sure you are using the official Windows 11 image to install the system.
+
+### MSIX Installation Package Prompts `The Publisher Certificate of This Application Package Cannot Be Verified`
+
+Manually install the [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) certificate to `Trusted Root Certification Authorities`.
+
+### MSIX Installation Package Prompts Group Policy Error or Requires a Developer License
+
+1.  Open Windows Settings.
+2.  Open "System - For developers".
+3.  Turn on the "Developer mode" switch.
+
+---
+
+### Installation of MSIX Package Fails with an Error Message
+
+| Error Message                             | Reason                                       |
+| ----------------------------------------- | -------------------------------------------- |
+| `0x80040154` Error Code                   | Incorrect Windows user account permissions   |
+| `Application did not start` Error message | App Installer permissions error or corrupted |
+| `0x80073CF0` Error Code                   | Incorrect directory permissions              |
+| `0x80070005` Error Code                   | Incorrect Windows user account permissions   |
+| `0x80070570` Error Code                   | Incorrect Windows user account permissions   |
+| `0x8007065E` Error Code                   | Incorrect Windows user account permissions   |
+
+#### Solution Steps
+
+1.  Right-click on the Start menu and select `PowerShell (Admin)`.
+2.  Execute the following code to complete the installation:
+
+    ```PowerShell
+    Add-AppxPackage -Path <Your .msix full path>
+    ```
+
+3.  No red error messages indicate successful installation.

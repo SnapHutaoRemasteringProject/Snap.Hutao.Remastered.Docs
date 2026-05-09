@@ -1,199 +1,148 @@
-@use "patch-lang-switch" as *;
+﻿@use "patch-lang-switch" as *;
 @use "tabs" as *;
 @reference "../theme/style/tailwind.css";
 
 // place your custom styles here
 header.vp-navbar {
-
-  // 隐藏导航栏和导航栏菜单外链图标
-  svg.external-link-icon {
-    position: relative;
-    display: none;
-    color: var(--external-link-icon-color);
-    vertical-align: middle;
-    top: -1px;
-  }
-}
-
-.link-box {
-  ol {
-    /* 让有序列表编号左侧显示（左优先）并恢复块级排列，避免 inline-block 导致编号位置异常 */
-    display: block;
-    padding-left: 1.25rem;
-
-    li {
-      cursor: pointer;
-      display: block;
-      margin: 10px 0;
-      width: 100%;
-      font-size: 16px;
-      border: 1px solid var(--c-border-dark);
-      border-radius: 5px;
-      transition: all 0.3s;
-      text-align: left;
-      position: relative;
-
-      a {
-        display: block;
+    // 隐藏导航栏和导航栏菜单外链图标
+    svg.external-link-icon {
         position: relative;
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-        padding: 10px 20px 10px 60px;
-        box-sizing: border-box;
-        transition: all 0.3s;
-
-        strong {
-          position: absolute;
-          left: 25px;
-        }
-
-        &:hover {
-          opacity: 1;
-          text-decoration: none !important;
-        }
-      }
-
-      &:hover {
-        transform: translate3d(0, -2px, 0);
-        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
-      }
+        display: none;
+        color: var(--external-link-icon-color);
+        vertical-align: middle;
+        top: -1px;
     }
-  }
 }
 
 .vp-hero-info-wrapper {
-  min-height: 600px;
+    min-height: 600px;
 }
 
 // 去除首页赞助商表格边框及超链接图标
 main.vp-project-home {
-  table {
-    display: inline-block;
-
-    th {
-      border-color: transparent;
-      background-color: #f8f8f8;
-    }
-
-    td {
-      border-color: transparent;
-      background-color: #f8f8f8;
-    }
-  }
-
-  svg.external-link-icon {
-    display: none;
-  }
-}
-
-html[data-theme="dark"] {
-  main.vp-project-home {
     table {
-      display: inline-block;
+        display: inline-block;
 
-      th {
-        border-color: transparent;
-        background-color: #161b22;
-      }
+        th {
+            border-color: transparent;
+            background-color: #f8f8f8;
+        }
 
-      td {
-        border-color: transparent;
-        background-color: #161b22;
-      }
+        td {
+            border-color: transparent;
+            background-color: #f8f8f8;
+        }
     }
 
     svg.external-link-icon {
-      display: none;
+        display: none;
     }
-  }
+}
+
+html[data-theme="dark"] {
+    main.vp-project-home {
+        table {
+            display: inline-block;
+
+            th {
+                border-color: transparent;
+                background-color: #161b22;
+            }
+
+            td {
+                border-color: transparent;
+                background-color: #161b22;
+            }
+        }
+
+        svg.external-link-icon {
+            display: none;
+        }
+    }
 }
 
 // 解决深色模式字体样式模糊问题
 html[data-theme="dark"] {
-  .vp-card-content hr {
-    border-color: #dddddd;
-  }
+    .vp-card-content hr {
+        border-color: #dddddd;
+    }
 
-  .vp-card-title {
-    color: #eeeeee;
-  }
+    .vp-card-title {
+        color: #eeeeee;
+    }
 
-  .vp-card-desc {
-    color: #bbbbbb;
-  }
+    .vp-card-desc {
+        color: #bbbbbb;
+    }
 }
 
 // vpbanner 在 dark 模式下边缘不清晰
 html[data-theme="dark"] {
-  --card-shadow: rgba(255, 255, 255, 0.15);
+    --card-shadow: rgba(255, 255, 255, 0.15);
 }
 
 // 主页背景
 .VPHero .VPImage {
-  background-image: url('/images/202308/head-back.png');
-  background-size: cover;
-  background-position: center;
+    background-image: url('/images/202308/head-back.png');
+    background-size: cover;
+    background-position: center;
 }
 
 html[data-theme="dark"] .VPHero .VPImage {
-  background-image: url('/images/202308/head-back.png');
+    background-image: url('/images/202308/head-back.png');
 }
 
 /* 引用颜色 */
 .vp-doc blockquote {
-  @apply bg-main/10 border-l-main rounded-lg border-l-4 p-4;
+    @apply bg-main/10 border-l-main rounded-lg border-l-4 p-4;
 
-  >p {
-    @apply text-sm;
-  }
+    > p {
+        @apply text-sm;
+    }
 }
 
 /* 容器变量 */
 :root {
-  /* 折叠容器 */
-  --vp-custom-block-details-border: var(--vp-c-indigo-1);
-  --vp-custom-block-details-bg: var(--vp-c-indigo-soft);
-  --vp-custom-block-details-code-bg: var(--vp-c-indigo-soft);
-
-  /* 不同容器颜色 */
-  --vp-c-tip-1: var(--vp-c-green-1);
-  --vp-c-tip-2: var(--vp-c-green-2);
-  --vp-c-tip-3: var(--vp-c-green-3);
-  --vp-c-tip-soft: var(--vp-c-green-soft);
-  --vp-custom-block-info-code-bg: var(--vp-c-default-soft);
-  --vp-custom-block-info-border: var(--vp-c-text-3);
-  --vp-custom-block-note-bg: var(--vp-c-indigo-soft);
-  --vp-custom-block-note-code-bg: var(--vp-c-indigo-soft);
-  --vp-custom-block-note-border: var(--vp-c-indigo-1);
-  --vp-custom-block-tip-border: var(--vp-c-tip-1);
-  --vp-custom-block-warning-border: var(--vp-c-warning-1);
-  --vp-custom-block-important-border: var(--vp-c-purple-1);
-  --vp-custom-block-danger-border: var(--vp-c-danger-1);
-  --vp-c-caution-1: var(--vp-c-orange-1);
-  --vp-c-caution-2: var(--vp-c-orange-2);
-  --vp-c-caution-3: var(--vp-c-orange-3);
-  --vp-c-caution-soft: var(--vp-c-orange-soft);
-  --vp-custom-block-caution-border: var(--vp-c-caution-1);
-  --vp-custom-block-caution-bg: var(--vp-c-caution-soft);
-  --vp-custom-block-caution-code-bg: var(--vp-c-caution-soft);
-
-  /* 确保文本/背景变量存在，避免被主题默认覆盖 */
-  --vp-custom-block-important-text: var(--vp-c-text-1);
-  --vp-custom-block-important-bg: var(--vp-c-important-soft);
-  --vp-custom-block-important-code-bg: var(--vp-c-important-soft);
-  --vp-custom-block-caution-text: var(--vp-c-text-1);
+    /* 折叠容器 */
+    --vp-custom-block-details-border: var(--vp-c-indigo-1);
+    --vp-custom-block-details-bg: var(--vp-c-indigo-soft);
+    --vp-custom-block-details-code-bg: var(--vp-c-indigo-soft);
+    /* 不同容器颜色 */
+    --vp-c-tip-1: var(--vp-c-green-1);
+    --vp-c-tip-2: var(--vp-c-green-2);
+    --vp-c-tip-3: var(--vp-c-green-3);
+    --vp-c-tip-soft: var(--vp-c-green-soft);
+    --vp-custom-block-info-code-bg: var(--vp-c-default-soft);
+    --vp-custom-block-info-border: var(--vp-c-text-3);
+    --vp-custom-block-note-bg: var(--vp-c-indigo-soft);
+    --vp-custom-block-note-code-bg: var(--vp-c-indigo-soft);
+    --vp-custom-block-note-border: var(--vp-c-indigo-1);
+    --vp-custom-block-tip-border: var(--vp-c-tip-1);
+    --vp-custom-block-warning-border: var(--vp-c-warning-1);
+    --vp-custom-block-important-border: var(--vp-c-purple-1);
+    --vp-custom-block-danger-border: var(--vp-c-danger-1);
+    --vp-c-caution-1: var(--vp-c-orange-1);
+    --vp-c-caution-2: var(--vp-c-orange-2);
+    --vp-c-caution-3: var(--vp-c-orange-3);
+    --vp-c-caution-soft: var(--vp-c-orange-soft);
+    --vp-custom-block-caution-border: var(--vp-c-caution-1);
+    --vp-custom-block-caution-bg: var(--vp-c-caution-soft);
+    --vp-custom-block-caution-code-bg: var(--vp-c-caution-soft);
+    /* 确保文本/背景变量存在，避免被主题默认覆盖 */
+    --vp-custom-block-important-text: var(--vp-c-text-1);
+    --vp-custom-block-important-bg: var(--vp-c-important-soft);
+    --vp-custom-block-important-code-bg: var(--vp-c-important-soft);
+    --vp-custom-block-caution-text: var(--vp-c-text-1);
 }
 
 /* info容器:背景色、左侧 */
 .custom-block {
+    /* 折叠容器 */
+    summary::marker {
+        color: var(--vp-c-indigo-1);
+    }
 
-  /* 折叠容器 */
-  summary::marker {
-    color: var(--vp-c-indigo-1);
-  }
-
-  @apply border-l-[5px];
+    @apply border-l-[5px];
 
   /* svg图: 保持 ::before 用于图标；使用 ::after 注入本地化标题文本（根据 html[lang]） */
   [class*='custom-block-title']::before {

@@ -162,7 +162,7 @@ WebView2 ランタイムは Microsoft が提供しており、Snap Hutao に低�
 
 MSVC ランタイムは、フレームレート機能を有効にするために必要なコンポーネントです。「XXX.dll がありません」または「XXX コンポーネントがありません」というメッセージが表示された場合は、最新版の MSVCRT をインストールしてください。
 
-[このリンク](https://aka.ms/vs/17/release/vc_redist.x64.exe)をクリックして、MSVC ランタイム（x64）インストールファイルをダウンロードし、インストールを完了します。
+[このリンク](https://aka.ms/vc14/vc_redist.x64.exe)をクリックして、MSVC ランタイム（x64）（v14.50）インストールファイルをダウンロードし、インストールを完了します。
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 初めての miHoYo アカウントの追加
 
@@ -233,3 +233,50 @@ Cookie 情報を適切に保管し、アカウントのリスクを回避して�
 ### システムコンポーネントを修復することでインストール問題を解決できますか
 
 エラーメッセージに基づいて不足しているコンポーネントを修復してください。ただし、Snap Hutao 開発チームはサポートを提供しません。
+
+---
+
+::: warning
+以下の問題は MSIX インストールにのみ適用されます。まず [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) を使用したインストールを試してください。
+:::
+
+### コンピューターで MSIX 形式のインストールパッケージを開くことができません
+
+システムに App Installer が不足していないか確認してください。
+
+1. [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) をインストールします。
+2. Microsoft 公式の Windows 10 または 11 イメージを使用してシステムをインストールしたことを確認してください。
+
+### MSIX インストールパッケージに「このアプリパッケージの発行元証明書を検証できません」と表示されます
+
+[SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) 証明書を `信頼されたルート証明機関` に手動でインストールします。
+
+### MSIX インストールパッケージにグループポリシーエラーまたは開発者ライセンスが必要と表示されます
+
+1. Windows の設定を開きます。
+2. 「システム」-「開発者向け」を開きます。
+3. 「開発者モード」のスイッチをオンにします。
+
+---
+
+### MSIX パッケージのインストールに失敗し、エラーメッセージが表示される
+
+| エラーメッセージ                                        | 原因                                   |
+| ------------------------------------------------------- | -------------------------------------- |
+| `0x80040154` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `アプリケーションが起動しませんでした` エラーメッセージ | App Installer の権限エラーまたは破損   |
+| `0x80073CF0` エラーコード                               | ディレクトリの権限エラー               |
+| `0x80070005` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `0x80070570` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `0x8007065E` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+
+#### 解決手順
+
+1. スタートメニューを右クリックし、「PowerShell (管理者)」を選択します。
+2. 次のコードを実行してインストールを完了します。
+
+   ```PowerShell
+   Add-AppxPackage -Path <Your .msix package full path>
+   ```
+
+3. 赤色のエラーメッセージが表示されなければ、インストールは成功です。

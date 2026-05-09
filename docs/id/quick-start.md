@@ -158,7 +158,7 @@ Klik [tautan ini](https://aka.ms/SegoeFluentIcons) untuk mengunduh file ZIP font
 
 MSVC Runtime Library adalah komponen yang diperlukan untuk membuka kunci fungsi frame rate. Jika Anda diminta dengan "Missing XXX.dll" atau "Missing XXX component", silakan instal versi terbaru MSVCRT.
 
-Klik [tautan ini](https://aka.ms/vs/17/release/vc_redist.x64.exe) untuk mengunduh file instalasi MSVC Runtime Library (x64) dan selesaikan instalasi.
+Klik [tautan ini](https://aka.ms/vc14/vc_redist.x64.exe) untuk mengunduh file instalasi MSVC Runtime Library (x64) dan selesaikan instalasi.
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Tambahkan Akun MiHoYo Pertama
 
@@ -229,3 +229,50 @@ Login dengan memasukkan SToken secara manual untuk mengirimkan Cookie.
 ### Apakah Masalah Instalasi Bisa Diselesaikan dengan Memperbaiki Komponen Sistem
 
 Anda bisa mencoba memperbaiki komponen yang hilang berdasarkan pesan kesalahan, tetapi tim pengembang Snap Hutao tidak akan memberikan dukungan.
+
+---
+
+::: warning
+Masalah berikut hanya berlaku untuk instalasi MSIX. Silakan coba instalasi [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) terlebih dahulu.
+:::
+
+### Komputer Saya Tidak Bisa Membuka Paket Instalasi Format MSIX
+
+Periksa apakah sistem kehilangan App Installer.
+
+1.  Instal [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+2.  Pastikan Anda menggunakan citra Windows 10 atau 11 resmi untuk menginstal sistem.
+
+### Paket Instalasi MSIX Memberi Tahu `Sertifikat Penerbit Paket Aplikasi Ini Tidak Dapat Diverifikasi`
+
+Instal sertifikat [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) secara manual ke `Trusted Root Certification Authorities`.
+
+### Paket Instalasi MSIX Memberi Tahu Kesalahan Kebijakan Grup atau Memerlukan Lisensi Pengembang
+
+1.  Buka Pengaturan Windows.
+2.  Buka "Sistem - Untuk pengembang".
+3.  Aktifkan sakelar "Mode pengembang".
+
+---
+
+### Instalasi Paket MSIX Gagal dengan Pesan Kesalahan
+
+| Pesan Kesalahan | Alasan |
+| :---: | :---: |
+| Kode Kesalahan `0x80040154` | Izin akun pengguna Windows salah |
+| Pesan Kesalahan `Aplikasi tidak dimulai` | Izin App Installer salah atau rusak |
+| Kode Kesalahan `0x80073CF0` | Izin direktori salah |
+| Kode Kesalahan `0x80070005` | Izin akun pengguna Windows salah |
+| Kode Kesalahan `0x80070570` | Izin akun pengguna Windows salah |
+| Kode Kesalahan `0x8007065E` | Izin akun pengguna Windows salah |
+
+#### Langkah-langkah Solusi
+
+1.  Klik kanan pada menu Mulai dan pilih `PowerShell (Admin)`.
+2.  Jalankan kode berikut untuk menyelesaikan instalasi:
+
+    ```PowerShell
+    Add-AppxPackage -Path <Your .msix full path>
+    ```
+
+3.  Tidak ada pesan kesalahan merah menunjukkan instalasi berhasil.
