@@ -189,7 +189,7 @@ export default defineConfig({
                                 text: 'Service Availability',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
@@ -225,7 +225,7 @@ export default defineConfig({
                                 text: '服务可用性',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
@@ -261,7 +261,7 @@ export default defineConfig({
                                 text: 'Доступность сервиса',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
@@ -297,7 +297,7 @@ export default defineConfig({
                                 text: 'Ketersediaan Layanan',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
@@ -333,7 +333,7 @@ export default defineConfig({
                                 text: 'サービスの可用性',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
@@ -369,7 +369,7 @@ export default defineConfig({
                                 text: '服務可用性',
                                 items: [
                                     { text: 'Uptime Robot (WDG)', link: 'https://stats.uptimerobot.com/fHxWxdxK61' },
-                                    { text: 'Upptime (RP)', link: 'https://snaphutaoremasteringproject.github.io/Upptime/' },
+                                    { text: 'Upptime (RP)', link: 'https://status.snaphutaorp.org/status/all' },
                                 ],
                             },
                             {
