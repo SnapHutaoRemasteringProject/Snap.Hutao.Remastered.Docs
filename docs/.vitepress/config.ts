@@ -174,7 +174,7 @@ export default defineConfig({
             link: '/en/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit this page on GitHub'
                 },
                 nav: [
@@ -210,7 +210,7 @@ export default defineConfig({
             link: '/zh/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上编辑此页'
                 },
                 nav: [
@@ -246,7 +246,7 @@ export default defineConfig({
             link: '/ru/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Редактировать эту страницу на GitHub'
                 },
                 nav: [
@@ -282,7 +282,7 @@ export default defineConfig({
             link: '/id/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'Edit halaman ini di GitHub'
                 },
                 nav: [
@@ -318,7 +318,7 @@ export default defineConfig({
             link: '/jp/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: 'GitHub でこのページを編集'
                 },
                 nav: [
@@ -354,7 +354,7 @@ export default defineConfig({
             link: '/tw/',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+                    pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
                     text: '在 GitHub 上編輯此頁'
                 },
                 nav: [
@@ -522,7 +522,7 @@ export default defineConfig({
             copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute with 2025-${new Date().getFullYear()} SnapHutao Remastering Project` ,
         },
         editLink: {
-            pattern: 'https://github.com/SnapHutaoRemasteringProject/edit/dev/docs/:path',
+            pattern: 'https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs/edit/dev/docs/:path',
             text: 'Edit this page on GitHub'
         },
     },
