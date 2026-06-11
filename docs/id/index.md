@@ -15,6 +15,9 @@ hero:
     - theme: brand
       text: Mulai
       link: /id/quick-start
+    - theme: brand
+      text: Unduh Sekarang
+      link: https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe
     - theme: alt
       text: Dokumentasi
       link: /id/menu
