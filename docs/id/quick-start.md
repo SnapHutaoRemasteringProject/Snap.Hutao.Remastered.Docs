@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [Functionality, Tutorial]
@@ -26,8 +26,9 @@ Ikuti panduan mulai cepat ini untuk menyiapkan Snap Hutao dengan cepat.
 
 1. Edisi Windows Enterprise, termasuk cabang **LTSC dan LTSB**
 2. Edisi Windows IoT
-3. **Versi Windows yang ringan atau dimodifikasi; masalah pada versi non-resmi Microsoft tidak akan ditangani**
-4. Masalah pada build Windows Insider Preview tidak akan ditangani
+3. **Versi Windows yang ringan atau dimodifikasi; masalah pada versi non-resmi Microsoft tidak akan ditangani**, harap dapatkan citra sistem resmi terbaru dari situs web [windows](https://www.microsoft.com/software-download/windows11) untuk instalasi.
+4. Masalah pada build Windows Insider Preview mungkin tidak akan ditangani secara aktif tergantung pada situasinya. 
+5. Versi Windows 10 yang telah mencapai akhir umur pakai tidak akan menerima pembaruan atau perbaikan lebih lanjut. Harap tingkatkan ke versi sistem terbaru dan coba reproduce masalahnya.
 
 > **Pembaruan Windows Januari 2025 [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) adalah persyaratan wajib untuk menjalankan Snap Hutao di Windows 10. Ini termasuk dalam Windows 10 Build 19045.5371 dan yang lebih baru.**
 
@@ -56,7 +57,24 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Tautan asli Github"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== Gunakan UI Installer untuk Instalasi
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui memiliki masalah false positive dan tidak direkomendasikan</p>
+  </div>
+
+<VPCard
+title="Tautan Dipercepat"
+desc="Menyediakan unduhan installer dalam situs ini"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -76,7 +94,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Semua versi Snap Hutao Remastered dirilis di repositori kode utama"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -114,7 +132,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 Jika Anda tertarik untuk membuat proyek Snap Hutao Remastered menjadi lebih baik melalui usaha Anda sendiri, kami menyambut Anda untuk [bergabung dengan kami](development/join.md)!
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Perbarui Snap Hutao
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Perbarui Snap Hutao
 
 Biasanya, mengikuti petunjuk pembaruan dalam aplikasi akan menyelesaikan pembaruan.
 
@@ -140,7 +158,7 @@ Klik [tautan ini](https://aka.ms/SegoeFluentIcons) untuk mengunduh file ZIP font
 
 MSVC Runtime Library adalah komponen yang diperlukan untuk membuka kunci fungsi frame rate. Jika Anda diminta dengan "Missing XXX.dll" atau "Missing XXX component", silakan instal versi terbaru MSVCRT.
 
-Klik [tautan ini](https://aka.ms/vs/17/release/vc_redist.x64.exe) untuk mengunduh file instalasi MSVC Runtime Library (x64) dan selesaikan instalasi.
+Klik [tautan ini](https://aka.ms/vc14/vc_redist.x64.exe) untuk mengunduh file instalasi MSVC Runtime Library (x64) dan selesaikan instalasi.
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Tambahkan Akun MiHoYo Pertama
 
@@ -211,3 +229,50 @@ Login dengan memasukkan SToken secara manual untuk mengirimkan Cookie.
 ### Apakah Masalah Instalasi Bisa Diselesaikan dengan Memperbaiki Komponen Sistem
 
 Anda bisa mencoba memperbaiki komponen yang hilang berdasarkan pesan kesalahan, tetapi tim pengembang Snap Hutao tidak akan memberikan dukungan.
+
+---
+
+::: warning
+Masalah berikut hanya berlaku untuk instalasi MSIX. Silakan coba instalasi [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) terlebih dahulu.
+:::
+
+### Komputer Saya Tidak Bisa Membuka Paket Instalasi Format MSIX
+
+Periksa apakah sistem kehilangan App Installer.
+
+1.  Instal [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+2.  Pastikan Anda menggunakan citra Windows 10 atau 11 resmi untuk menginstal sistem.
+
+### Paket Instalasi MSIX Memberi Tahu `Sertifikat Penerbit Paket Aplikasi Ini Tidak Dapat Diverifikasi`
+
+Instal sertifikat [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) secara manual ke `Trusted Root Certification Authorities`.
+
+### Paket Instalasi MSIX Memberi Tahu Kesalahan Kebijakan Grup atau Memerlukan Lisensi Pengembang
+
+1.  Buka Pengaturan Windows.
+2.  Buka "Sistem - Untuk pengembang".
+3.  Aktifkan sakelar "Mode pengembang".
+
+---
+
+### Instalasi Paket MSIX Gagal dengan Pesan Kesalahan
+
+| Pesan Kesalahan | Alasan |
+| :---: | :---: |
+| Kode Kesalahan `0x80040154` | Izin akun pengguna Windows salah |
+| Pesan Kesalahan `Aplikasi tidak dimulai` | Izin App Installer salah atau rusak |
+| Kode Kesalahan `0x80073CF0` | Izin direktori salah |
+| Kode Kesalahan `0x80070005` | Izin akun pengguna Windows salah |
+| Kode Kesalahan `0x80070570` | Izin akun pengguna Windows salah |
+| Kode Kesalahan `0x8007065E` | Izin akun pengguna Windows salah |
+
+#### Langkah-langkah Solusi
+
+1.  Klik kanan pada menu Mulai dan pilih `PowerShell (Admin)`.
+2.  Jalankan kode berikut untuk menyelesaikan instalasi:
+
+    ```PowerShell
+    Add-AppxPackage -Path <Your .msix full path>
+    ```
+
+3.  Tidak ada pesan kesalahan merah menunjukkan instalasi berhasil.

@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [Функции, Руководство]
@@ -30,8 +30,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 1. Windows Enterprise, включая ветки **LTSC и LTSB**
 2. Версии Windows IoT
-3. **Упрощённые или модифицированные версии Windows. Проблемы, возникающие на неофициальных сборках, не будут обрабатываться**
-4. Проблемы в сборках Windows Insider Preview не рассматриваются
+3. **Упрощённые или модифицированные версии Windows. Проблемы, возникающие на неофициальных сборках, не будут обрабатываться**, пожалуйста, получите последнюю официальную систему с сайта [windows](https://www.microsoft.com/software-download/windows11) для установки.
+4. Проблемы в сборках Windows Insider Preview могут не обрабатываться в зависимости от ситуации. 
+5. Версии Windows 10, которые достигли конца срока поддержки, не будут получать дальнейших обновлений или исправлений. Пожалуйста, обновите систему до последней версии и попробуйте воспроизвести проблему.
 
 > **Обновление Windows от января 2025 года [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) обязательно для запуска Snap Hutao на Windows 10. Оно включено в версию 19045.5371 и выше.**
 
@@ -60,7 +61,24 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Оригинальная ссылка Github"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== Использовать UI-установщик для установки
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui имеет проблемы с ложными срабатываниями и не рекомендуется</p>
+  </div>
+
+<VPCard
+title="Ускоренная ссылка"
+desc="Предоставляет загрузку установщика на этом сайте"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -118,7 +136,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 Если вы заинтересованы в том, чтобы сделать проект Snap Hutao лучше, добро пожаловать к [нам](development/join.md)!
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Обновление Snap Hutao
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Обновление Snap Hutao
 
 Обычно, следуя подсказкам обновления в приложении, вы завершите обновление.
 
@@ -144,7 +162,7 @@ WebView2 Runtime предоставляется Microsoft и позволяет 
 
 MSVC Runtime Library является необходимым компонентом для разблокировки функции частоты кадров. Если отображается сообщение "Отсутствует XXX.dll" или "Отсутствует компонент XXX", установите последнюю версию MSVCRT.
 
-Нажмите [на эту ссылку](https://aka.ms/vs/17/release/vc_redist.x64.exe), чтобы загрузить установочный файл MSVC Runtime Library (x64) и завершите установку.
+Нажмите [на эту ссылку](https://aka.ms/vc14/vc_redist.x64.exe), чтобы загрузить установочный файл MSVC Runtime Library (x64) (v14.50) и завершите установку.
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Добавление первой учетной записи MiYouShe
 
@@ -215,3 +233,50 @@ HoYoLAB по умолчанию блокирует сетевое подключ
 ### Можно ли решить проблемы с установкой, исправив системные компоненты?
 
 Вы можете исправить недостающие компоненты в соответствии с сообщениями об ошибках, но команда разработчиков Snap Hutao не предоставляет поддержки в этом случае.
+
+---
+
+::: warning
+Следующие проблемы применимы только к установке MSIX, пожалуйста, попробуйте установить с помощью [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) в первую очередь.
+:::
+
+### Мой компьютер не может открыть установочный пакет в формате MSIX
+
+Проверьте, не отсутствует ли в системе App Installer.
+
+1. Установите [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+2. Убедитесь, что система установлена с использованием официального образа Windows 10 или 11.
+
+### Установочный пакет MSIX выдает ошибку `Не удалось проверить сертификат издателя этого пакета приложения`
+
+Вручную установите сертификат [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) в `Доверенные корневые центры сертификации`.
+
+### Установочный пакет MSIX выдает ошибку групповой политики или требует лицензию разработчика
+
+1. Откройте настройки Windows.
+2. Откройте "Система - Для разработчиков".
+3. Включите переключатель "Режим разработчика".
+
+---
+
+### Сбой установки пакета MSIX с сообщением об ошибке
+
+| Сообщение об ошибке                          | Причина                                 |
+| -------------------------------------------- | --------------------------------------- |
+| Код ошибки `0x80040154`                      | Неверные права учетной записи Windows   |
+| Сообщение об ошибке `Приложение не запущено` | Ошибка прав App Installer или поврежден |
+| Код ошибки `0x80073CF0`                      | Неверные права каталога                 |
+| Код ошибки `0x80070005`                      | Неверные права учетной записи Windows   |
+| Код ошибки `0x80070570`                      | Неверные права учетной записи Windows   |
+| Код ошибки `0x8007065E`                      | Неверные права учетной записи Windows   |
+
+#### Шаги по устранению проблемы
+
+1. Щелкните правой кнопкой мыши меню "Пуск" и выберите `PowerShell (администратор)`.
+2. Выполните следующий код для завершения установки:
+
+   ```PowerShell
+   Add-AppxPackage -Path <Your .msix package full path>
+   ```
+
+3. Если нет красных сообщений об ошибках, это означает, что установка прошла успешно.

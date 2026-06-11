@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [Functionality, Tutorial]
@@ -26,8 +26,9 @@ Follow this quick start guide to quickly set up Snap Hutao Remastered.
 
 1. Windows Enterprise Edition, including **LTSC and LTSB branches**
 2. Windows IoT editions
-3. **Lightweight or modified versions of Windows; issues on non-official Microsoft full versions will not be handled**
-4. Issues on Windows Insider Preview builds will not be addressed
+3. **Lightweight or modified versions of Windows; issues on non-official Microsoft full versions will not be handled**, please obtain the latest official system image from the [windows](https://www.microsoft.com/software-download/windows11) website for installation.
+4. Issues on Windows Insider Preview builds may not be actively addressed depending on the situation.
+5. Windows 10 versions that have reached end-of-life support will not receive further updates or fixes. Please upgrade to the latest system version and try to reproduce the issue.
 
 > **The January 2025 Windows update [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) is a mandatory requirement for running Snap Hutao Remastered on Windows 10. It is included in Windows 10 Build 19045.5371 and later.**
 
@@ -56,7 +57,24 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Github original link"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== Use UI Installer for Installation
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui has false positive issues and is not recommended</p>
+  </div>
+
+<VPCard
+title="Accelerated Link"
+desc="Provides installer download within this site"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -76,7 +94,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="All versions of Snap Hutao Remastered are released in the main code repository"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -114,7 +132,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 If you are interested in making the Snap Hutao Remastered project better through your own efforts, you are welcome to [join us](development/join.md)!
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
 
 Usually, following the update prompts within the application will complete the update.
 
@@ -140,7 +158,7 @@ Click [this link](https://aka.ms/SegoeFluentIcons) to download the font ZIP file
 
 MSVC Runtime Library is a necessary component to unlock the frame rate function. If you are prompted with "Missing XXX.dll" or "Missing XXX component", please install the latest version of MSVCRT.
 
-Click [this link](https://aka.ms/vs/17/release/vc_redist.x64.exe) to download the MSVC Runtime Library (x64) installation file and complete the installation.
+Click [this link](https://aka.ms/vc14/vc_redist.x64.exe) to download the MSVC Runtime Library (x64) installation file and complete the installation.
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Add the First MiHoYo Account
 
@@ -199,7 +217,7 @@ Log in by manually entering SToken to submit the Cookie.
 
 1.  Click the target App icon and select "Manual Input".
 2.  Enter a valid Cookie and confirm. After a moment, the account will be added.
-    ::::
+::::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> Installation FAQ
 
@@ -211,3 +229,50 @@ Log in by manually entering SToken to submit the Cookie.
 ### Can the Installation Problem Be Solved by Repairing System Components
 
 You can try to repair missing components based on error messages, but the Snap Hutao Remastered development team will not provide support.
+
+---
+
+::: warning
+The following issues only apply to MSIX installation. Please try [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) installation first.
+:::
+
+### My Computer Cannot Open MSIX Format Installation Package
+
+Check if the system is missing App Installer.
+
+1.  Install [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+2.  Make sure you are using the official Windows 11 image to install the system.
+
+### MSIX Installation Package Prompts `The Publisher Certificate of This Application Package Cannot Be Verified`
+
+Manually install the [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) certificate to `Trusted Root Certification Authorities`.
+
+### MSIX Installation Package Prompts Group Policy Error or Requires a Developer License
+
+1.  Open Windows Settings.
+2.  Open "System - For developers".
+3.  Turn on the "Developer mode" switch.
+
+---
+
+### Installation of MSIX Package Fails with an Error Message
+
+| Error Message                             | Reason                                       |
+| ----------------------------------------- | -------------------------------------------- |
+| `0x80040154` Error Code                   | Incorrect Windows user account permissions   |
+| `Application did not start` Error message | App Installer permissions error or corrupted |
+| `0x80073CF0` Error Code                   | Incorrect directory permissions              |
+| `0x80070005` Error Code                   | Incorrect Windows user account permissions   |
+| `0x80070570` Error Code                   | Incorrect Windows user account permissions   |
+| `0x8007065E` Error Code                   | Incorrect Windows user account permissions   |
+
+#### Solution Steps
+
+1.  Right-click on the Start menu and select `PowerShell (Admin)`.
+2.  Execute the following code to complete the installation:
+
+    ```PowerShell
+    Add-AppxPackage -Path <Your .msix full path>
+    ```
+
+3.  No red error messages indicate successful installation.

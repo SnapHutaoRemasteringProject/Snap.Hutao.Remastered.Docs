@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [機能, チュートリアル]
@@ -30,8 +30,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 1. Windows Enterprise（**LTSCおよびLTSBブランチ**を含む）
 2. Windows IoT バージョン
-3. **軽量化または非公式なWindowsシステム。Microsoft公式フルバージョン以外で発生した問題には対応しません**
-4. Windows Insider Preview バージョンに関する問題には対応しません
+3. **軽量化または非公式なWindowsシステム。Microsoft公式フルバージョン以外で発生した問題には対応しません**, 最新の公式システムイメージは[windows](https://www.microsoft.com/software-download/windows11)サイトから入手してください。
+4. Windows Insider Preview ビルドで発生した問題は、状況に応じて積極的に対応しない可能性があります。
+5. Windows 10 のサポートが終了したバージョンは、これ以上の更新や修正が提供されません。最新のシステムバージョンにアップグレードし、問題を再現してみてください。
 
 > **2025年1月のWindows更新プログラム [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) は、Windows 10上でSnap Hutaoを実行するための必須条件です。これはBuild 19045.5371以降に含まれています。**
 
@@ -60,7 +61,24 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Githubのオリジナルリンク"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== UIインストーラーを使用したインストール
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-uiには誤検知の問題があり、推奨されません</p>
+  </div>
+
+<VPCard
+title="加速リンク"
+desc="このサイト内のインストーラーのダウンロードを提供します"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -80,7 +98,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Snap Hutao Remastered のすべてのバージョンはメインコードリポジトリにリリースされます"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -118,7 +136,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 もしあなたの力で Snap Hutao プロジェクトをより良くすることに興味がある場合は、ぜひ[ご参加ください](development/join.md)！
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
 通常、アプリケーション内のアップデートプロンプトに従うことでアップデートが完了します。
 
@@ -144,7 +162,7 @@ WebView2 ランタイムは Microsoft が提供しており、Snap Hutao に低�
 
 MSVC ランタイムは、フレームレート機能を有効にするために必要なコンポーネントです。「XXX.dll がありません」または「XXX コンポーネントがありません」というメッセージが表示された場合は、最新版の MSVCRT をインストールしてください。
 
-[このリンク](https://aka.ms/vs/17/release/vc_redist.x64.exe)をクリックして、MSVC ランタイム（x64）インストールファイルをダウンロードし、インストールを完了します。
+[このリンク](https://aka.ms/vc14/vc_redist.x64.exe)をクリックして、MSVC ランタイム（x64）（v14.50）インストールファイルをダウンロードし、インストールを完了します。
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 初めての miHoYo アカウントの追加
 
@@ -215,3 +233,50 @@ Cookie 情報を適切に保管し、アカウントのリスクを回避して�
 ### システムコンポーネントを修復することでインストール問題を解決できますか
 
 エラーメッセージに基づいて不足しているコンポーネントを修復してください。ただし、Snap Hutao 開発チームはサポートを提供しません。
+
+---
+
+::: warning
+以下の問題は MSIX インストールにのみ適用されます。まず [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) を使用したインストールを試してください。
+:::
+
+### コンピューターで MSIX 形式のインストールパッケージを開くことができません
+
+システムに App Installer が不足していないか確認してください。
+
+1. [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) をインストールします。
+2. Microsoft 公式の Windows 10 または 11 イメージを使用してシステムをインストールしたことを確認してください。
+
+### MSIX インストールパッケージに「このアプリパッケージの発行元証明書を検証できません」と表示されます
+
+[SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) 証明書を `信頼されたルート証明機関` に手動でインストールします。
+
+### MSIX インストールパッケージにグループポリシーエラーまたは開発者ライセンスが必要と表示されます
+
+1. Windows の設定を開きます。
+2. 「システム」-「開発者向け」を開きます。
+3. 「開発者モード」のスイッチをオンにします。
+
+---
+
+### MSIX パッケージのインストールに失敗し、エラーメッセージが表示される
+
+| エラーメッセージ                                        | 原因                                   |
+| ------------------------------------------------------- | -------------------------------------- |
+| `0x80040154` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `アプリケーションが起動しませんでした` エラーメッセージ | App Installer の権限エラーまたは破損   |
+| `0x80073CF0` エラーコード                               | ディレクトリの権限エラー               |
+| `0x80070005` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `0x80070570` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+| `0x8007065E` エラーコード                               | Windows ユーザーアカウントの権限エラー |
+
+#### 解決手順
+
+1. スタートメニューを右クリックし、「PowerShell (管理者)」を選択します。
+2. 次のコードを実行してインストールを完了します。
+
+   ```PowerShell
+   Add-AppxPackage -Path <Your .msix package full path>
+   ```
+
+3. 赤色のエラーメッセージが表示されなければ、インストールは成功です。

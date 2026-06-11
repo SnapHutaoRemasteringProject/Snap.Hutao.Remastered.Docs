@@ -1,4 +1,4 @@
----
+﻿---
 comment: false
 externalLinkIcon: false
 index: false
@@ -16,12 +16,14 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Berhasil Update ke Versi 1.19.0
+# 🎉 Berhasil Update ke Versi 1.19.2
 
 **Bahasa Indonesia** | [English](/en/statements/latest.html)
 
-- **【✨Optimisasi】** Menghapus proses penyesuaian waktu (#66)  
+- **【🎉Baru】** Halaman utama menampilkan kalender event game versi saat ini
+- **【🎉Baru】** Pengaturan menampilkan kalender event game versi saat ini yang belum berlangsung
 
-- **【🔨Perbaikan】** Memperbaiki masalah dimana refresh stoken menyebabkan impor duplikat semua catatan wish (#74)  
-- **【🔨Perbaikan】** Memperbaiki getar abnormal progress bar saat mengklik tombol "Cek Pembaruan" dua kali selama pembaruan versi (#67)  
-- **【🔨Perbaikan】** Memperbaiki masalah "Tidak ada respons terhadap pembaruan" (#64)
+- **【✨Optimalisasi】** Mengoptimalkan kecepatan pemuatan halaman utama
+- **【✨Optimalisasi】** Mengoptimalkan logika pembaruan auto-start aplikasi tanpa hak administrator
+
+- **【🔨Perbaikan】** Memperbaiki masalah tampilan dialog akun Pass

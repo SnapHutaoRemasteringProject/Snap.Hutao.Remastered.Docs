@@ -24,10 +24,11 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 **不支持的系統版本**：
 
-1. Windows 企業版，包括**LTSC 和 LTSB 分支**
-2. Windows IoT 版本
-3. **精簡版系統，所有來自非微軟官方完整版系統的問題均不會積極處理**。
-4. Windows Insider 預覽版本的問題將不會被處理。
+1. Windows 企業版，包括**LTSC 和 LTSB 分支** 
+2. Windows IoT 版本 
+3. **精簡版/修改版系統，所有來自非微軟官方完整版系統包括第三方提供鏡像系統的問題均不會積極處理**，請前往 [windows](https://www.microsoft.com/software-download/windows11) 網站獲取最新版系統鏡像安裝。 
+4. Windows Insider 預覽版本的問題將視情況可能不會被積極處理。 
+5. Windows 10 版本已結束生命週期支持，其問題將不會得到處理，請升級到最新的系統版本並嘗試復現。 
 
 > **2025年1月發佈的 Windows [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) 補丁是在 Windows 10 平臺運行 Snap Hutao 的必要條件，其已包含在 Windows 10 Build 19045.5371 及更高版本中。**
 
@@ -56,7 +57,24 @@ background="rgba(155, 233, 168, 0.15)"
 title="Github"
 desc="Github原始鏈接"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/download/1.19.0.0/Snap.Hutao.Remastered.Deployment.exe"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+</div>
+
+== 使用帶界面的安裝器進行安裝
+
+<div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui存在誤報問題 不建議使用，由於不帶控件，正在逐步捨棄</p>
+  </div>
+
+<VPCard
+title="加速鏈接"
+desc="提供本站內的安裝器下載"
+logo="/assets/logo.png"
+link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -76,7 +94,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Snap Hutao Remastered 所有版本均會發佈於主代碼庫中"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -114,7 +132,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 如果你有興趣通過你的力量讓 Snap Hutao Remastered 項目變得更好，歡迎[加入我們](development/join.md)！
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
+## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
 通常，遵循應用內的更新提示即可完成更新。
 
@@ -140,7 +158,7 @@ WebView2 運行時由微軟提供，允許胡桃工具箱內嵌低開銷的瀏�
 
 MSVC 運行庫是解鎖幀率功能的必要組件。如提示“缺少 XXX.dll”或“缺少 XXX 組件”，請安裝最新版 MSVCRT。
 
-點擊[此鏈接](https://aka.ms/vs/17/release/vc_redist.x64.exe)下載 MSVC 運行庫（x64）安裝文件並完成安裝。
+點擊[此鏈接](https://aka.ms/vc14/vc_redist.x64.exe)下載 MSVC 運行庫（x64）v14.50 安裝文件並完成安裝。
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一個米遊社賬號
 
@@ -199,7 +217,7 @@ HoYoLAB 默認阻止中國大陸網絡連接。
 
 1. 點擊目標 App 圖標選擇“手動輸入”。
 2. 輸入有效 Cookie 並確認，稍等片刻賬號將被添加。
-   ::::
+::::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安裝常見問題
 
@@ -211,3 +229,50 @@ HoYoLAB 默認阻止中國大陸網絡連接。
 ### 能否通過修復系統組件解決安裝問題
 
 根據錯誤提示修復缺失組件，但 Snap Hutao 開發組不會提供支持。
+
+---
+
+::: warning
+以下問題僅適用於 MSIX 安裝，請優先嚐試 [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) 安裝。
+:::
+
+### 我的計算機無法打開 MSIX 格式的安裝包
+
+檢查系統是否缺少 App Installer。
+
+1. 安裝 [App Installer](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)。
+2. 確保使用官方 Windows 10 或 11 鏡像安裝系統。
+
+### MSIX 安裝包提示 `無法驗證此應用包的發佈者證書`
+
+手動安裝 [SnapHutaoRemasteringProjectRootCA.cer](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/raw/main/SnapHutaoRemasteringProjectRootCA.cer) 證書到 `可信任的根證書授權機構`（或遵循視頻安裝步驟）。
+
+### MSIX 安裝包提示組策略錯誤或需要開發者許可證
+
+1. 打開Windows 設置
+2. 打開“系統-開發者選項”
+3. 開啟“開發人員模式”的開關
+
+---
+
+### 安裝 MSIX 包時失敗並出現錯誤提示
+
+| 錯誤信息              | 原因                             |
+| --------------------- | -------------------------------- |
+| `0x80040154` 錯誤代碼 | 錯誤的 Windows 用戶賬戶權限      |
+| `應用未啟動` 錯誤提示 | App Installer 權限錯誤或已被破壞 |
+| `0x80073CF0` 錯誤代碼 | 錯誤的目錄權限                   |
+| `0x80070005` 錯誤代碼 | 錯誤的 Windows 用戶賬戶權限      |
+| `0x80070570` 錯誤代碼 | 錯誤的 Windows 用戶賬戶權限      |
+| `0x8007065E` 錯誤代碼 | 錯誤的 Windows 用戶賬戶權限      |
+
+#### 解決步驟
+
+1. 在開始菜單右鍵選擇 `PowerShell (管理員)`。
+2. 執行以下代碼完成安裝：
+
+   ```PowerShell
+   Add-AppxPackage -Path <在這裡填寫安裝包的完整路徑，路徑裡需要包含 .msix，<>括號請刪除>
+   ```
+
+3. 無紅色錯誤提示即表示安裝成功。

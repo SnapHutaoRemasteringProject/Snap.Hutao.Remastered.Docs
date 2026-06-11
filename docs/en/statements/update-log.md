@@ -10,7 +10,57 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.0 Release<Badge text="Latest" type="tip" />
+## 1.19.3 Release<Badge text="Latest" type="tip" />
+- **【🎉New】** Supports automatic consecutive sign-in after date updates, with new installations defaulting to enabled sign-in
+- **【🎉New】** Home page game version event information window toggle
+- **【🎉New】** Portable open synthesis table option
+- **【🎉New】** More relaxed map teleportation function checks allowing map opening in domains
+
+- **【✨Optimization】** Particular cases of auto-start stability
+- **【✨Optimization】** Update logic for old version icon registration information
+- **【✨Optimization】** Name of created shortcut icons
+
+- **【🔨Fix】** Taskbar tray icon tooltip text display
+- **【🔨Fix】** Hutao tray icon missing after Task Manager restart
+- **【🔨Fix】** Unable to copy redemption code
+- **【🔨Fix】** Application may freeze when exiting after preparing metadata or calling exit through notification icon menu
+- **【🔨Fix】** uifg export timezone issue
+- **【🔨Fix】** Internal program update adaptation
+
+## 1.19.2 Release
+
+- **【🎉New】** Home page displays the current version game event calendar
+- **【🎉New】** Settings display current version game event calendar entries that are not in progress
+
+- **【✨Optimization】** Optimized home page loading speed
+- **【✨Optimization】** Optimized app auto-start update logic under non-administrator privileges
+
+- **【🔨Fix】** Fixed display issue in the Pass account dialog
+
+## 1.19.1 Release
+
+- **【🎉New】** My Characters page supports batch exporting character development status as text documents [#82]
+- **【🎉New】** Main interface displays countdown for remaining event time [#76]
+- **【🎉New】** Background task status display to avoid misjudgment as unresponsive
+- **【🎉New】** Program auto-start function (full support for Win11, limited support for Win10)
+- **【🎉New】** New update download progress chart UI display (not final effect, still being optimized)
+- **【🎉New】** Support for pause and resume during game update/repair processes
+- **【🎉New】** Custom launch: allows launching more applications with one click when starting the game
+
+- **【✨Optimization】** Internal program update adaptation [#96]
+- **【✨Optimization】** Added maintainer prompt during OOBE stage: Snap Hutao Remastered is not maintained by the original author [#90]
+- **【✨Optimization】** Functions automatically recover after network environment restoration at startup
+- **【✨Optimization】** Optimized Hutao account login failure verification mechanism
+
+- **【🔨Fix】** Fixed issue where process does not exit after closing the game [#98]
+- **【🔨Fix】** Fixed abnormal game process exit [#92]
+- **【🔨Fix】** Fixed exception when refreshing wish records [#78]
+- **【🔨Fix】** Fixed error when adding character development [#87]
+- **【🔨Fix】** Handled issue where Deployment.exe is falsely reported as Malgent!MSR by some antivirus software [#91]
+- **【🔨Fix】** Fixed issue where window may not close if game update download is cancelled
+- **【🔨Fix】** Fixed text overlap on pause button
+
+## 1.19.0 Release
 
 - **【✨Optimization】** Remove the time adjustment process (#66)  
 

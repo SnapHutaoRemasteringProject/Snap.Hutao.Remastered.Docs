@@ -20,6 +20,7 @@ Once the prerequisites are met, follow these steps:
     ```bash
     git clone https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered.Docs.git
     ```
+    You can also click the "Code" button on the GitHub page and select any option you prefer to clone the repository.
 
 2.  **Navigate to the Project Directory:**
     ```bash
@@ -31,6 +32,7 @@ Once the prerequisites are met, follow these steps:
     ```bash
     pnpm install
     ```
+If you are using Visual Studio, you can do all these steps by click the "Code" button on the GitHub page and select "Open with Visual Studio". After opening the project, you can do any bash commands in the integrated terminal.
 
 ### Running the Local Server
 
@@ -42,7 +44,7 @@ After the setup is complete, you can start the local development server:
     pnpm run docs:dev
     ```
 2.  **View the Documentation:**
-    The server will start, and you can access the local documentation by opening your browser and navigating to `http://localhost:8080`. The site will automatically update as you make changes to the source files.
+    The server will start, and you can access the local documentation by opening your browser and navigating to `http://localhost:5173`. The site will automatically update as you make changes to the source files.
 
 ## Good news
 

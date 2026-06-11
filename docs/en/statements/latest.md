@@ -16,12 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.19.0
+# 🎉 Successfully Updated to Version 1.19.3
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【✨Optimization】** Removed time adjustment process (#66)  
+- **【🎉New】** Supports automatic consecutive sign-in after date updates, with new installations defaulting to enabled sign-in
+- **【🎉New】** Home page game version event information window toggle
+- **【🎉New】** Portable open synthesis table option
+- **【🎉New】** More relaxed map teleportation function checks allowing map opening in domains
 
-- **【🔨Fix】** Fixed the issue where stoken refresh caused duplicate import of all wish records (#74)  
-- **【🔨Fix】** Fixed the abnormal jitter of the progress bar when clicking the "Check for Updates" button twice during version update (#67)  
-- **【🔨Fix】** Fixed the "No response to update" issue (#64)
+- **【✨Optimization】** Particular cases of auto-start stability
+- **【✨Optimization】** Update logic for old version icon registration information
+- **【✨Optimization】** Name of created shortcut icons
+
+- **【🔨Fix】** Taskbar tray icon tooltip text display
+- **【🔨Fix】** Hutao tray icon missing after Task Manager restart
+- **【🔨Fix】** Unable to copy redemption code
+- **【🔨Fix】** Application may freeze when exiting after preparing metadata or calling exit through notification icon menu
+- **【🔨Fix】** uifg export timezone issue
+- **【🔨Fix】** Internal program update adaptation
