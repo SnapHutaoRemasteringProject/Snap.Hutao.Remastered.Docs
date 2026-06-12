@@ -16,22 +16,26 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.19.3
+# 🎉 Successfully Updated to Version 1.19.5
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉New】** Supports automatic consecutive sign-in after date updates, with new installations defaulting to enabled sign-in
-- **【🎉New】** Home page game version event information window toggle
-- **【🎉New】** Portable open synthesis table option
-- **【🎉New】** More relaxed map teleportation function checks allowing map opening in domains
+- **【🎉New】** Unpackaged mode support — Run directly via .exe without MSIX packaging
+- **【🎉New】** Auto-update for non-MSIX installations (Inno Setup installer)
+- **【🎉New】** Beyond Gacha Log (Thousand-Star Realm) cloud storage sync improvements
+- **【🎉New】** Activity calendar display switches with account selection #107
+- **【🎉New】** Full UIGF version compatibility for import/export
 
-- **【✨Optimization】** Particular cases of auto-start stability
-- **【✨Optimization】** Update logic for old version icon registration information
-- **【✨Optimization】** Name of created shortcut icons
+- **【✨Optimization】** Startup speed optimization — Skip pre-build validation in Release, phased initialization
+- **【✨Optimization】** Cake build system refactoring — Unified MSIX + Installer build, auto-remove onnxruntime.dll
+- **【✨Optimization】** Remove code-behind from gacha wish page
+- **【✨Optimization】** Update icon when no plugins are loaded
+- **【✨Optimization】** Remove unused static resources (LoadingPic, etc.)
 
-- **【🔨Fix】** Taskbar tray icon tooltip text display
-- **【🔨Fix】** Hutao tray icon missing after Task Manager restart
-- **【🔨Fix】** Unable to copy redemption code
-- **【🔨Fix】** Application may freeze when exiting after preparing metadata or calling exit through notification icon menu
-- **【🔨Fix】** uifg export timezone issue
-- **【🔨Fix】** Internal program update adaptation
+- **【🔨Fix】** Loopback unlock implementation error
+- **【🔨Fix】** Gacha total pulls display anomaly after switching accounts #150
+- **【🔨Fix】** Unable to restart as administrator in Unpackaged mode
+- **【🔨Fix】** Second instance not exiting properly in certain cases
+- **【🔨Fix】** Hutao Passport token refresh not retrying
+- **【🔨Fix】** Error message now shown when startup fails
+- **【🔨Fix】** Incorrect localization field names
