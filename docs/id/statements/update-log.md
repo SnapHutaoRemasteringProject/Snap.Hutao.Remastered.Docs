@@ -1,4 +1,4 @@
-﻿---
+---
 category:
   - Announcement
 icon: iconfont icon-update
@@ -10,7 +10,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.19.5 Release<Badge text="terbaru" type="tip" />
+## 1.19.5.1 Release<Badge text="terbaru" type="tip" />
+- **【✨Optimalisasi】** Mengurangi jumlah thread pembaruan otomatis
+- **【✨Optimalisasi】** Mengubah direktori data WebView2 dalam mode Unpackaged untuk mengatasi masalah izin
+
+- **【🔨Perbaikan】** Memperbaiki pembaruan otomatis tidak dapat berjalan untuk kedua kalinya dalam kasus tertentu
+- **【🔨Perbaikan】** Memperbaiki mulai ulang sebagai administrator tidak berfungsi
+- **【🔨Perbaikan】** Memperbaiki catatan Beyond Gacha tidak dapat diunduh dari Hutao Cloud
+- **【🔨Perbaikan】** Menambahkan migrasi data untuk perbaikan catatan Beyond Gacha
+
+## 1.19.5 Release
 - **【🎉Baru】** Dukungan mode Unpackaged — Jalankan langsung via .exe tanpa MSIX
 - **【🎉Baru】** Auto-update untuk instalasi non-MSIX (installer Inno Setup)
 - **【🎉Baru】** Peningkatan sinkronisasi penyimpanan cloud Beyond Gacha Log (Thousand-Star Realm)

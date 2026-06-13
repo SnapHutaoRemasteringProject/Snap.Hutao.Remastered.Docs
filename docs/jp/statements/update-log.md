@@ -1,4 +1,4 @@
-﻿---
+---
 category: [お知らせ]
 icon: iconfont icon-update
 order: 1
@@ -9,7 +9,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # 更新ログ
-## 1.19.5 Release<Badge text="最新版" type="tip" />
+## 1.19.5.1 Release<Badge text="最新版" type="tip" />
+- **【✨最適化】** 自動更新のスレッド数を削減
+- **【✨最適化】** UnpackagedモードでのWebView2データディレクトリを変更して権限問題を解決
+
+- **【🔨修正】** 特定の状況で自動更新が2回目に実行できない問題を修正
+- **【🔨修正】** 管理者としての自動再起動が機能しない問題を修正
+- **【🔨修正】** Beyondガチャ記録が胡桃雲からダウンロードできない問題を修正
+- **【🔨修正】** Beyondガチャ記録修正のためのデータ移行を追加
+
+## 1.19.5 Release
+
 - **【🎉新機能】** Unpackagedモード対応 — MSIXなしで.exeから直接実行可能
 - **【🎉新機能】** 非MSIXインストールの自動更新対応（Inno Setupインストーラー）
 - **【🎉新機能】** Beyond Gacha Log（千星奇域）クラウドストレージ同期の改善

@@ -1,4 +1,4 @@
-﻿---
+---
 category: [公告]
 icon: iconfont icon-update
 order: 1
@@ -9,7 +9,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # 更新日誌
-## 1.19.5 Release<Badge text="最新版" type="tip" />
+## 1.19.5.1 Release<Badge text="最新版" type="tip" />
+- **【✨優化】** 降低自動更新的線程數
+- **【✨優化】** Unpackaged 模式下更改 WebView2 數據目錄以解決權限問題
+
+- **【🔨修復】** 修復自動更新某些情況下無法第二次更新
+- **【🔨修復】** 修復自動以管理員身份重啟失效
+- **【🔨修復】** 修復千星奇域頌願記錄無法正常從胡桃雲下載
+- **【🔨修復】** 添加針對於頌願記錄的修復數據遷移
+
+## 1.19.5 Release
 - **【🎉新增】** 支持 Unpackaged 模式 — 程序脫離 MSIX 可直接通過 .exe 運行
 - **【🎉新增】** 支持非 MSIX 安裝版的自動更新（Inno Setup 安裝器）
 - **【🎉新增】** 頌願記錄（千星奇域）雲存儲同步完善
@@ -84,8 +93,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【✨優化】** 移除調整時間過程（#66）  
 
 - **【🔨修復】** 修復 stoken 刷新時頌願記錄重複導入全部抽卡記錄的問題 #74） 
-- **【🔨修復】** 修復版本更新時二次點擊“檢查更新”按鈕導致進度條異常抖動的問題 #67） 
-- **【🔨修復】** 修復“更新無反應”的問題 #64
+- **【🔨修復】** 修復版本更新時二次點擊"檢查更新"按鈕導致進度條異常抖動的問題 #67） 
+- **【🔨修復】** 修復"更新無反應"的問題 #64
 
 
 ## V1.18.0 前的原項目開發日誌

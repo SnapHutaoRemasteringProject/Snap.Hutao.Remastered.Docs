@@ -1,4 +1,4 @@
-﻿---
+---
 category:
   - Announcement
 icon: iconfont icon-update
@@ -10,7 +10,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.5 Release<Badge text="Latest" type="tip" />
+## 1.19.5.1 Release<Badge text="Latest" type="tip" />
+- **【✨Optimization】** Reduce auto-update thread count
+- **【✨Optimization】** Change WebView2 data directory in Unpackaged mode to resolve permission issues
+
+- **【🔨Fix】** Fix auto-update unable to run a second time in certain cases
+- **【🔨Fix】** Fix auto-restart-as-admin not working
+- **【🔨Fix】** Fix Beyond Gacha records unable to download from Hutao Cloud
+- **【🔨Fix】** Add data migration for Beyond Gacha record fix
+
+## 1.19.5 Release
 - **【🎉New】** Unpackaged mode support — Run directly via .exe without MSIX packaging
 - **【🎉New】** Auto-update for non-MSIX installations (Inno Setup installer)
 - **【🎉New】** Beyond Gacha Log (Thousand-Star Realm) cloud storage sync improvements
