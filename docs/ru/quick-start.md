@@ -17,6 +17,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 Следуя этому руководству по быстрому началу, вы сможете быстро привести Snap Hutao в рабочее состояние.
 
+::: tip Скачать последнюю версию
+Перейти на [**страницу загрузки**](/ru/download) чтобы получить последнюю версию установщика
+:::
+
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Минимальные системные требования
 
 | Требование                              | Спецификация                                                          |
@@ -50,35 +54,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
   </div>
 
 <VPCard
-title="Ускоренная ссылка"
-desc="Предоставляет загрузку установщика на этом сайте"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-<VPCard
 title="Github"
 desc="Оригинальная ссылка Github"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== Использовать UI-установщик для установки
-
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui имеет проблемы с ложными срабатываниями и не рекомендуется</p>
-  </div>
-
-<VPCard
-title="Ускоренная ссылка"
-desc="Предоставляет загрузку установщика на этом сайте"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -98,7 +77,7 @@ background="rgba(155, 233, 168, 0.15)"
 title="GitHub"
 desc="Все версии Snap Hutao Remastered выпускаются в основном репозитории кода"
 logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -114,10 +93,10 @@ background="rgba(155, 233, 168, 0.15)"
 
 <div class="vp-card-container">
 <VPCard
-title="Официальный сайт Snap Hutao Remastered"
+title="Snap Hutao Remastered"
 desc="Проект, который переработал расширенные функции"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>

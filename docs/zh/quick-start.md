@@ -13,6 +13,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。
 
+::: tip 下载最新版本
+前往 [**下载页面**](/zh/download) 获取最新版本安装包
+:::
+
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低系统要求
 
 | 要求                  | 规格                                                                                                                                                                                                 |
@@ -46,35 +50,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
   </div>
 
 <VPCard
-title="加速链接"
-desc="提供本站内的安装器下载"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-<VPCard
 title="Github"
 desc="Github原始链接"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== 使用带界面的安装器进行安装
-
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui存在误报问题 不建议使用，由于不带控件，正在逐步舍弃</p>
-  </div>
-
-<VPCard
-title="加速链接"
-desc="提供本站内的安装器下载"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 

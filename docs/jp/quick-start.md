@@ -17,6 +17,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 このクイックスタートドキュメントに従うことで、Snap Hutaoを素早く利用可能な状態に設定できます。
 
+::: tip 最新バージョンをダウンロード
+[**ダウンロードページ**](/jp/download) から最新のインストーラーを入手してください
+:::
+
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低システム要件
 
 | 要件              | 仕様                                                                 |
@@ -50,35 +54,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
   </div>
 
 <VPCard
-title="加速リンク"
-desc="このサイト内のインストーラーのダウンロードを提供します"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-<VPCard
 title="Github"
 desc="Githubのオリジナルリンク"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== UIインストーラーを使用したインストール
-
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-uiには誤検知の問題があり、推奨されません</p>
-  </div>
-
-<VPCard
-title="加速リンク"
-desc="このサイト内のインストーラーのダウンロードを提供します"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -114,10 +93,10 @@ background="rgba(155, 233, 168, 0.15)"
 
 <div class="vp-card-container">
 <VPCard
-title="Snap Hutao Remastered 公式ウェブサイト"
+title="Snap Hutao Remastered"
 desc="高度な機能を再設計したプロジェクト"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>

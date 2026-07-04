@@ -4,6 +4,7 @@ export const enSidebar = {
     "project",
     "i18n",
     "quick-start",
+    "download",
     "support-us",
     {
       icon: "iconfont icon-read",

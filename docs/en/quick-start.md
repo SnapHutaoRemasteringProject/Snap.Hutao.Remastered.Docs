@@ -13,6 +13,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!
 
 Follow this quick start guide to quickly set up Snap Hutao Remastered.
 
+::: tip Download Latest Version
+Go to [**Download Page**](/en/download) to get the latest installer
+:::
+
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Minimum System Requirements
 
 | Requirement                      | Specification                                                         |
@@ -46,35 +50,10 @@ Follow this quick start guide to quickly set up Snap Hutao Remastered.
   </div>
 
 <VPCard
-title="Accelerated Link"
-desc="Provides installer download within this site"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-<VPCard
 title="Github"
 desc="Github original link"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== Use UI Installer for Installation
-
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui has false positive issues and is not recommended</p>
-  </div>
-
-<VPCard
-title="Accelerated Link"
-desc="Provides installer download within this site"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -110,10 +89,10 @@ From the power of the community!
 
 <div class="vp-card-container">
 <VPCard
-title="Snap Hutao Remastered Official Website"
+title="Snap Hutao Remastered"
 desc="A project that has redesigned advanced features"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>

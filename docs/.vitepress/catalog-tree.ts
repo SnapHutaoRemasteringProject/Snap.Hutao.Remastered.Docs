@@ -86,6 +86,10 @@ export const catalogTrees = {
         }
       }
     },
+    "download": {
+      "title": "下载",
+      "path": "zh/download"
+    },
     "features": {
       "title": "功能指南",
       "path": "zh/features",
@@ -201,7 +205,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.3 版本",
+          "title": "🎉 已成功更新至 1.19.5.1 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -313,6 +317,10 @@ export const catalogTrees = {
           "path": "en/development/symposium2"
         }
       }
+    },
+    "download": {
+      "title": "Download",
+      "path": "en/download"
     },
     "features": {
       "title": "Features",
@@ -433,7 +441,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 1.19.3",
+          "title": "🎉 Successfully Updated to Version 1.19.5.1",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -549,6 +557,10 @@ export const catalogTrees = {
           "path": "ru/development/symposium2"
         }
       }
+    },
+    "download": {
+      "title": "Скачать",
+      "path": "ru/download"
     },
     "features": {
       "title": "Функции",
@@ -673,7 +685,7 @@ export const catalogTrees = {
           "path": "ru/statements"
         },
         "latest": {
-          "title": "🎉 Успешно обновлено до версии 1.19.2",
+          "title": "🎉 Успешно обновлено до версии 1.19.5.1",
           "path": "ru/statements/latest"
         },
         "privacy-notice": {
@@ -785,6 +797,10 @@ export const catalogTrees = {
           "path": "id/development/symposium2"
         }
       }
+    },
+    "download": {
+      "title": "Unduh",
+      "path": "id/download"
     },
     "features": {
       "title": "Fitur",
@@ -909,7 +925,7 @@ export const catalogTrees = {
           "path": "id/statements"
         },
         "latest": {
-          "title": "🎉 Berhasil Update ke Versi 1.19.2",
+          "title": "🎉 Berhasil Update ke Versi 1.19.5.1",
           "path": "id/statements/latest"
         },
         "privacy-notice": {
@@ -1021,6 +1037,10 @@ export const catalogTrees = {
           "path": "jp/development/symposium2"
         }
       }
+    },
+    "download": {
+      "title": "ダウンロード",
+      "path": "jp/download"
     },
     "features": {
       "title": "機能ガイド",
@@ -1141,7 +1161,7 @@ export const catalogTrees = {
           "path": "jp/statements"
         },
         "latest": {
-          "title": "🎉 バージョン 1.19.2 への更新に成功しました",
+          "title": "🎉 バージョン 1.19.5.1 への更新に成功しました",
           "path": "jp/statements/latest"
         },
         "privacy-notice": {
@@ -1253,6 +1273,10 @@ export const catalogTrees = {
           "path": "tw/development/symposium2"
         }
       }
+    },
+    "download": {
+      "title": "下載",
+      "path": "tw/download"
     },
     "features": {
       "title": "功能指南",
@@ -1369,7 +1393,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.3 版本",
+          "title": "🎉 已成功更新至 1.19.5.1 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {

@@ -6,6 +6,7 @@ import VPCard from './components/VPCard'
 import VPBanner from './components/VPBanner'
 import Catalog from '../components/Catalog.vue'
 import CatalogItem from '../components/CatalogItem.vue'
+import DownloadPage from './components/DownloadPage.vue'
 import './style/tailwind.css'
 import './style/dark.css'
 import './style/home.css'
@@ -25,5 +26,6 @@ export default {
         app.component('VPBanner', VPBanner)
         app.component('Catalog', Catalog)
         app.component('CatalogItem', CatalogItem)
+        app.component('DownloadPage', DownloadPage)
     }
 } satisfies Theme

@@ -180,7 +180,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/menu' },
-                    { text: 'Download', link: '/en/quick-start' },
+                    { text: 'Download', link: '/en/download' },
                     {
                         text: 'Help & Support',
                         items: [
@@ -216,7 +216,7 @@ export default defineConfig({
                 nav: [
                     { text: '首页', link: '/zh/' },
                     { text: '文档', link: '/zh/menu' },
-                    { text: '下载', link: '/zh/quick-start' },
+                    { text: '下载', link: '/zh/download' },
                     {
                         text: '帮助与支持',
                         items: [
@@ -252,7 +252,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Главная', link: '/ru/' },
                     { text: 'Документация', link: '/ru/menu' },
-                    { text: 'Скачать', link: '/ru/quick-start' },
+                    { text: 'Скачать', link: '/ru/download' },
                     {
                         text: 'Помощь и поддержка',
                         items: [
@@ -288,7 +288,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Beranda', link: '/id/' },
                     { text: 'Dokumentasi', link: '/id/menu' },
-                    { text: 'Unduh', link: '/id/quick-start' },
+                    { text: 'Unduh', link: '/id/download' },
                     {
                         text: 'Bantuan dan Dukungan',
                         items: [
@@ -324,7 +324,7 @@ export default defineConfig({
                 nav: [
                     { text: 'ホーム', link: '/jp/' },
                     { text: 'ドキュメント', link: '/jp/menu' },
-                    { text: 'ダウンロード', link: '/jp/quick-start' },
+                    { text: 'ダウンロード', link: '/jp/download' },
                     {
                         text: 'ヘルプとサポート',
                         items: [
@@ -360,7 +360,7 @@ export default defineConfig({
                 nav: [
                     { text: '首頁', link: '/tw/' },
                     { text: '文檔', link: '/tw/menu' },
-                    { text: '下載', link: '/tw/quick-start' },
+                    { text: '下載', link: '/tw/download' },
                     {
                         text: '幫助與支援',
                         items: [

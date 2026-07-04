@@ -1,0 +1,5 @@
+---
+title: Скачать
+---
+
+<DownloadPage />

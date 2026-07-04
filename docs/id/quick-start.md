@@ -13,6 +13,10 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!
 
 Ikuti panduan mulai cepat ini untuk menyiapkan Snap Hutao dengan cepat.
 
+::: tip Unduh Versi Terbaru
+Buka [**Halaman Unduhan**](/id/download) untuk mendapatkan pemasang terbaru
+:::
+
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Persyaratan Sistem Minimum
 
 | Persyaratan | Spesifikasi |
@@ -46,35 +50,10 @@ Ikuti panduan mulai cepat ini untuk menyiapkan Snap Hutao dengan cepat.
   </div>
 
 <VPCard
-title="Tautan Dipercepat"
-desc="Menyediakan unduhan installer dalam situs ini"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-<VPCard
 title="Github"
 desc="Tautan asli Github"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
-
-</div>
-
-== Gunakan UI Installer untuk Instalasi
-
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment-ui memiliki masalah false positive dan tidak direkomendasikan</p>
-  </div>
-
-<VPCard
-title="Tautan Dipercepat"
-desc="Menyediakan unduhan installer dalam situs ini"
-logo="/assets/logo.png"
-link="https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment-ui.exe"
 background="rgba(155, 233, 168, 0.15)"
 />
 
@@ -110,10 +89,10 @@ Dari kekuatan komunitas!
 
 <div class="vp-card-container">
 <VPCard
-title="Situs Web Resmi Snap Hutao Remastered"
+title="Snap Hutao Remastered"
 desc="Proyek yang telah mendesain ulang fitur-fitur canggih"
-logo="https://snaphutaorp.org/logo.png"
-link="https://snaphutaorp.org/"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>
