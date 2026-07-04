@@ -15,9 +15,6 @@ hero:
     - theme: brand
       text: 开始使用
       link: /zh/quick-start
-    - theme: brand
-      text: 立刻下载
-      link: https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe
     - theme: alt
       text: 文档
       link: /zh/menu

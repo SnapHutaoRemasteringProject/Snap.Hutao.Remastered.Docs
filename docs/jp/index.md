@@ -15,9 +15,6 @@ hero:
     - theme: brand
       text: はじめる
       link: /jp/quick-start
-    - theme: brand
-      text: 今すぐダウンロード
-      link: https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe
     - theme: alt
       text: ドキュメント
       link: /jp/menu
