@@ -10,7 +10,28 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.19.6.0 Release<Badge text="terbaru" type="tip" />
+## 1.19.7 Release<Badge text="terbaru" type="tip" />
+- **【🎉Baru】** Latar dinamis seperti official launcher #191
+- **【🎉Baru】** Dukungan wallpaper video latar yang dapat disesuaikan
+
+- **【✨Optimalisasi】** Unduhan GuideView dengan tampilan kecepatan dan deteksi terhenti #188
+- **【✨Optimalisasi】** Pemisahan opsi anti-blur karakter dan mosaik bawah air #184
+- **【✨Optimalisasi】** Peningkatan notifikasi toast dalam mode admin; dukungan notifikasi mode Unpackaged #113
+- **【✨Optimalisasi】** Pembaruan gaya halaman Wiki karakter
+- **【✨Optimalisasi】** Ikon tema terang untuk tombol Beyond Gacha #166
+- **【✨Optimalisasi】** Tidak menampilkan pesan plugin saat startup
+- **【✨Optimalisasi】** Mode layar penuh diaktifkan secara default
+
+- **【🔨Perbaikan】** Video latar terus mendekode GPU setelah jendela diminimalkan
+- **【🔨Perbaikan】** Jendela error kadang muncul setelah keluar
+- **【🔨Perbaikan】** Pesan error akun berulang saat jaringan tidak normal
+- **【🔨Perbaikan】** Pintasan quick launch game sulit dipicu #194
+- **【🔨Perbaikan】** Wiki karakter tidak menampilkan konten karakter yang diperkuat event #190
+- **【🔨Perbaikan】** Pengaturan video latar tidak tersimpan
+- **【🔨Perbaikan】** Kesalahan teks konstelasi Durin #185
+- **【🔨Perbaikan】** Masalah zona waktu file UIGF
+
+## 1.19.6.0 Release
 - **【🎉Baru】** Aktifkan domain cadangan secara otomatis saat domain utama tercemar #169
 - **【🎉Baru】** Senjata "Frostbound Oath" ditambahkan ke database #165
 - **【🎉Baru】** Gambar latar lokal mendukung jalur kustom dan tautan pintasan #143

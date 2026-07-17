@@ -16,23 +16,26 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.19.6.0
+# 🎉 Successfully Updated to Version 1.19.7
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉New】** Auto-enable backup domain when main domain is polluted #169
-- **【🎉New】** Weapon "Frostbound Oath" added to database #165
-- **【🎉New】** Local background image supports custom path and shortcut links #143
+- **【🎉New】** Official launcher-like dynamic background #191
+- **【🎉New】** Customizable background video wallpaper support
 
-- **【✨Optimization】** Game version 6.7 adaptation
-- **【✨Optimization】** Speedgraph chart update #183
-- **【✨Optimization】** Add new icons for AssociationTypeIconConverter
+- **【✨Optimization】** GuideView download progress with speed display and 10s stall detection #188
+- **【✨Optimization】** Separate character anti-blur and underwater mosaic options #184
+- **【✨Optimization】** Improved toast notification under admin privileges; Unpackaged mode notification support #113
+- **【✨Optimization】** Updated character Wiki page enhanced styling
+- **【✨Optimization】** Added light-theme icon for Beyond Gacha button #166
+- **【✨Optimization】** Suppress plugin loading message on startup
+- **【✨Optimization】** Full screen mode enabled by default
 
-- **【🔨Fix】** "Remove Elemental Burst Camera" in injection feature not working #182
-- **【🔨Fix】** "Close Map Banner" still showing in-game when enabled #181
-- **【🔨Fix】** Pool pull count syncs with merge button changes #179
-- **【🔨Fix】** List view and grid view buttons not working in wish records #178
-- **【🔨Fix】** Web cache refresh gacha record feature fix #175
-- **【🔨Fix】** Crash when selecting game path or installing plugin #173
-- **【🔨Fix】** Anti-character blur function underwater behavior #162
-- **【🔨Fix】** NotifyIcon double left-click not activating minimized window #112
+- **【🔨Fix】** Background video GPU decoding resource consumed after minimizing
+- **【🔨Fix】** Occasional error window after exiting
+- **【🔨Fix】** Repeated account error messages when network is abnormal
+- **【🔨Fix】** Quick launch game shortcut hard to trigger #194
+- **【🔨Fix】** Character Wiki missing event-enhanced character content #190
+- **【🔨Fix】** Background video settings not saving
+- **【🔨Fix】** Durin's constellation text error #185
+- **【🔨Fix】** UIGF file timezone issue

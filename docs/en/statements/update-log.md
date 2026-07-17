@@ -10,7 +10,28 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.6.0 Release<Badge text="Latest" type="tip" />
+## 1.19.7 Release<Badge text="Latest" type="tip" />
+- **【🎉New】** Official launcher-like dynamic background #191
+- **【🎉New】** Customizable background video wallpaper support
+
+- **【✨Optimization】** GuideView download progress with speed display and 10s stall detection #188
+- **【✨Optimization】** Separate character anti-blur and underwater mosaic options #184
+- **【✨Optimization】** Improved toast notification under admin privileges; Unpackaged mode notification support #113
+- **【✨Optimization】** Updated character Wiki page enhanced styling
+- **【✨Optimization】** Added light-theme icon for Beyond Gacha button #166
+- **【✨Optimization】** Suppress plugin loading message on startup
+- **【✨Optimization】** Full screen mode enabled by default
+
+- **【🔨Fix】** Background video GPU decoding resource consumed after minimizing
+- **【🔨Fix】** Occasional error window after exiting
+- **【🔨Fix】** Repeated account error messages when network is abnormal
+- **【🔨Fix】** Quick launch game shortcut hard to trigger #194
+- **【🔨Fix】** Character Wiki missing event-enhanced character content #190
+- **【🔨Fix】** Background video settings not saving
+- **【🔨Fix】** Durin's constellation text error #185
+- **【🔨Fix】** UIGF file timezone issue
+
+## 1.19.6.0 Release
 - **【🎉New】** Auto-enable backup domain when main domain is polluted #169
 - **【🎉New】** Weapon "Frostbound Oath" added to database #165
 - **【🎉New】** Local background image supports custom path and shortcut links #143
