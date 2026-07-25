@@ -1358,7 +1358,7 @@ Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书�
 ## 1.6.5
 
 - 新增
-  - 日语选项；社区用户可以现在可以在 [translate.hut.ao](https://translate.hut.ao/) 中贡献日语翻译
+  - 日语选项；社区用户可以现在可以在 [translate.snaphutaorp.org](https://translate.snaphutaorp.org/) 中贡献日语翻译
 - 修复
   - 修复无法添加武器养成计划的问题 [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
   - 部分用户在特定情况下解锁帧数上限失效的问题 [Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747)

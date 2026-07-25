@@ -37,7 +37,7 @@ The Snap Hutao Remastered project is packaged using the MSIX format. MSIX is a n
 ## Project Resources
 
 - [GitHub Repository](https://github.com/DGP-Studio/Snap.Hutao)
-- [Crowdin Localization](https://translate.hut.ao/)
+- [Crowdin Localization](https://translate.snaphutaorp.org/)
 - [Snap Hutao Remastered User Community](community.md)
 
 ## Full Feature List

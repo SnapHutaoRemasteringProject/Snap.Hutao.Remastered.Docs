@@ -1358,7 +1358,7 @@ Snap Hutao 在近期獲得了 SignPath 基金會的贊助的代碼簽名證書�
 ## 1.6.5
 
 - 新增
-  - 日語選項；社區用戶可以現在可以在 [translate.hut.ao](https://translate.hut.ao/) 中貢獻日語翻譯
+  - 日語選項；社區用戶可以現在可以在 [translate.snaphutaorp.org](https://translate.snaphutaorp.org/) 中貢獻日語翻譯
 - 修復
   - 修復無法添加武器養成計劃的問題 [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
   - 部分用戶在特定情況下解鎖幀數上限失效的問題 [Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747)

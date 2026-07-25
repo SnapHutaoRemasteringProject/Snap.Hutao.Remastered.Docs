@@ -28,7 +28,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 - Участники сообщества Crowdin внесли свой вклад в переводы на традиционный китайский, японский и корейский языки.
 - Остальные языки переведены с помощью модели искусственного интеллекта Google Gemini.
 
-Если вы заинтересованы в том, чтобы помочь с переводом, посетите [https://translate.hut.ao](https://translate.hut.ao).
+Если вы заинтересованы в том, чтобы помочь с переводом, посетите [https://translate.snaphutaorp.org](https://translate.snaphutaorp.org).
 :::
 
 ## Пользовательское соглашение

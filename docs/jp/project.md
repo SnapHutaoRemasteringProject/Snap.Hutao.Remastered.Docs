@@ -41,7 +41,7 @@ Snap Hutao プロジェクトは、MSIX 形式でパッケージ化されてい�
 ## プロジェクトリソース
 
 - [GitHub コードリポジトリ](https://github.com/DGP-Studio/Snap.Hutao)
-- [Crowdin ローカライズ翻訳](https://translate.hut.ao/)
+- [Crowdin ローカライズ翻訳](https://translate.snaphutaorp.org/)
 - [Snap Hutao ユーザーコミュニティ](community.md)
 
 ## 完全な機能一覧

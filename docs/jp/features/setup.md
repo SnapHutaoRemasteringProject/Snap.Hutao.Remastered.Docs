@@ -28,7 +28,7 @@ Snap Hutaoを初めて起動すると、プログラムは自動的に初期化�
 - Crowdinコミュニティメンバーが繁体字中国語、日本語、韓国語の翻訳を提供しています。
 - 残りの言語はGoogle Gemini人工知能モデルによって翻訳されています。
 
-翻訳にご協力いただける場合は、[https://translate.hut.ao](https://translate.hut.ao) にアクセスしてご協力ください。
+翻訳にご協力いただける場合は、[https://translate.snaphutaorp.org](https://translate.snaphutaorp.org) にアクセスしてご協力ください。
 :::
 
 ## ユーザー規約

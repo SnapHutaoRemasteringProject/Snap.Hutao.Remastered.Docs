@@ -37,7 +37,7 @@ Proyek Snap Hutao dikemas menggunakan format MSIX. MSIX adalah format pengemasan
 ## Sumber Daya Proyek
 
 - [Repositori GitHub](https://github.com/DGP-Studio/Snap.Hutao)
-- [Lokalisasi Crowdin](https://translate.hut.ao/)
+- [Lokalisasi Crowdin](https://translate.snaphutaorp.org/)
 - [Komunitas Pengguna Snap Hutao](community.md)
 
 ## Daftar Fitur Lengkap

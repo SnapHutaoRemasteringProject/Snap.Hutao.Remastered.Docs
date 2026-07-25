@@ -1141,7 +1141,7 @@ You can read the article [Explanation of Breaking Changes in Version 1.9.0](../b
 
 - New
   - Japanese is now a new language option;
-    community members can contribute Japanese language on [translate.hut.ao](https://translate.hut.ao/)
+    community members can contribute Japanese language on [translate.snaphutaorp.org](https://translate.snaphutaorp.org/)
 - Fix
   - Issue that cannot add weapons to dev plan [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
   - Issue on some users failed to unlock frame rate limit under certain environment

@@ -1243,7 +1243,7 @@ You can read [1.9.0 version important change detail](../blog/version-1-9-0-break
 
 ## 1.6.5
 
-- **[New]** Japanese option; community user now can contribute Japanese translation in [translate.hut.ao](https://translate.hut.ao/)
+- **[New]** Japanese option; community user now can contribute Japanese translation in [translate.snaphutaorp.org](https://translate.snaphutaorp.org/)
 - **[Fix]** Fixed unable add weapon cultivation plan issue [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
 - **[Fix]** Fixed frame rate unlock invalid in some users issue [Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
 - **[Optimization]** Optimized cultivation plan material statistics sort [Issue #749](https://github.com/DGP-Studio/Snap.Hutao/issues/749)

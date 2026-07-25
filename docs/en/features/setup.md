@@ -24,7 +24,7 @@ In the language settings section, you can choose the interface language supporte
 - Traditional Chinese, Japanese, and Korean translations are contributed by the Crowdin community.
 - The remaining languages are translated by the Google Gemini AI model.
 
-If you are interested in contributing to the translation, you can visit [https://translate.hut.ao](https://translate.hut.ao) to provide assistance.
+If you are interested in contributing to the translation, you can visit [https://translate.snaphutaorp.org](https://translate.snaphutaorp.org) to provide assistance.
 :::
 
 ## User Agreement

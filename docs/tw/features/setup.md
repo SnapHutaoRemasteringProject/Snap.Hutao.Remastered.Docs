@@ -24,7 +24,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 - Crowdin 社區成員貢獻了繁體中文、日語和韓語翻譯
 - 剩餘語言由 Google Gemini 人工智能模型翻譯
 
-如有興趣貢獻翻譯，可訪問 [https://translate.hut.ao](https://translate.hut.ao) 提供幫助。
+如有興趣貢獻翻譯，可訪問 [https://translate.snaphutaorp.org](https://translate.snaphutaorp.org) 提供幫助。
 :::
 
 ## 用戶協議

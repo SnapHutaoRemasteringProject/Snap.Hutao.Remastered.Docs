@@ -41,7 +41,7 @@ Snap Hutao — это открытый набор инструментов дл�
 ## Ресурсы проекта
 
 - [Репозиторий кода на GitHub](https://github.com/DGP-Studio/Snap.Hutao)
-- [Локализация и перевод Crowdin](https://translate.hut.ao/)
+- [Локализация и перевод Crowdin](https://translate.snaphutaorp.org/)
 - [Сообщество пользователей Snap Hutao](community.md)
 
 ## Полный обзор функций

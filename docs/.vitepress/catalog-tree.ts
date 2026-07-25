@@ -87,7 +87,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "下载",
       "path": "zh/download"
     },
     "features": {
@@ -319,7 +319,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "Download",
       "path": "en/download"
     },
     "features": {
@@ -559,7 +559,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "Скачать",
       "path": "ru/download"
     },
     "features": {
@@ -645,7 +645,7 @@ export const catalogTrees = {
       "path": "ru/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "Главная",
       "path": "ru"
     },
     "menu": {
@@ -799,7 +799,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "Unduh",
       "path": "id/download"
     },
     "features": {
@@ -885,7 +885,7 @@ export const catalogTrees = {
       "path": "id/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "Beranda",
       "path": "id"
     },
     "menu": {
@@ -1039,7 +1039,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "ダウンロード",
       "path": "jp/download"
     },
     "features": {
@@ -1125,7 +1125,7 @@ export const catalogTrees = {
       "path": "jp/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "ホーム",
       "path": "jp"
     },
     "menu": {
@@ -1275,7 +1275,7 @@ export const catalogTrees = {
       }
     },
     "download": {
-      "title": "download",
+      "title": "下載",
       "path": "tw/download"
     },
     "features": {

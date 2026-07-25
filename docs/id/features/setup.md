@@ -24,7 +24,7 @@ Di bagian pengaturan bahasa, Anda dapat memilih bahasa antarmuka yang didukung o
 - Terjemahan Bahasa Mandarin Tradisional, Jepang, dan Korea dikontribusikan oleh komunitas Crowdin.
 - Bahasa lainnya diterjemahkan oleh model AI Google Gemini.
 
-Jika Anda tertarik untuk berkontribusi dalam terjemahan, Anda dapat mengunjungi [https://translate.hut.ao](https://translate.hut.ao) untuk memberikan bantuan.
+Jika Anda tertarik untuk berkontribusi dalam terjemahan, Anda dapat mengunjungi [https://translate.snaphutaorp.org](https://translate.snaphutaorp.org) untuk memberikan bantuan.
 :::
 
 ## Perjanjian Pengguna
