@@ -10,7 +10,24 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.19.7 Release<Badge text="terbaru" type="tip" />
+## 1.19.8 Release<Badge text="terbaru" type="tip" />
+- **【🎉Baru】** Jendela utama otomatis menutup saat game diluncurkan, otomatis pulih saat game keluar #195
+- **【🎉Baru】** Kotak centang persetujuan ditambahkan ke registrasi Hutao Passport
+- **【🎉Baru】** Tampilan grid achievement menunjukkan jumlah primogem yang diperoleh / total #219
+
+- **【✨Optimalisasi】** Dialog konfirmasi penghapusan catatan gacha untuk mencegah penghapusan tidak sengaja
+- **【✨Optimalisasi】** Batas frame rate disesuaikan
+- **【✨Optimalisasi】** Peralihan domain cadangan otomatis tidak lagi mengubah pengaturan persisten
+- **【✨Optimalisasi】** Peningkatan pesan kesalahan saat peluncuran game
+
+- **【🔨Perbaikan】** Memperbaiki aplikasi macet di halaman unduhan dalam skenario tertentu
+- **【🔨Perbaikan】** Memperbaiki kegagalan ekspor UIGF v3.0 karena kotak centang UID hilang #217
+- **【🔨Perbaikan】** Memperbaiki perlu login ulang saat meluncurkan via BetterGI setelah login Hutao Passport #151
+- **【🔨Perbaikan】** Memperbaiki penyegaran ganda halaman pengumuman saat beralih tab #118
+- **【🔨Perbaikan】** Memperbaiki jendela tidak dapat dipulihkan setelah diminimalkan ke tray
+- **【🔨Perbaikan】** Memperbaiki scrollbar vertikal menyembunyikan tombol aksi catatan gacha
+
+## 1.19.7 Release
 - **【🎉Baru】** Latar dinamis seperti official launcher #191
 - **【🎉Baru】** Dukungan wallpaper video latar yang dapat disesuaikan
 

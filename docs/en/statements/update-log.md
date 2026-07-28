@@ -10,7 +10,24 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.7 Release<Badge text="Latest" type="tip" />
+## 1.19.8 Release<Badge text="Latest" type="tip" />
+- **【🎉New】** Auto-close main window on game launch, auto-restore on game exit #195
+- **【🎉New】** Agreement checkbox added to Hutao Passport registration
+- **【🎉New】** Achievement grid view now shows earned/total primogem count #219
+
+- **【✨Optimization】** Gacha record delete confirmation dialog to prevent accidental deletion
+- **【✨Optimization】** Adjusted frame rate cap
+- **【✨Optimization】** Auto-switching fallback domains no longer modifies persistent settings
+- **【✨Optimization】** Enhanced game launch error messages
+
+- **【🔨Fix】** Fixed app freezing on download page in certain scenarios
+- **【🔨Fix】** Fixed UIGF v3.0 export failure due to missing UID checkbox #217
+- **【🔨Fix】** Fixed re-login required when launching via BetterGI after Hutao Passport login #151
+- **【🔨Fix】** Fixed announcement page double refresh when switching tabs #118
+- **【🔨Fix】** Fixed window unable to restore after minimizing to tray
+- **【🔨Fix】** Fixed vertical scrollbar hiding gacha record action buttons
+
+## 1.19.7 Release
 - **【🎉New】** Official launcher-like dynamic background #191
 - **【🎉New】** Customizable background video wallpaper support
 

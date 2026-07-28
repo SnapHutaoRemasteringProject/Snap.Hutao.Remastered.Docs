@@ -16,26 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.19.7
+# 🎉 Successfully Updated to Version 1.19.8
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉New】** Official launcher-like dynamic background #191
-- **【🎉New】** Customizable background video wallpaper support
+- **【🎉New】** Auto-close main window on game launch, auto-restore on game exit #195
+- **【🎉New】** Agreement checkbox added to Hutao Passport registration
+- **【🎉New】** Achievement grid view now shows earned/total primogem count #219
 
-- **【✨Optimization】** GuideView download progress with speed display and 10s stall detection #188
-- **【✨Optimization】** Separate character anti-blur and underwater mosaic options #184
-- **【✨Optimization】** Improved toast notification under admin privileges; Unpackaged mode notification support #113
-- **【✨Optimization】** Updated character Wiki page enhanced styling
-- **【✨Optimization】** Added light-theme icon for Beyond Gacha button #166
-- **【✨Optimization】** Suppress plugin loading message on startup
-- **【✨Optimization】** Full screen mode enabled by default
+- **【✨Optimization】** Warn users about data issues when registering Hutao Passport
+- **【✨Optimization】** Adjusted frame rate cap
+- **【✨Optimization】** Auto-switching fallback domains no longer modifies persistent settings
+- **【✨Optimization】** Enhanced game launch error messages
 
-- **【🔨Fix】** Background video GPU decoding resource consumed after minimizing
-- **【🔨Fix】** Occasional error window after exiting
-- **【🔨Fix】** Repeated account error messages when network is abnormal
-- **【🔨Fix】** Quick launch game shortcut hard to trigger #194
-- **【🔨Fix】** Character Wiki missing event-enhanced character content #190
-- **【🔨Fix】** Background video settings not saving
-- **【🔨Fix】** Durin's constellation text error #185
-- **【🔨Fix】** UIGF file timezone issue
+- **【🔨Fix】** Fixed app freezing on download page in certain scenarios
+- **【🔨Fix】** Fixed UIGF v3.0 export failure due to missing UID checkbox #217
+- **【🔨Fix】** Fixed re-login required when launching via BetterGI after Hutao Passport login #151
+- **【🔨Fix】** Fixed announcement page double refresh when switching tabs #118
+- **【🔨Fix】** Fixed window unable to restore after minimizing to tray
+- **【🔨Fix】** Fixed vertical scrollbar hiding gacha record action buttons

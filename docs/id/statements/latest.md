@@ -16,26 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Berhasil Update ke Versi 1.19.7
+# 🎉 Berhasil Update ke Versi 1.19.8
 
 **Bahasa Indonesia** | [English](/en/statements/latest.html)
 
-- **【🎉Baru】** Latar dinamis seperti official launcher #191
-- **【🎉Baru】** Dukungan wallpaper video latar yang dapat disesuaikan
+- **【🎉Baru】** Jendela utama otomatis menutup saat game diluncurkan, otomatis pulih saat game keluar #195
+- **【🎉Baru】** Kotak centang persetujuan ditambahkan ke registrasi Hutao Passport
+- **【🎉Baru】** Tampilan grid achievement menunjukkan jumlah primogem yang diperoleh / total #219
 
-- **【✨Optimalisasi】** Unduhan GuideView dengan tampilan kecepatan dan deteksi terhenti #188
-- **【✨Optimalisasi】** Pemisahan opsi anti-blur karakter dan mosaik bawah air #184
-- **【✨Optimalisasi】** Peningkatan notifikasi toast dalam mode admin; dukungan notifikasi mode Unpackaged #113
-- **【✨Optimalisasi】** Pembaruan gaya halaman Wiki karakter
-- **【✨Optimalisasi】** Ikon tema terang untuk tombol Beyond Gacha #166
-- **【✨Optimalisasi】** Tidak menampilkan pesan plugin saat startup
-- **【✨Optimalisasi】** Mode layar penuh diaktifkan secara default
+- **【✨Optimalisasi】** Peringatkan pengguna tentang masalah data saat mendaftar Hutao Passport
+- **【✨Optimalisasi】** Batas frame rate disesuaikan
+- **【✨Optimalisasi】** Peralihan domain cadangan otomatis tidak lagi mengubah pengaturan persisten
+- **【✨Optimalisasi】** Peningkatan pesan kesalahan saat peluncuran game
 
-- **【🔨Perbaikan】** Video latar terus mendekode GPU setelah jendela diminimalkan
-- **【🔨Perbaikan】** Jendela error kadang muncul setelah keluar
-- **【🔨Perbaikan】** Pesan error akun berulang saat jaringan tidak normal
-- **【🔨Perbaikan】** Pintasan quick launch game sulit dipicu #194
-- **【🔨Perbaikan】** Wiki karakter tidak menampilkan konten karakter yang diperkuat event #190
-- **【🔨Perbaikan】** Pengaturan video latar tidak tersimpan
-- **【🔨Perbaikan】** Kesalahan teks konstelasi Durin #185
-- **【🔨Perbaikan】** Masalah zona waktu file UIGF
+- **【🔨Perbaikan】** Memperbaiki aplikasi macet di halaman unduhan dalam skenario tertentu
+- **【🔨Perbaikan】** Memperbaiki kegagalan ekspor UIGF v3.0 karena kotak centang UID hilang #217
+- **【🔨Perbaikan】** Memperbaiki perlu login ulang saat meluncurkan via BetterGI setelah login Hutao Passport #151
+- **【🔨Perbaikan】** Memperbaiki penyegaran ganda halaman pengumuman saat beralih tab #118
+- **【🔨Perbaikan】** Memperbaiki jendela tidak dapat dipulihkan setelah diminimalkan ke tray
+- **【🔨Perbaikan】** Memperbaiki scrollbar vertikal menyembunyikan tombol aksi catatan gacha
