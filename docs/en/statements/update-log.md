@@ -10,7 +10,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.19.8 Release<Badge text="Latest" type="tip" />
+## 1.19.9 Release<Badge text="Latest" type="tip" />
+- **【🔨Fix】** Fixed crash when switching pages in debug mode
+- **【🔨Fix】** Completely fixed UIGF timezone issue
+- **【🔨Fix】** Fixed ContentDialog interaction animation lost
+
+## 1.19.8 Release
 - **【🎉New】** Auto-close main window on game launch, auto-restore on game exit #195
 - **【🎉New】** Agreement checkbox added to Hutao Passport registration
 - **【🎉New】** Achievement grid view now shows earned/total primogem count #219

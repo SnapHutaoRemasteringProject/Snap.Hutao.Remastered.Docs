@@ -9,7 +9,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # 更新日志
-## 1.19.8 Release<Badge text="最新版" type="tip" />
+## 1.19.9 Release<Badge text="最新版" type="tip" />
+- **【🔨修复】** 修复在调试模式下切换页面导致崩溃
+- **【🔨修复】** 彻底修复 UIGF 时区问题
+- **【🔨修复】** 修复 ContentDialog 交互动画丢失
+
+## 1.19.8 Release
 - **【🎉新增】** 启动游戏后主窗口自动关闭，游戏退出后自动恢复 #195
 - **【🎉新增】** 注册胡桃通行证新增同意勾选框
 - **【🎉新增】** 成就页面网格视图显示已获得原石/原石总数 #219

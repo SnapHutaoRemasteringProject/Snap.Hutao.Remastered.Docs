@@ -10,7 +10,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.19.8 Release<Badge text="terbaru" type="tip" />
+## 1.19.9 Release<Badge text="terbaru" type="tip" />
+- **【🔨Perbaikan】** Memperbaiki crash saat mengganti halaman dalam mode debug
+- **【🔨Perbaikan】** Sepenuhnya memperbaiki masalah zona waktu UIGF
+- **【🔨Perbaikan】** Memperbaiki animasi interaksi ContentDialog yang hilang
+
+## 1.19.8 Release
 - **【🎉Baru】** Jendela utama otomatis menutup saat game diluncurkan, otomatis pulih saat game keluar #195
 - **【🎉Baru】** Kotak centang persetujuan ditambahkan ke registrasi Hutao Passport
 - **【🎉Baru】** Tampilan grid achievement menunjukkan jumlah primogem yang diperoleh / total #219
