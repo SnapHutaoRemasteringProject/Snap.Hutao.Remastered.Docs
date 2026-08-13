@@ -17,7 +17,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     title="WDG Discord"
     desc="efnyMunbs"
     logo="/images/202312/discord.svg"
-    link="https://discord.gg/efnyMunbs"
+    link="https://discord.gg/JbV7KhSUp"
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
