@@ -31,6 +31,7 @@ description: 在功能指南目录，你可以找到当前胡桃工具箱提供�
 ## 软件功能
 - [设置](setup)
 - [反馈中心](feedback-center)
+- [插件中心](plugin-center)
 - [胡桃通行证](hutao-passport)
 - [胡桃设置](hutao-settings)
 

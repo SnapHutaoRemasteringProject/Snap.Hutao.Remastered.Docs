@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:crowdin.com)",
+      "WebFetch(domain:api.crowdin.com)",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(sed -i 's/\\\\[~~Issue~~\\\\]/[Issue]/g' docs/zh/i18n.md docs/tw/i18n.md)",
+      "Bash(sed -i 's/\\\\*\\\\*~~/\\\\*\\\\*/g' docs/zh/i18n.md docs/tw/i18n.md)",
+      "Bash(sed -i 's/~~\\\\*\\\\*/\\\\*\\\\*/g' docs/zh/i18n.md docs/tw/i18n.md)",
+      "Bash(cd:*)"
+    ]
+  }
+}

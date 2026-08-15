@@ -37,6 +37,7 @@ export const idSidebar = {
           children: [
             "setup",
             "feedback-center",
+            "plugin-center",
             "hutao-passport",
             "hutao-settings",
           ],

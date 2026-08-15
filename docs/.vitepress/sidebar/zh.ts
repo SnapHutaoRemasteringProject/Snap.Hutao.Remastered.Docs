@@ -38,6 +38,7 @@ export const zhSidebar = {
           children: [
             "setup",
             "feedback-center",
+            "plugin-center",
             "hutao-passport",
             "hutao-settings",
           ],

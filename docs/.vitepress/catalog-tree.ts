@@ -150,6 +150,10 @@ export const catalogTrees = {
           "title": "怪物资料",
           "path": "zh/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "插件中心",
+          "path": "zh/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "实时便笺",
           "path": "zh/features/real-time-notes"
@@ -205,7 +209,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.9 版本",
+          "title": "🎉 已成功更新至 1.20.0 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -382,6 +386,10 @@ export const catalogTrees = {
           "title": "Monster WIKI",
           "path": "en/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "Plugin Center",
+          "path": "en/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "Real-time Notes",
           "path": "en/features/real-time-notes"
@@ -441,7 +449,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 1.19.9",
+          "title": "🎉 Successfully Updated to Version 1.20.0",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -622,6 +630,10 @@ export const catalogTrees = {
           "title": "Энциклопедия монстров",
           "path": "ru/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "插件中心",
+          "path": "ru/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "Заметки в реальном времени",
           "path": "ru/features/real-time-notes"
@@ -685,7 +697,7 @@ export const catalogTrees = {
           "path": "ru/statements"
         },
         "latest": {
-          "title": "🎉 Успешно обновлено до версии 1.19.9",
+          "title": "🎉 Успешно обновлено до версии 1.20.0",
           "path": "ru/statements/latest"
         },
         "privacy-notice": {
@@ -862,6 +874,10 @@ export const catalogTrees = {
           "title": "WIKI Monster",
           "path": "id/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "插件中心",
+          "path": "id/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "Catatan Real-time",
           "path": "id/features/real-time-notes"
@@ -925,7 +941,7 @@ export const catalogTrees = {
           "path": "id/statements"
         },
         "latest": {
-          "title": "🎉 Berhasil Update ke Versi 1.19.9",
+          "title": "🎉 Berhasil Update ke Versi 1.20.0",
           "path": "id/statements/latest"
         },
         "privacy-notice": {
@@ -1102,6 +1118,10 @@ export const catalogTrees = {
           "title": "モンスターデータ",
           "path": "jp/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "插件中心",
+          "path": "jp/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "リアルタイム便利メモ",
           "path": "jp/features/real-time-notes"
@@ -1161,7 +1181,7 @@ export const catalogTrees = {
           "path": "jp/statements"
         },
         "latest": {
-          "title": "🎉 バージョン 1.19.9 への更新に成功しました",
+          "title": "🎉 バージョン 1.20.0 への更新に成功しました",
           "path": "jp/statements/latest"
         },
         "privacy-notice": {
@@ -1338,6 +1358,10 @@ export const catalogTrees = {
           "title": "怪物資料",
           "path": "tw/features/monster-wiki"
         },
+        "plugin-center": {
+          "title": "插件中心",
+          "path": "tw/features/plugin-center"
+        },
         "real-time-notes": {
           "title": "實時便箋",
           "path": "tw/features/real-time-notes"
@@ -1393,7 +1417,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.19.9 版本",
+          "title": "🎉 已成功更新至 1.20.0 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {
