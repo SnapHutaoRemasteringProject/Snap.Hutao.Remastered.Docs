@@ -209,7 +209,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.20.0 版本",
+          "title": "🎉 已成功更新至 1.20.1 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -449,7 +449,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 1.20.0",
+          "title": "🎉 Successfully Updated to Version 1.20.1",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -697,7 +697,7 @@ export const catalogTrees = {
           "path": "ru/statements"
         },
         "latest": {
-          "title": "🎉 Успешно обновлено до версии 1.20.0",
+          "title": "🎉 Успешно обновлено до версии 1.20.1",
           "path": "ru/statements/latest"
         },
         "privacy-notice": {
@@ -941,7 +941,7 @@ export const catalogTrees = {
           "path": "id/statements"
         },
         "latest": {
-          "title": "🎉 Berhasil Update ke Versi 1.20.0",
+          "title": "🎉 Berhasil Update ke Versi 1.20.1",
           "path": "id/statements/latest"
         },
         "privacy-notice": {
@@ -1181,7 +1181,7 @@ export const catalogTrees = {
           "path": "jp/statements"
         },
         "latest": {
-          "title": "🎉 バージョン 1.20.0 への更新に成功しました",
+          "title": "🎉 バージョン 1.20.1 への更新に成功しました",
           "path": "jp/statements/latest"
         },
         "privacy-notice": {
@@ -1417,7 +1417,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 1.20.0 版本",
+          "title": "🎉 已成功更新至 1.20.1 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {

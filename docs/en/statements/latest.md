@@ -16,29 +16,20 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.20.0
+# 🎉 Successfully Updated to Version 1.20.1
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉New】** Added backpack items page with filtering, dynamic sorting, and detail viewing
-- **【🎉New】** Added artifact scoring feature #158
-- **【🎉New】** Added lock and mark icons for weapons and artifacts
-- **【🎉New】** Automation tasks now support manually entering BetterGI path #232
-- **【🎉New】** Cultivation plan now supports syncing items from backpack inventory
-- **【🎉New】** Added Mirror酱 (MirrorChyan) download channel and auto-update adaptation
+- **【🎉New】** Added character total score display on character page, artifact score supports color gradient #254
+- **【🎉New】** Added Traveler's Diary card on home page showing today's and this month's Primogems and Mora #249
+- **【🎉New】** BetterGI automation now supports fetching current cultivation plan
+- **【🎉New】** Added character IDs for version 7.0
 
-- **【✨Optimization】** Optimized cultivation calculation #220
-- **【✨Optimization】** Optimized backpack item performance
-- **【✨Optimization】** Reduced copy overhead on gacha page
-- **【✨Optimization】** Auto-close flyout menu after modifying cultivation parameters
-- **【✨Optimization】** No longer blocks low Windows versions; shows first-launch warning instead
+- **【✨Optimization】** Optimized page transition animations
+- **【✨Optimization】** Optimized character artifact scoring algorithm
+- **【✨Optimization】** Permanent wish statistics now show 2-star item count and ratio #258
 
-- **【🔨Fix】** Fixed 7.0 first-half background video not playing or displaying abnormally
-- **【🔨Fix】** Fixed crash when installing the game
-- **【🔨Fix】** Fixed FileUnlocker causing metadata update to get stuck
-- **【🔨Fix】** Fixed crash when Toast notification helper process is not registered #216
-- **【🔨Fix】** Fixed duplicate window appearing when restoring after game-launch window close #238
-- **【🔨Fix】** Fixed character page skill level ComboBox height error #242
-- **【🔨Fix】** Fixed Embedded Yae achievement import error #246
-- **【🔨Fix】** Fixed backpack items showing empty materials
-- **【🔨Fix】** Fixed condensed resin being categorized as material instead of precious item
+- **【🔨Fix】** Fixed homepage jumping when opening Snap Hutao #247
+- **【🔨Fix】** Fixed compact webview window video unable to enter mini window #245
+- **【🔨Fix】** Fixed window close lag in administrator mode
+- **【🔨Fix】** Fixed crash dialog disappearing

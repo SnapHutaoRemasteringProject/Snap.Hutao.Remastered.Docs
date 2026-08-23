@@ -10,7 +10,22 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Log Pembaruan
-## 1.20.0 Release<Badge text="terbaru" type="tip" />
+## 1.20.1 Release<Badge text="terbaru" type="tip" />
+- **【🎉Baru】** Menambahkan tampilan skor total karakter di halaman karakter, skor artefak mendukung gradasi warna #254
+- **【🎉Baru】** Menambahkan kartu Catatan Pelancong di beranda untuk menampilkan Primogem dan Mora hari ini dan bulan ini #249
+- **【🎉Baru】** Otomatisasi BetterGI kini mendukung pengambilan rencana pengembangan saat ini
+- **【🎉Baru】** Menambahkan ID karakter versi 7.0
+
+- **【✨Optimalisasi】** Mengoptimalkan animasi transisi halaman
+- **【✨Optimalisasi】** Mengoptimalkan algoritma skor artefak karakter
+- **【✨Optimalisasi】** Statistik banner permanen kini menampilkan jumlah dan rasio item bintang 2 #258
+
+- **【🔨Perbaikan】** Memperbaiki beranda yang melompat saat membuka aplikasi #247
+- **【🔨Perbaikan】** Memperbaiki video jendela web kompak yang tidak dapat masuk ke mini-window #245
+- **【🔨Perbaikan】** Memperbaiki lag saat menutup jendela dalam mode administrator
+- **【🔨Perbaikan】** Memperbaiki dialog crash yang menghilang
+
+## 1.20.0 Release
 - **【🎉Baru】** Menambahkan halaman item ransel dengan filter, pengurutan dinamis, dan tampilan detail
 - **【🎉Baru】** Menambahkan fitur skor artefak #158
 - **【🎉Baru】** Menambahkan ikon kunci dan tanda untuk senjata dan artefak

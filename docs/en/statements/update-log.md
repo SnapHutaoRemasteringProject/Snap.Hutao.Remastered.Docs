@@ -10,7 +10,22 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 1.20.0 Release<Badge text="Latest" type="tip" />
+## 1.20.1 Release<Badge text="Latest" type="tip" />
+- **【🎉New】** Added character total score display on character page, artifact score supports color gradient #254
+- **【🎉New】** Added Traveler's Diary card on home page showing today's and this month's Primogems and Mora #249
+- **【🎉New】** BetterGI automation now supports fetching current cultivation plan
+- **【🎉New】** Added character IDs for version 7.0
+
+- **【✨Optimization】** Optimized page transition animations
+- **【✨Optimization】** Optimized character artifact scoring algorithm
+- **【✨Optimization】** Permanent wish statistics now show 2-star item count and ratio #258
+
+- **【🔨Fix】** Fixed homepage jumping when opening Snap Hutao #247
+- **【🔨Fix】** Fixed compact webview window video unable to enter mini window #245
+- **【🔨Fix】** Fixed window close lag in administrator mode
+- **【🔨Fix】** Fixed crash dialog disappearing
+
+## 1.20.0 Release
 - **【🎉New】** Added backpack items page with filtering, dynamic sorting, and detail viewing
 - **【🎉New】** Added artifact scoring feature #158
 - **【🎉New】** Added lock and mark icons for weapons and artifacts
