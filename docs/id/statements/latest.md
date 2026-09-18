@@ -16,20 +16,25 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Berhasil Update ke Versi 1.20.1
+# 🎉 Berhasil Update ke Versi 1.20.2
 
 **Bahasa Indonesia** | [English](/en/statements/latest.html)
 
-- **【🎉Baru】** Menambahkan tampilan skor total karakter di halaman karakter, skor artefak mendukung gradasi warna #254
-- **【🎉Baru】** Menambahkan kartu Catatan Pelancong di beranda untuk menampilkan Primogem dan Mora hari ini dan bulan ini #249
-- **【🎉Baru】** Otomatisasi BetterGI kini mendukung pengambilan rencana pengembangan saat ini
-- **【🎉Baru】** Menambahkan ID karakter versi 7.0
+- **【🎉Baru】** Menambahkan halaman "Proporsi Sumber Primogem Bulan Ini" pada kartu Catatan Pelancong dengan diagram donat
+- **【🎉Baru】** Rencana pengembangan kini mendukung sinkronisasi level dan talenta karakter melalui HoYoLAB
+- **【🎉Baru】** Domain material tidak lagi dibatasi dalam 7 hari setelah pergantian banner, dan kartu kalender menampilkan petunjuknya
+- **【🎉Baru】** Menambahkan jadwal pengambilan material baru dari Snezhnaya
+- **【🎉Baru】** Menambahkan konfirmasi kedua saat menonaktifkan opsi item resin
+- **【🎉Baru】** Notifikasi "Berjalan di latar belakang" kini dapat dinonaktifkan #260
 
-- **【✨Optimalisasi】** Mengoptimalkan animasi transisi halaman
-- **【✨Optimalisasi】** Mengoptimalkan algoritma skor artefak karakter
-- **【✨Optimalisasi】** Statistik banner permanen kini menampilkan jumlah dan rasio item bintang 2 #258
+- **【✨Optimalisasi】** Artefak di ransel kini diurutkan berdasarkan SortOrder
+- **【✨Optimalisasi】** Menghapus filter tingkat kelangkaan item di halaman ransel
+- **【✨Optimalisasi】** Menghapus latar belakang abu-abu pada ikon artefak di ransel
+- **【✨Optimalisasi】** Daftar material pada kartu pengembangan kalender kini mendukung gulir vertikal
+- **【✨Optimalisasi】** Menambahkan petunjuk pemecahan masalah untuk "Target Frame Rate" yang tidak berfungsi #262
+- **【✨Optimalisasi】** Menambahkan keterangan pada dialog penukaran CDK Mirror酱
+- **【✨Optimalisasi】** Mengoptimalkan interaksi dan tampilan dialog konfirmasi hitung mundur
 
-- **【🔨Perbaikan】** Memperbaiki beranda yang melompat saat membuka aplikasi #247
-- **【🔨Perbaikan】** Memperbaiki video jendela web kompak yang tidak dapat masuk ke mini-window #245
-- **【🔨Perbaikan】** Memperbaiki lag saat menutup jendela dalam mode administrator
-- **【🔨Perbaikan】** Memperbaiki dialog crash yang menghilang
+- **【🔨Perbaikan】** Memperbaiki kesalahan deteksi jaringan yang membuat aplikasi tertahan pada "jaringan tidak tersedia" #268
+- **【🔨Perbaikan】** Memperbaiki kegagalan pembaruan otomatis saat menggunakan domain cadangan #265
+- **【🔨Perbaikan】** Memperbaiki hari pembukaan domain material dan data jadwal material
