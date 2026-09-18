@@ -34,4 +34,11 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     link="https://qm.qq.com/q/JeOgyxhZgC"
     background="rgba(228, 0, 54, 0.15)"
   />
+  <VPCard
+    title="胡桃重制版 QQ 用户群 3"
+    desc="1107410847"
+    logo="/images/202312/tencent.svg"
+    link="https://qm.qq.com/q/3VKo4NxxQQ"
+    background="rgba(228, 0, 54, 0.15)"
+  />
 </div>
