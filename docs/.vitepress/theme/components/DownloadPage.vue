@@ -14,6 +14,16 @@
       </div>
     </div>
 
+    <!-- Installer/MSIX distribution policy (visible before the download countdown) -->
+    <div class="download-status-card" role="note">
+      <p>{{ t('channel_notice') }}</p>
+      <p class="direct-link-hint">
+        <a href="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" target="_blank" rel="noopener noreferrer">{{ t('store_link') }}</a>
+        ·
+        <a :href="`/${locale}/advanced/msix-migration`">{{ t('migration_link') }}</a>
+      </p>
+    </div>
+
     <!-- Loading State -->
     <div v-if="loading" class="download-status-card">
       <div class="loading-spinner">
@@ -174,6 +184,9 @@ const messages: Record<string, Record<string, string>> = {
   zh: {
     title: '感谢您下载 Snap.Hutao.Remastered',
     subtitle: '开源 | 免费 | 为 Windows 打造的胡桃工具箱重制版',
+    channel_notice: '此页面自动下载 Setup.exe 安装程序。自 2.0.2 起，MSIX 仅通过 Microsoft Store 分发，不再在 GitHub 发布。',
+    store_link: '前往 Microsoft Store（搜索）',
+    migration_link: '旧 MSIX 数据迁移指南',
     checking: '正在获取最新版本信息...',
     error: '获取版本信息失败',
     retry: '重试',
@@ -193,6 +206,9 @@ const messages: Record<string, Record<string, string>> = {
   en: {
     title: 'Thank you for downloading Snap.Hutao.Remastered',
     subtitle: 'Open Source | Free | Hutao Toolbox Remastered for Windows',
+    channel_notice: 'This page automatically downloads the Setup.exe installer. Starting with 2.0.2, MSIX is exclusive to Microsoft Store and no longer distributed on GitHub.',
+    store_link: 'Find the app in Microsoft Store',
+    migration_link: 'Legacy MSIX data migration guide',
     checking: 'Checking for the latest version...',
     error: 'Failed to get version information',
     retry: 'Retry',
@@ -212,6 +228,9 @@ const messages: Record<string, Record<string, string>> = {
   id: {
     title: 'Terima kasih telah mengunduh Snap.Hutao.Remastered',
     subtitle: 'Sumber Terbuka | Gratis | Toolkit untuk Windows',
+    channel_notice: 'Halaman ini mengunduh installer Setup.exe. Mulai 2.0.2, MSIX hanya tersedia di Microsoft Store dan tidak lagi diterbitkan di GitHub.',
+    store_link: 'Cari di Microsoft Store',
+    migration_link: 'Panduan migrasi data MSIX lama',
     checking: 'Memeriksa versi terbaru...',
     error: 'Gagal mendapatkan informasi versi',
     retry: 'Coba lagi',
@@ -231,6 +250,9 @@ const messages: Record<string, Record<string, string>> = {
   jp: {
     title: 'Snap.Hutao.Remastered をダウンロードいただきありがとうございます',
     subtitle: 'オープンソース | 無料 | Windows向け多機能ツールボックス',
+    channel_notice: 'このページでは Setup.exe を自動ダウンロードします。2.0.2 以降、MSIX は Microsoft Store のみで配布され、GitHub では配布されません。',
+    store_link: 'Microsoft Store で検索',
+    migration_link: '旧 MSIX のデータ移行ガイド',
     checking: '最新バージョンを確認中...',
     error: 'バージョン情報の取得に失敗しました',
     retry: '再試行',
@@ -250,6 +272,9 @@ const messages: Record<string, Record<string, string>> = {
   ru: {
     title: 'Спасибо за скачивание Snap.Hutao.Remastered',
     subtitle: 'Открытый исходный код | Бесплатно | Инструментарий для Windows',
+    channel_notice: 'Эта страница автоматически загружает Setup.exe. Начиная с 2.0.2, MSIX распространяется только через Microsoft Store и больше не публикуется на GitHub.',
+    store_link: 'Найти в Microsoft Store',
+    migration_link: 'Руководство по переносу данных MSIX',
     checking: 'Получение информации о последней версии...',
     error: 'Не удалось получить информацию о версии',
     retry: 'Повторить',
@@ -269,6 +294,9 @@ const messages: Record<string, Record<string, string>> = {
   tw: {
     title: '感謝您下載 Snap.Hutao.Remastered',
     subtitle: '開源 | 免費 | 為 Windows 打造的胡桃工具箱重製版',
+    channel_notice: '本頁自動下載 Setup.exe 安裝程式。自 2.0.2 起，MSIX 僅透過 Microsoft Store 發佈，不再於 GitHub 提供。',
+    store_link: '前往 Microsoft Store（搜尋）',
+    migration_link: '舊 MSIX 資料遷移指南',
     checking: '正在獲取最新版本資訊...',
     error: '獲取版本資訊失敗',
     retry: '重試',
