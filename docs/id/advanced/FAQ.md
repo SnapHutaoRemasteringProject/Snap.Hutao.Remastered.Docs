@@ -55,10 +55,6 @@ Metode di atas mungkin gagal tergantung konfigurasi sistem. Snap Hutao tidak sec
 1. Konfigurasikan layanan proxy di sistem atau aplikasi Anda.
 2. Sangat disarankan untuk mengikuti panduan **[Jaringan Loopback](loopback.md)** untuk memberi izin koneksi.
 
-# Gagal membuat ikon notifikasi
+# Ikon area notifikasi tidak dapat dibuat
 
-Buka PowerShell dan jalankan perintah di bawah ini untuk memperbaiki masalah
-
-```PowerShell 
-irm hut.ao/install.ps1 | iex
-```
+Jangan menjalankan skrip instalasi PowerShell Snap Hutao lama dari internet. Periksa pengaturan area notifikasi Windows, coba buka ulang aplikasi atau Explorer, lalu laporkan ke [GitHub Issues](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues) jika masih terjadi.
