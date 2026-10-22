@@ -58,10 +58,6 @@ The above methods may fail due to system configurations or other issues. Snap Hu
 1. Configure system or software proxy services.
 2. It is recommended to enable `Loopback Network`. For a detailed tutorial, see [here](loopback.md).
 
-# Notification Icon Creation Failed
+# Notification area icon cannot be created
 
-Open PowerShell and run the following command to fix the issue
-
-```powershell
-irm hut.ao/install.ps1 | iex
-```
+Do not execute the legacy Snap Hutao PowerShell installation script from the internet to repair this issue. Check Windows notification-area icon settings and try restarting the app or Explorer. If the issue persists, report it in [GitHub Issues](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues).
