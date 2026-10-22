@@ -8,9 +8,10 @@
     "docs:build": "node generate-catalog.js && vitepress build docs",
     "docs:clean-dev": "node generate-catalog.js && vitepress dev docs --clean-cache",
     "docs:dev": "node generate-catalog.js && vitepress dev docs",
-    "lint": "prettier --check --write .",
+    "lint": "node --check generate-catalog.js && prettier --check package.json",
     "update:theme": "pnpm dlx vp-update",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint:all": "prettier --check ."
   },
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
