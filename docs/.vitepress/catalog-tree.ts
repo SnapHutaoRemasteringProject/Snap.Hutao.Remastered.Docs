@@ -177,7 +177,7 @@ export const catalogTrees = {
       "path": "zh/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "首页",
       "path": "zh"
     },
     "menu": {
@@ -413,7 +413,7 @@ export const catalogTrees = {
       "path": "en/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "Home",
       "path": "en"
     },
     "menu": {
@@ -1385,7 +1385,7 @@ export const catalogTrees = {
       "path": "tw/i18n"
     },
     "index": {
-      "title": "index",
+      "title": "首頁",
       "path": "tw"
     },
     "menu": {

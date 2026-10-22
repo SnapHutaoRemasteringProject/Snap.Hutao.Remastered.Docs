@@ -49,3 +49,16 @@ After the setup is complete, you can start the local development server:
 ## Good news
 
 The Snap Hutao Remastered documentation is now build with vitepress from vuepress!
+
+## Localization and catalog generation
+
+`docs/zh` and `docs/tw` are independently maintained translations. Builds, previews,
+and deployment never copy Simplified Chinese pages to Traditional Chinese or run
+mechanical Simplified-to-Traditional conversion. For future updates, prepare
+Traditional Chinese translations with AI assistance, then review them against the
+application's `zh-Hant` terminology before committing.
+
+The `docs:dev`, `docs:clean-dev`, and `docs:build` scripts regenerate only the
+catalog from each locale's own Markdown titles. Edit localized page titles in
+`docs/<locale>/download.md` or `docs/<locale>/index.md`, not in the generated
+`catalog-tree.ts`.

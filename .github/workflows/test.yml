@@ -29,7 +29,10 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
         run: |-
           pnpm docs:build
-          > dist/.nojekyll
+          test -f docs/dist/index.html
+          # Preview/build must not replace reviewed Traditional Chinese pages.
+          git diff --exit-code -- docs/tw
+          touch docs/dist/.nojekyll
 
       - name: Linter Test
         run: pnpm lint

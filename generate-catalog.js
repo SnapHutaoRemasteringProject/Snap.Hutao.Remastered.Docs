@@ -6,38 +6,23 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 function getTitleFromFile(filePath) {
-  try {
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const lines = content.split('\n');
-    // Check for frontmatter
-    if (lines[0] === '---') {
-      let endIndex = -1;
-      for (let i = 1; i < lines.length; i++) {
-        if (lines[i] === '---') {
-          endIndex = i;
-          break;
-        }
-      }
-      if (endIndex > 0) {
-        const frontmatter = lines.slice(1, endIndex).join('\n');
-        const titleMatch = frontmatter.match(/^title:\s*(.+)$/m);
-        if (titleMatch) {
-          return titleMatch[1].trim().replace(/^["']|["']$/g, '');
-        }
-      }
+  // Some locale homepages start with a UTF-8 BOM and have no H1 fallback.
+  // Normalize BOM and CRLF before parsing their YAML frontmatter titles.
+  const content = fs.readFileSync(filePath, 'utf-8')
+    .replace(/^\uFEFF/, '')
+    .replace(/\r\n?/g, '\n');
+
+  const frontmatter = content.match(/^---[ \t]*\n([\s\S]*?)\n---[ \t]*(?:\n|$)/);
+  if (frontmatter) {
+    const titleMatch = frontmatter[1].match(/^title:[ \t]*(.*)$/m);
+    if (titleMatch) {
+      const title = titleMatch[1].trim().replace(/^(['"])(.*)\1$/, '$2').trim();
+      if (title) return title;
     }
-    // Check for first heading
-    for (const line of lines) {
-      const headingMatch = line.match(/^#\s+(.+)/);
-      if (headingMatch) {
-        const title = headingMatch[1].trim();
-        return title;
-      }
-    }
-  } catch (e) {
-    // Ignore errors
   }
-  return null;
+
+  const headingMatch = content.match(/^#\s+(.+)$/m);
+  return headingMatch ? headingMatch[1].trim() : null;
 }
 
 function scanDirectory(dir, basePath = '', lang) {
@@ -63,7 +48,11 @@ function scanDirectory(dir, basePath = '', lang) {
       };
     } else if (item.endsWith('.md')) {
       const name = item.replace('.md', '');
-      const title = getTitleFromFile(fullPath) || name;
+      const parsedTitle = getTitleFromFile(fullPath);
+      if (!parsedTitle && (name === 'download' || (name === 'index' && !basePath))) {
+        throw new Error(`Missing localized page title in ${fullPath}`);
+      }
+      const title = parsedTitle || name;
       let parts = [lang];
       if (basePath) parts = parts.concat(basePath.split('/'));
       if (name !== 'index') parts.push(name);
@@ -83,6 +72,11 @@ for (const lang of languages) {
   const langDir = path.join(__dirname, 'docs', lang);
   if (fs.existsSync(langDir)) {
     trees[lang] = scanDirectory(langDir, '', lang);
+    for (const page of ['download', 'index']) {
+      if (!trees[lang][page] || trees[lang][page].title === page) {
+        throw new Error(`Invalid catalog title for ${lang}/${page}.md`);
+      }
+    }
   }
 }
 
