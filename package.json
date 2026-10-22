@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "docs:build": "node generate-catalog.js && vitepress build docs",
-    "docs:clean-dev": "vitepress dev docs --clean-cache",
+    "docs:clean-dev": "node generate-catalog.js && vitepress dev docs --clean-cache",
     "docs:dev": "node generate-catalog.js && vitepress dev docs",
     "lint": "prettier --check --write .",
     "update:theme": "pnpm dlx vp-update",
