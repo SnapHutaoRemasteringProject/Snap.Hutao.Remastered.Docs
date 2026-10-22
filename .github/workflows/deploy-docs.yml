@@ -1,4 +1,4 @@
-name: Deploy Docs
+name: Build Docs
 
 on:
   push:
@@ -7,12 +7,10 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: docs-build-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,8 +18,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -32,30 +28,24 @@ jobs:
           node-version: 26
           cache: pnpm
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-
-      - name: Install Deps
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build Docs
+      - name: Validate scripts and manifest
+        run: pnpm lint
+
+      - name: Build VitePress documentation
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run docs:build
+        run: |
+          pnpm run docs:build
+          test -f docs/dist/index.html
+          git diff --exit-code -- docs/tw
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+      - name: Upload site build artifact
+        uses: actions/upload-artifact@v4
         with:
-          path: docs/dist
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+          name: docs-site
+          path: docs/dist/
+          if-no-files-found: error
+          retention-days: 7
