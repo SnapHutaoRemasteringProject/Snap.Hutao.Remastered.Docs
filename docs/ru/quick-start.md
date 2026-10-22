@@ -46,42 +46,22 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-== Использовать Snap.Hutao.Remastered.Deployment Installer
+== Microsoft Store (MSIX)
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment — наш новый установщик, который может автоматически настраивать сертификаты и т.д.</p>
-  </div>
+Начиная с 2.0.2, MSIX распространяется и обновляется только через Microsoft Store. Страница может быть ещё не опубликована.
 
-<VPCard
-title="Github"
-desc="Оригинальная ссылка Github"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+<VPCard title="Microsoft Store" desc="Начиная с 2.0.2, MSIX распространяется и обновляется только через Microsoft Store. Страница может быть ещё не опубликована." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
 
-</div>
+== GitHub (установщик Setup)
 
-== Загрузить с Github Release
+В GitHub Releases по-прежнему доступен Setup.exe, но новые MSIX-пакеты не публикуются.
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">
-    Рекомендуется использовать Snap.Hutao.Remastered.Deployment
-    В противном случае вам нужно вручную установить сертификаты и загрузить пакет msix
-    </p>
-  </div>
+<VPCard title="GitHub Releases" desc="В GitHub Releases по-прежнему доступен Setup.exe, но новые MSIX-пакеты не публикуются." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
 
-<VPCard
-title="GitHub"
-desc="Все версии Snap Hutao Remastered выпускаются в основном репозитории кода"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+:::
 
-</div>
+::: warning
+Старый MSIX и версия Store имеют разные идентификаторы и не разделяют данные. Перед переносом создайте резервную копию. [руководство по переносу данных](/ru/advanced/msix-migration).
 :::
 
 ## Производные версии, разработанные сообществом
@@ -117,9 +97,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Обновление Snap Hutao
 
-Обычно, следуя подсказкам обновления в приложении, вы завершите обновление.
-
-Пока вы не удалите каталог данных вручную, ваши локальные данные не будут затронуты.
+Обновляйте MSIX через Microsoft Store. Версия Setup сохраняет встроенные обновления. Старый MSIX нельзя обновить на месте до версии Store. [руководство по переносу данных](/ru/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Установка дополнительных компонентов
 
@@ -216,7 +194,7 @@ HoYoLAB по умолчанию блокирует сетевое подключ
 ---
 
 ::: warning
-Следующие проблемы применимы только к установке MSIX, пожалуйста, попробуйте установить с помощью [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) в первую очередь.
+Следующие советы относятся только к старым MSIX-пакетам, установленным вручную (2.0.1 и ранее). С 2.0.2 устанавливайте MSIX через Microsoft Store, а Setup — через GitHub.
 :::
 
 ### Мой компьютер не может открыть установочный пакет в формате MSIX
