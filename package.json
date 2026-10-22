@@ -18,13 +18,13 @@
     "husky": "9.1.7",
     "markdown-it-container": "^4.0.0",
     "medium-zoom": "^1.1.0",
-    "nano-staged": "0.8.0",
-    "prettier": "3.4.2",
-    "sass-embedded": "1.83.0",
+    "nano-staged": "1.0.2",
+    "prettier": "3.9.10",
+    "sass-embedded": "1.105.2",
     "vitepress": "^1.0.0",
-    "vitepress-plugin-tabs": "^0.7.3",
-    "vitepress-sidebar": "^1.33.1",
-    "vue": "^3.4.0"
+    "vitepress-plugin-tabs": "^0.9.1",
+    "vitepress-sidebar": "^1.40.0",
+    "vue": "^3.5.44"
   },
   "engines": {
     "node": ">=18.19.0"
@@ -34,8 +34,8 @@
   },
   "packageManager": "pnpm@9.15.0",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "autoprefixer": "^10.4.23",
-    "tailwindcss": "^4.1.18"
+    "@tailwindcss/vite": "^4.3.3",
+    "autoprefixer": "^10.6.1",
+    "tailwindcss": "^4.3.3"
   }
 }
