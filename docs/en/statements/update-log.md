@@ -10,7 +10,30 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # Update Logs
-## 2.0.1 Release<Badge text="Latest" type="tip" />
+## 2.0.2 Release<Badge text="Latest" type="tip" />
+
+This release improves game process detection and management, opens Island's Catherine Redirect setting to all users, and updates MSIX packaging for Microsoft Store. **From 2.0.2, MSIX is Store-only; previous MSIX data is isolated and must be migrated manually.**
+
+### 🎉 New Features
+- **【🎉】** Detect Genshin Impact launched outside Snap Hutao, display its running state, and provide an option to end the process.
+- **【🎉】** Make the Island Catherine Redirect setting available to all users.
+
+### ✨ Improvements
+- **【✨】** Improve process monitoring by using periodic discovery while idle and OS exit notifications while a game is running.
+- **【✨】** Allow terminating same-permission game processes without elevating Snap Hutao, with better multi-process and access-denied handling.
+- **【✨】** Associate the release MSIX with Microsoft Store identity. GitHub continues to provide Setup; Store MSIX updates can use smaller differential packages.
+
+### 🔨 Bug Fixes
+- **【🔨】** Fix the game running state not updating promptly after external game launch or exit.
+- **【🔨】** Fix stale Island connection state after game exit and missing read-only x:Bind UI notifications.
+- **【🔨】** Fix failed remote feature configuration requests remaining cached and preventing timely retries.
+- **【🔨】** Fix the list on the Wish Record retrieval page not scrolling.
+
+[Microsoft Store](https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered) · [GitHub Setup](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) · [MSIX migration](/en/advanced/msix-migration)
+
+**Full Changelog:** https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/compare/2.0.1...2.0.2
+
+## 2.0.1 Release
 - **【🎉New】** Added a dedicated Account History Insights window, accessible from Network settings and the Wish History, Spiral Abyss, Imaginarium Theater, and Stygian Onslaught pages #335
 - **【🎉New】** Added charts based on locally saved records: monthly counts and banner distributions for both regular wishes and Miliastra Wonderland wishes, plus Abyss stars, Theater medals, and solo Stygian Onslaught clear times grouped by difficulty #335
 - **【🎉New】** Account insights incorporates the existing wish statistics for recorded five-star characters and weapons, average pity, current pity, featured results, and guarantees; incomplete histories are not treated as zero #335
