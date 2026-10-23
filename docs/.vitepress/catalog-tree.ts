@@ -32,6 +32,10 @@ export const catalogTrees = {
           "title": "Loopback 网络",
           "path": "zh/advanced/loopback"
         },
+        "msix-migration": {
+          "title": "旧版 MSIX 迁移到 Microsoft Store 版本",
+          "path": "zh/advanced/msix-migration"
+        },
         "uninstall": {
           "title": "卸载胡桃重制版",
           "path": "zh/advanced/uninstall"
@@ -209,7 +213,7 @@ export const catalogTrees = {
           "path": "zh/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 2.0.1 版本",
+          "title": "🎉 已成功更新至 2.0.2 版本",
           "path": "zh/statements/latest"
         },
         "privacy-notice": {
@@ -267,6 +271,10 @@ export const catalogTrees = {
         "loopback": {
           "title": "Loopback Network",
           "path": "en/advanced/loopback"
+        },
+        "msix-migration": {
+          "title": "Migrate from a legacy MSIX installation to Microsoft Store",
+          "path": "en/advanced/msix-migration"
         },
         "uninstall": {
           "title": "Uninstall Snap Hutao Remastered",
@@ -449,7 +457,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 2.0.1",
+          "title": "🎉 Successfully Updated to Version 2.0.2",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
@@ -511,6 +519,10 @@ export const catalogTrees = {
         "loopback": {
           "title": "Loopback-сеть",
           "path": "ru/advanced/loopback"
+        },
+        "msix-migration": {
+          "title": "Перенос данных со старого MSIX в Microsoft Store",
+          "path": "ru/advanced/msix-migration"
         },
         "uninstall": {
           "title": "Удаление Snap Hutao",
@@ -673,7 +685,7 @@ export const catalogTrees = {
       "path": "ru/quick-start"
     },
     "side-load": {
-      "title": "side-load",
+      "title": "Устаревшая установка MSIX вручную (архив)",
       "path": "ru/side-load"
     },
     "star-request": {
@@ -697,7 +709,7 @@ export const catalogTrees = {
           "path": "ru/statements"
         },
         "latest": {
-          "title": "🎉 Успешно обновлено до версии 2.0.1",
+          "title": "🎉 Успешное обновление до версии 2.0.2",
           "path": "ru/statements/latest"
         },
         "privacy-notice": {
@@ -755,6 +767,10 @@ export const catalogTrees = {
         "loopback": {
           "title": "Jaringan Loopback",
           "path": "id/advanced/loopback"
+        },
+        "msix-migration": {
+          "title": "Migrasi MSIX lama ke Microsoft Store",
+          "path": "id/advanced/msix-migration"
         },
         "uninstall": {
           "title": "Menghapus Instalasi Snap Hutao",
@@ -917,7 +933,7 @@ export const catalogTrees = {
       "path": "id/quick-start"
     },
     "side-load": {
-      "title": "side-load",
+      "title": "Instalasi Sideload Lama (Arsip)",
       "path": "id/side-load"
     },
     "star-request": {
@@ -941,7 +957,7 @@ export const catalogTrees = {
           "path": "id/statements"
         },
         "latest": {
-          "title": "🎉 Berhasil Update ke Versi 2.0.1",
+          "title": "🎉 Berhasil Memperbarui ke Versi 2.0.2",
           "path": "id/statements/latest"
         },
         "privacy-notice": {
@@ -999,6 +1015,10 @@ export const catalogTrees = {
         "loopback": {
           "title": "Loopbackネットワーク",
           "path": "jp/advanced/loopback"
+        },
+        "msix-migration": {
+          "title": "旧 MSIX 版から Microsoft Store 版へのデータ移行",
+          "path": "jp/advanced/msix-migration"
         },
         "uninstall": {
           "title": "Snap Hutao のアンインストール",
@@ -1181,7 +1201,7 @@ export const catalogTrees = {
           "path": "jp/statements"
         },
         "latest": {
-          "title": "🎉 バージョン 2.0.1 への更新に成功しました",
+          "title": "🎉 バージョン 2.0.2 への更新に成功しました",
           "path": "jp/statements/latest"
         },
         "privacy-notice": {
@@ -1239,6 +1259,10 @@ export const catalogTrees = {
         "loopback": {
           "title": "Loopback 網絡",
           "path": "tw/advanced/loopback"
+        },
+        "msix-migration": {
+          "title": "從舊 MSIX 遷移至 Microsoft Store",
+          "path": "tw/advanced/msix-migration"
         },
         "uninstall": {
           "title": "卸載胡桃重製版",
@@ -1417,7 +1441,7 @@ export const catalogTrees = {
           "path": "tw/statements"
         },
         "latest": {
-          "title": "🎉 已成功更新至 2.0.1 版本",
+          "title": "🎉 已成功更新至 2.0.2 版本",
           "path": "tw/statements/latest"
         },
         "privacy-notice": {
