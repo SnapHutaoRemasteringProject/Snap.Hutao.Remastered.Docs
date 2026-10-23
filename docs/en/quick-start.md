@@ -42,42 +42,22 @@ Go to [**Download Page**](/en/download) to get the latest installer
 
 ::: tabs
 
-== Use Snap.Hutao.Remastered.Deployment Installer
+== Microsoft Store (MSIX)
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment is our new installer that can automatically configure certificates, etc.</p>
-  </div>
+Starting with 2.0.2, MSIX is distributed and updated exclusively through Microsoft Store. The listing may not be public yet.
 
-<VPCard
-title="Github"
-desc="Github original link"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+<VPCard title="Microsoft Store" desc="Starting with 2.0.2, MSIX is distributed and updated exclusively through Microsoft Store. The listing may not be public yet." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
 
-</div>
+== GitHub (Setup installer)
 
-== Download from Github Release
+GitHub Releases continues to offer the Setup.exe installer, but no new MSIX packages.
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">
-    It is recommended to use Snap.Hutao.Remastered.Deployment
-    Otherwise you need to manually install certificates and download the msix package
-    </p>
-  </div>
+<VPCard title="GitHub Releases" desc="GitHub Releases continues to offer the Setup.exe installer, but no new MSIX packages." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
 
-<VPCard
-title="GitHub"
-desc="All versions of Snap Hutao Remastered are released in the main code repository"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+:::
 
-</div>
+::: warning
+Legacy MSIX and Store MSIX have different package identities and do not share user data. Back up before migrating. [data migration guide](/en/advanced/msix-migration).
 :::
 
 ## Community-developed Derivative Versions
@@ -113,9 +93,7 @@ If you are interested in making the Snap Hutao Remastered project better through
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
 
-Usually, following the update prompts within the application will complete the update.
-
-As long as you do not manually delete the data directory, your local data will not be affected.
+Update Store MSIX through Microsoft Store. The Setup edition still supports in-app updates. A legacy MSIX cannot be upgraded in place to the Store identity. [data migration guide](/en/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Install Optional Components
 
@@ -212,7 +190,7 @@ You can try to repair missing components based on error messages, but the Snap H
 ---
 
 ::: warning
-The following issues only apply to MSIX installation. Please try [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) installation first.
+The following troubleshooting applies only to legacy sideloaded MSIX packages (2.0.1 and earlier). Starting with 2.0.2, install MSIX through Microsoft Store or Setup through GitHub.
 :::
 
 ### My Computer Cannot Open MSIX Format Installation Package

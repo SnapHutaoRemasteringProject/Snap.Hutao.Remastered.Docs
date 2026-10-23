@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 # Menghapus Instalasi Snap Hutao
 
+::: warning
+Jika berpindah dari MSIX lama ke Microsoft Store 2.0.2, **jangan hapus aplikasi atau data lama sebelum membuat cadangan**. Baca [panduan migrasi](/id/advanced/msix-migration).
+:::
+
 Menghapus Snap Hutao adalah proses yang sederhana. Jika Anda ingin menghapus program dan semua datanya, silakan ikuti langkah-langkah berikut.
 
 ## Menghapus Aplikasi Snap Hutao
@@ -18,11 +22,9 @@ Menghapus Snap Hutao adalah proses yang sederhana. Jika Anda ingin menghapus pro
 2. Cari `Snap Hutao`.
 3. Klik kanan pada Snap Hutao, lalu pilih **"Uninstall"**.
 
-## Menghapus Folder Data (untuk Penghapusan Total)
+## Menghapus data aplikasi (hanya jika sudah tidak diperlukan)
 
-1. Buka File Explorer.
-2. Buka alamat berikut: `%userprofile%/Documents/Hutao`.
-3. Hapus folder `Hutao`.
+Lokasi penyimpanan tergantung metode instalasi dan pengaturan. MSIX lama biasanya memakai `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, edisi Store memakai `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`, sedangkan Setup biasanya `%LOCALAPPDATA%\SnapHutaoRemastered`. Tanda bintang mewakili akhiran nama paket, bukan jalur folder literal. Gunakan jalur khusus jika pernah diatur, dan cadangkan data sebelum menghapusnya.
 
 ## Pertanyaan Umum
 

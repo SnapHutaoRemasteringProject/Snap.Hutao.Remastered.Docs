@@ -1,6 +1,6 @@
 ﻿# Snap.Hutao.Docs-Remastered
 
-This repository contains the documentation for the [Snap Hutao Remastered project](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered). You can view the live version at []().
+This repository contains the documentation for the [Snap Hutao Remastered project](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered). You can view the live documentation at [hutaorp.org](https://hutaorp.org/).
 
 We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](/i18n.html).
 

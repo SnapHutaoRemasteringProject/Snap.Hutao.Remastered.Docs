@@ -62,11 +62,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 1. システムまたはソフトウェアのプロキシサービスを設定します。
 2. `Loopback ネットワーク` を有効にすることをお勧めします。詳細なチュートリアルは[こちら](loopback.md) を参照してください。
 
-# 通知アイコンの作成に失敗しました
+# 通知領域のアイコンが作成されない場合
 
-PowerShell を開いて、以下のコマンドを実行して問題を修正してください
-
-```PowerShell 
-irm hut.ao/install.ps1 | iex
-```
-
+旧 Snap Hutao 用の PowerShell インストールスクリプトをインターネットから実行しないでください。Windows の通知領域の設定を確認し、アプリやエクスプローラーの再起動を試してください。改善しない場合は [GitHub Issues](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues) に報告してください。

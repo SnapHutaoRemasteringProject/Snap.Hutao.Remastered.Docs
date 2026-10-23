@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 # Uninstall Snap Hutao Remastered
 
+::: warning
+If you are moving from an older MSIX to the 2.0.2 Microsoft Store edition, **do not uninstall or delete old data first**. Follow the [migration guide](/en/advanced/msix-migration) and make a backup.
+:::
+
 Uninstalling Snap Hutao Remastered is a straightforward process. If you want to completely remove the program and its associated data, please follow these steps:
 
 ## Uninstalling the Snap Hutao Remastered Application
@@ -18,11 +22,9 @@ Uninstalling Snap Hutao Remastered is a straightforward process. If you want to 
 2. Search for `Snap Hutao Remastered`.
 3. Right-click on Snap Hutao Remastered and select **"Uninstall"**.
 
-## Clearing the Data Folder (for Complete Uninstallation)
+## Delete application data (only when it is no longer needed)
 
-1. Open File Explorer.
-2. Navigate to the following path: `%userprofile%/Documents/Hutao`.
-3. Delete the `Hutao` folder.
+The location depends on the installation channel and your configuration. The old MSIX default is generally `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, the Store MSIX default is `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`, and the Setup edition usually uses `%LOCALAPPDATA%\SnapHutaoRemastered`. The asterisk stands for the package-name suffix, not a literal folder path. If you configured a custom directory, use that location instead. Back up before deleting any data.
 
 ## Frequently Asked Questions
 

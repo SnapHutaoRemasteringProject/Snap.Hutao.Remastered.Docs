@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 # 卸载胡桃重制版
 
+::: warning
+如果是为了从旧 MSIX 转移到 2.0.2 Microsoft Store 版，**不要先卸载或清理旧版数据**。请先按照 [数据迁移指南](/zh/advanced/msix-migration) 备份并核对。
+:::
+
 卸载 Snap Hutao Remastered是一个简单的过程。如果您希望完全移除程序及其相关数据，请按照以下步骤操作：
 
 ## 卸载 Snap Hutao Remastered应用程序
@@ -18,11 +22,9 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 2. 搜索 `Snap Hutao`。
 3. 右键点击 Snap Hutao Remastered并选择 **“卸载”**。
 
-## 清除数据文件夹（如需完全卸载）
+## 清除应用数据（仅限确定不再需要时）
 
-1. 打开文件资源管理器。
-2. 前往以下路径：`%USERPROFILE%\AppData\Local\Hutao`。如果你手动查找那么 AppData 文件夹默认是隐藏的，若无法找到，请确保已启用显示隐藏文件夹的选项。
-3. 删除该 `Hutao` 文件夹。
+数据位置取决于安装方式和用户设置。旧 MSIX 的默认数据通常位于 `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`；新版商店包位于 `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`；Setup 版通常位于 `%LOCALAPPDATA%\SnapHutaoRemastered`。带星号的部分是各自包完整名称的后缀，不能直接粘贴作为文件夹路径。若更改过数据目录，以应用实际设置为准。请先备份，再手动删除不再需要的目录。
 ::: info
 下面的是原项目的内容，仅作留存参考。
 :::

@@ -46,42 +46,22 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-== Snap.Hutao.Remastered.Deployment インストーラーを使用
+== Microsoft Store（MSIX）
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deploymentは証明書などを自動的に設定できる新しいインストーラーです</p>
-  </div>
+2.0.2 以降の MSIX は Microsoft Store 限定で配布・更新されます。ストアページが未公開の場合があります。
 
-<VPCard
-title="Github"
-desc="Githubのオリジナルリンク"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+<VPCard title="Microsoft Store" desc="2.0.2 以降の MSIX は Microsoft Store 限定で配布・更新されます。ストアページが未公開の場合があります。" logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
 
-</div>
+== GitHub（Setup インストーラー）
 
-== Github Releaseからダウンロード
+GitHub Releases では引き続き Setup.exe を配布しますが、新しい MSIX は配布しません。
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">
-    Snap.Hutao.Remastered.Deploymentの使用を推奨します
-    そうでない場合は、証明書を手動でインストールし、msixパッケージをダウンロードする必要があります
-    </p>
-  </div>
+<VPCard title="GitHub Releases" desc="GitHub Releases では引き続き Setup.exe を配布しますが、新しい MSIX は配布しません。" logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
 
-<VPCard
-title="GitHub"
-desc="Snap Hutao Remastered のすべてのバージョンはメインコードリポジトリにリリースされます"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+:::
 
-</div>
+::: warning
+旧 MSIX と Store 版はパッケージ ID が異なるため、データは共有されません。移行前にバックアップしてください。 [データ移行ガイド](/jp/advanced/msix-migration).
 :::
 
 ## コミュニティ開発の派生バージョン
@@ -117,9 +97,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
-通常、アプリケーション内のアップデートプロンプトに従うことでアップデートが完了します。
-
-データディレクトリを手動で削除しない限り、ローカルデータは影響を受けません。
+Store 版 MSIX は Microsoft Store から更新してください。Setup 版はアプリ内更新を利用できます。旧 MSIX から Store 版への上書き更新はできません。 [データ移行ガイド](/jp/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> オプションコンポーネントのインストール
 
@@ -216,7 +194,7 @@ Cookie 情報を適切に保管し、アカウントのリスクを回避して�
 ---
 
 ::: warning
-以下の問題は MSIX インストールにのみ適用されます。まず [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) を使用したインストールを試してください。
+以下の対処方法は 2.0.1 以前の旧サイドロード MSIX 専用です。2.0.2 以降の MSIX は Microsoft Store から、Setup は GitHub から入手してください。
 :::
 
 ### コンピューターで MSIX 形式のインストールパッケージを開くことができません

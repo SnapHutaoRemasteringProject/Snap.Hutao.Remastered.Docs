@@ -1,22 +1,11 @@
-## Instalasi Samping
+# Instalasi Sideload Lama (Arsip)
 
-### Metode Instalasi Umum
+::: warning
+Halaman ini hanya untuk instalasi MSIX versi lama (2.0.1 atau sebelumnya). Sejak 2.0.2, MSIX Snap Hutao Remastered hanya tersedia melalui Microsoft Store; paket MSIX baru tidak dipublikasikan di GitHub.
+:::
 
-- Buka pengaturan sistem, aktifkan `Mode Pengembang`, dan beri centang pada `Izinkan Skrip PowerShell` (Silakan cari di mesin pencarian untuk panduan spesifik)
-- Ekstrak arsip yang sudah diunduh, temukan file `Install.ps1`, klik kanan dan pilih `Jalankan dengan PowerShell`, ikuti petunjuk untuk mengizinkan PowerShell menjalankan operasi yang diminta
-- Setelah selesai, aplikasi `Hutao` akan muncul di `Menu Mulai` Anda
+Untuk pemasangan atau pembaruan versi terbaru, lihat [Panduan Awal](/id/quick-start).
 
-### Metode Instalasi untuk Pemula
+Jika berpindah dari MSIX lama, buat cadangan dan baca [panduan migrasi data](/id/advanced/msix-migration). Karena identitas paket berbeda, data lama tidak berpindah secara otomatis.
 
-- Ekstrak paket instalasi yang sudah diunduh
-- Jalankan `Snap.Hutao.Installer.exe`
-  - Program ini akan menjalankan perintah dari metode instalasi umum di atas
-- Setelah selesai, aplikasi `Hutao` akan muncul di `Menu Mulai` Anda
-
-## Memperbarui Toolbox Hutao
-
-- Ekstrak arsip kompresi dari versi terbaru yang Anda unduh
-- Ulangi langkah-langkah dari `Instalasi Hutao` di atas
-- Jika Anda mengalami kegagalan instalasi atau situasi yang tidak biasa, ikuti langkah-langkah berikut
-  - Hapus terlebih dahulu aplikasi `Hutao` yang sudah terpasang
-  - Kemudian ulangi langkah-langkah dari `Instalasi Hutao` di atas
+Installer Setup.exe tetap tersedia pada [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest).

@@ -74,10 +74,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 2. 推荐启用 `Loopback 网络`，详细教程可参见 [此处](loopback.md)。
 
 
-# 添加通知图标创建失败
+# 无法创建通知区域图标
 
-打开 PowerShell 并执行下方的命令以修复问题
-
-```PowerShell
-irm hut.ao/install.ps1 | iex
-```
+此问题不应通过运行旧版 Snap Hutao 的网络 PowerShell 安装脚本解决。请在 Windows 设置中检查通知区域图标显示、尝试重启应用或资源管理器；仍可复现时请向 [项目 Issues](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/issues) 报告。

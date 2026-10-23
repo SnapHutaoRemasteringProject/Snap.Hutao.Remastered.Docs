@@ -14,7 +14,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 遵循這篇快速開始文檔，你將可以快速地將胡桃工具箱設置為可用狀態。
 
 ::: tip 下載最新版本
-前往 [**下載頁面**](/zh/download) 獲取最新版本安裝包
+前往 [**下載頁面**](/tw/download) 獲取最新版本安裝包
 :::
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低系統要求
@@ -42,42 +42,22 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-== 使用 Snap.Hutao.Remastered.Deployment安裝
+== Microsoft Store（MSIX）
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment是我們製作的新版安裝器 可以自動配置證書等</p>
-  </div>
+自 2.0.2 起 MSIX 僅透過 Microsoft Store 發佈與更新。商店頁尚未公開時請等候上架。
 
-<VPCard
-title="Github"
-desc="Github原始鏈接"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+<VPCard title="Microsoft Store" desc="自 2.0.2 起 MSIX 僅透過 Microsoft Store 發佈與更新。商店頁尚未公開時請等候上架。" logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
 
-</div>
+== GitHub（Setup 安裝程式）
 
-== 在 Github Release下載
+GitHub Releases 繼續提供 Setup.exe 安裝程式，不再提供新的 MSIX 套件。
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">
-    推薦使用 Snap.Hutao.Remastered.Deployment
-    否則你需要手動安裝證書 並下載msix包
-    </p>
-  </div>
+<VPCard title="GitHub Releases" desc="GitHub Releases 繼續提供 Setup.exe 安裝程式，不再提供新的 MSIX 套件。" logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
 
-<VPCard
-title="GitHub"
-desc="Snap Hutao Remastered 所有版本均會發佈於主代碼庫中"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+:::
 
-</div>
+::: warning
+舊 MSIX 與商店版的套件身分不同，使用者資料不會自動共享。遷移前請先備份。 [資料遷移指南](/tw/advanced/msix-migration).
 :::
 
 ## 二次開發衍生版本
@@ -113,9 +93,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
-通常，遵循應用內的更新提示即可完成更新。
-
-只要不手動刪除數據目錄，你的本地數據不會受到影響。
+商店版 MSIX 請由 Microsoft Store 更新，Setup 版繼續使用程式內更新。舊 MSIX 無法直接就地升級至商店版。 [資料遷移指南](/tw/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安裝可選組件
 
@@ -212,7 +190,7 @@ HoYoLAB 默認阻止中國大陸網絡連接。
 ---
 
 ::: warning
-以下問題僅適用於 MSIX 安裝，請優先嚐試 [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) 安裝。
+以下說明僅適用於 2.0.1 及更早的舊側載 MSIX。2.0.2 起請透過 Microsoft Store 安裝 MSIX，或從 GitHub 取得 Setup 安裝程式。
 :::
 
 ### 我的計算機無法打開 MSIX 格式的安裝包

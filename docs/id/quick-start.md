@@ -42,42 +42,22 @@ Buka [**Halaman Unduhan**](/id/download) untuk mendapatkan pemasang terbaru
 
 ::: tabs
 
-== Gunakan Snap.Hutao.Remastered.Deployment Installer
+== Microsoft Store (MSIX)
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Snap.Hutao.Remastered.Deployment adalah installer baru kami yang dapat mengonfigurasi sertifikat, dll. secara otomatis</p>
-  </div>
+Mulai 2.0.2, MSIX hanya didistribusikan dan diperbarui melalui Microsoft Store. Halaman aplikasi mungkin belum tersedia.
 
-<VPCard
-title="Github"
-desc="Tautan asli Github"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+<VPCard title="Microsoft Store" desc="Mulai 2.0.2, MSIX hanya didistribusikan dan diperbarui melalui Microsoft Store. Halaman aplikasi mungkin belum tersedia." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
 
-</div>
+== GitHub (installer Setup)
 
-== Unduh dari Github Release
+GitHub Releases masih menyediakan installer Setup.exe tetapi tidak lagi menerbitkan MSIX baru.
 
-<div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">
-    Disarankan untuk menggunakan Snap.Hutao.Remastered.Deployment
-    Jika tidak, Anda perlu menginstal sertifikat secara manual dan mengunduh paket msix
-    </p>
-  </div>
+<VPCard title="GitHub Releases" desc="GitHub Releases masih menyediakan installer Setup.exe tetapi tidak lagi menerbitkan MSIX baru." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
 
-<VPCard
-title="GitHub"
-desc="Semua versi Snap Hutao Remastered dirilis di repositori kode utama"
-logo="/images/202312/github-mark.svg"
-link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest"
-background="rgba(155, 233, 168, 0.15)"
-/>
+:::
 
-</div>
+::: warning
+MSIX lama dan versi Store memiliki identitas paket berbeda sehingga data pengguna tidak dibagikan. Cadangkan dahulu. [panduan migrasi data](/id/advanced/msix-migration).
 :::
 
 ## Versi Turunan yang Dikembangkan Komunitas
@@ -113,9 +93,7 @@ Jika Anda tertarik untuk membuat proyek Snap Hutao Remastered menjadi lebih baik
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Perbarui Snap Hutao
 
-Biasanya, mengikuti petunjuk pembaruan dalam aplikasi akan menyelesaikan pembaruan.
-
-Selama Anda tidak menghapus direktori data secara manual, data lokal Anda tidak akan terpengaruh.
+Perbarui MSIX melalui Microsoft Store. Edisi Setup tetap mendukung pembaruan dalam aplikasi. MSIX lama tidak bisa diperbarui langsung ke identitas Store. [panduan migrasi data](/id/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Instal Komponen Opsional
 
@@ -212,7 +190,7 @@ Anda bisa mencoba memperbaiki komponen yang hilang berdasarkan pesan kesalahan, 
 ---
 
 ::: warning
-Masalah berikut hanya berlaku untuk instalasi MSIX. Silakan coba instalasi [Snap.Hutao.Deployment](https://static.snaphutaorp.org/Snap.Hutao.Remastered.Deployment.exe) terlebih dahulu.
+Langkah ini hanya berlaku untuk MSIX sideload lama (2.0.1 atau sebelumnya). Mulai 2.0.2 gunakan Microsoft Store untuk MSIX atau GitHub untuk Setup.
 :::
 
 ### Komputer Saya Tidak Bisa Membuka Paket Instalasi Format MSIX
