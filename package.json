@@ -17,13 +17,13 @@
     "@types/dom-view-transitions": "^1.0.6",
     "husky": "9.1.7",
     "markdown-it-container": "^4.0.0",
-    "medium-zoom": "^1.1.0",
+    "medium-zoom": "^1.1.2",
     "nano-staged": "1.0.2",
     "prettier": "3.9.10",
-    "sass-embedded": "1.105.2",
+    "sass-embedded": "1.106.1",
     "vitepress": "^1.0.0",
     "vitepress-plugin-tabs": "^0.9.1",
-    "vitepress-sidebar": "^1.40.0",
+    "vitepress-sidebar": "^1.41.0",
     "vue": "^3.5.44"
   },
   "engines": {
