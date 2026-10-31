@@ -4,6 +4,48 @@ import markdownItContainer from 'markdown-it-container'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
+// 即时重定向脚本。
+// - 构建时由 transformHtml 注入到 404 页面的 <head> 最前面，因此在样式表、
+//   字体等阻塞资源之前执行，用户不会先看到 404 内容；
+// - 开发服务器由下方 vite 插件的 transformIndexHtml 注入，保证 dev/prod 行为一致。
+// 注意：正则中的反斜杠在模板字符串里需要写成 \\。
+const languageRedirectScript = `(function () {
+        try {
+            var base = '/'
+            var langs = ['zh', 'en', 'ru', 'id', 'jp', 'tw']
+            var pathname = window.location.pathname || '/'
+            var relative = pathname.indexOf(base) === 0 ? pathname.slice(base.length) : pathname
+            relative = relative.replace(/^\\/+/, '')
+
+            // 首页由 docs/index.md 处理
+            if (!relative || relative === 'index' || relative === 'index.html') return
+
+            // 已带语言前缀，正常显示页面（或 404）
+            if (langs.indexOf(relative.split('/')[0]) !== -1) return
+
+            // 静态资源不处理，但兼容 *.html 的旧链接
+            var isHtml = /\\.html$/.test(relative)
+            if (relative.indexOf('.') !== -1 && !isHtml) return
+            var normalized = isHtml ? relative.slice(0, -5) : relative
+
+            var raw = (navigator.language || navigator.userLanguage || '').toLowerCase()
+            var lang
+            if (raw.indexOf('ja') === 0) {
+                lang = 'jp'
+            } else if (raw.indexOf('zh') === 0) {
+                lang = /-(tw|hk|mo)(-|$)/.test(raw) ? 'tw' : 'zh'
+            } else {
+                var primary = raw.split('-')[0]
+                lang = langs.indexOf(primary) !== -1 ? primary : 'en'
+            }
+
+            var target = (base + lang + '/' + normalized).replace(/\\/{2,}/g, '/')
+            window.location.replace(target + window.location.search + window.location.hash)
+        } catch (e) {
+            // 重定向失败时保持页面可用
+        }
+    })()`
+
 export default defineConfig({
     base: '/',
     title: 'Snap Hutao Remastered',
@@ -163,6 +205,15 @@ export default defineConfig({
         }();`,
         ],
     ],
+    // 仅 404 页面需要即时重定向：静态托管在找不到无语言前缀的路径时返回 404.html。
+    // 插入到 <meta charset> 之后、<head> 中所有阻塞资源之前，确保重定向先于首屏渲染。
+    transformHtml(html, _id, { page }) {
+        if (page !== '404.md') return
+        return html.replace(
+            '<meta charset="utf-8">',
+            `<meta charset="utf-8">\n    <script>${languageRedirectScript}</script>`
+        )
+    },
     locales: {
         root: {
             label: ' ',
@@ -548,48 +599,15 @@ export default defineConfig({
                         }
                     })
                 },
-                transformIndexHtml(html: string, ctx: any) {
-                    // Add redirect script to every page — insert immediately after <head> so it runs before other head scripts
-                    const script = `
-<script>
-(function() {
-    try {
-        var path = window.location.pathname;
-        var base = '/';
-
-        // Remove base from path
-        var cleanPath = path;
-        if (cleanPath.indexOf(base) === 0) {
-            cleanPath = cleanPath.substring(base.length);
-        }
-
-        // If path is empty or index, do nothing
-        if (!cleanPath || cleanPath === '/' || cleanPath === 'index.html') {
-            return;
-        }
-
-        // If path already starts with a language code, do nothing
-        var langCodes = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
-        var pathParts = cleanPath.split('/');
-        if (langCodes.indexOf(pathParts[0]) !== -1) {
-            return;
-        }
-
-        // Detect browser language
-        var lang = (navigator.language || navigator.userLanguage || 'zh').split('-')[0];
-        var supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
-        var targetLang = supportedLangs.indexOf(lang) !== -1 ? lang : 'zh';
-
-        // Redirect to the language-specific path (preserve search/hash)
-        var newPath = base + targetLang + '/' + cleanPath + window.location.search + window.location.hash;
-        window.location.replace(newPath);
-    } catch (e) {
-        // swallow errors to avoid breaking the page
-    }
-})();
-</script>
-                                                `;
-                    return html.replace('<head>', '<head>' + script);
+                // VitePress 只在 dev 下调用 Vite 的 transformIndexHtml；
+                // 生产构建由顶层的 transformHtml 注入，二者共用同一段脚本。
+                transformIndexHtml(html: string) {
+                    const script = `<script>${languageRedirectScript}</script>`
+                    const charset = '<meta charset="utf-8">'
+                    // 保持在 charset 声明之后，避免把 <meta charset> 挤出前 1024 字节
+                    return html.includes(charset)
+                        ? html.replace(charset, `${charset}\n${script}`)
+                        : html.replace('<head>', `<head>\n${script}`)
                 }
             }
         ],
