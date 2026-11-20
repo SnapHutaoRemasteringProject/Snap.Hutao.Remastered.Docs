@@ -4,22 +4,10 @@ order: 8
 comment: false
 ---
 
-# Migrate from a legacy MSIX installation to Microsoft Store
+# Upgrade MSIX or switch installation types
 
-Starting with 2.0.2, the release MSIX uses a different package identity. Windows creates a separate app-data container for the Store edition; existing MSIX data and settings do not migrate automatically.
+The official 2.0.1 and 2.0.2 MSIX packages use the same package identity. Installing the signed 2.0.2 MSIX over 2.0.1 keeps your existing app data in place.
 
-::: warning
-Do not blindly copy the old `settings.dat` over the new application's settings, as it may contain old paths or package-specific values.
-:::
-
-1. Identify the **actual data directory** used by the old installation, especially if you changed it in settings. Back up everything. Fully exit both editions, including background tray processes.
-
-2. In File Explorer, open `%LOCALAPPDATA%\Packages` and locate the old package directory beginning with `E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_`. Default user data is usually in `LocalState\Hutao`; use your configured path if different.
-
-3. Install the new Microsoft Store edition, open it once, and exit completely. The new package directory starts with `SnapHutaoRemasteringProje.SnapHutaoRemastered_`; default user data is under `LocalState\Hutao`.
-
-4. Back up destination files, then copy the required data (such as `Userdata.db` and needed resource folders) into the **actual new data directory**. Do not overwrite all of `Packages` or `LocalState`.
-
-5. Restart the Store edition and verify accounts, wish records and other local history. `LocalSettings` are package-specific; preferences, sign-in state and credentials may require manual reconfiguration. Keep the old installation and backup until verification is complete.
+To switch between MSIX and Setup, find the data directory in Settings, fully exit Snap Hutao including from the system tray, and back up that directory. Install the target edition and check which data directory it uses. If the paths differ, exit Snap Hutao, back up existing files in the destination, and copy the data you need, such as `Userdata.db`, into that directory. Relaunch the app and verify your accounts and wish records. Keep the backup and original installation until you have verified the transfer. You may need to configure some settings again.
 
 [Quick Start](/en/quick-start)

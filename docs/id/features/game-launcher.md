@@ -17,6 +17,12 @@ Peluncur canggih Snap Hutao menyediakan pengalaman peluncuran game yang lebih fl
 Menggunakan **perangkat lunak tidak resmi apa pun** **berpotensi** mengakibatkan **kerusakan pada properti virtual Anda**. Melanjutkan penggunaan fungsi terkait dari perangkat lunak ini akan dianggap sebagai Anda mengakui dan menyetujui [Syarat Layanan](/id/statements/tos.md) kami.
 :::
 
+## Status game dan pengaturan Island di 2.0.2
+
+Buka halaman **Peluncuran Game** untuk mendeteksi Genshin Impact yang sedang berjalan di sesi Windows saat ini, termasuk jika game dijalankan di luar Snap Hutao. Anda dapat mencoba menghentikan proses game dengan tingkat izin yang sama. Jika tingkat izin game lebih tinggi, Anda mungkin perlu memulai ulang Snap Hutao sebagai administrator.
+
+Semua pengguna dapat membuka **Catherine Redirect** di pengaturan Island pada halaman peluncuran. Opsi ini mengarahkan pintasan komisi harian di Buku Panduan Petualang ke konfirmasi hadiah Catherine. Tekan tombol ambil hadiah sekali untuk membuka halaman ekspedisi. Jika komisi sudah selesai, tekan sekali lagi untuk membuka halaman hadiah. Opsi **Menu Paimon Lama** mengembalikan posisi toko Miliastra Wonderland dan daftar Wonder populer di menu Paimon. Kedua opsi memerlukan komponen Island yang kompatibel.
+
 ## Pengaturan Awal
 
 - Klik "Luncurkan Game" dari menu di sebelah kiri untuk masuk ke fitur peluncur canggih.

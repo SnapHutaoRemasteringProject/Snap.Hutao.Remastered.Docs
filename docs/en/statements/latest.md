@@ -21,23 +21,47 @@ pageInfo: false
 
 **简体中文** [zh](/zh/statements/latest) · **繁體中文** [tw](/tw/statements/latest) · **English** [en](/en/statements/latest) · **日本語** [jp](/jp/statements/latest) · **Bahasa Indonesia** [id](/id/statements/latest) · **Русский** [ru](/ru/statements/latest)
 
-This release improves game process detection and management, opens Island's Catherine Redirect setting to all users, and updates MSIX packaging for Microsoft Store. **From 2.0.2, MSIX is Store-only; previous MSIX data is isolated and must be migrated manually.**
+This release adds a Windows 10 live tile for Real-time Notes, improves **game process detection and management**, makes Island's Catherine Redirect setting available to all users, and fixes a MiYouShe sign-in issue affecting some users.
 
 ### 🎉 New Features
-- **【🎉】** Detect Genshin Impact launched outside Snap Hutao, display its running state, and provide an option to end the process.
-- **【🎉】** Make the Island Catherine Redirect setting available to all users.
+
+- **【🎉New】** The Game Launch page automatically detects Genshin Impact when it is launched outside Snap Hutao, shows its running state, and lets you end the game process.
+- **【🎉New】** Island's Catherine Redirect setting is now available to all users.
+- **【🎉New】** The MSIX edition on Windows 10 now supports a Real-time Notes Start menu live tile for resin and daily commission progress. Search for a character to use their namecard as the tile background.
+- **【🎉New】** The new Legacy Paimon Menu setting in Island restores the positions of the Miliastra Wonderland shop and popular Wonders in the Paimon Menu.
+- **【🎉New】** Installers can now include bundled images. Storage settings can remove cached copies that match the bundled files.
 
 ### ✨ Improvements
-- **【✨】** Improve process monitoring by using periodic discovery while idle and OS exit notifications while a game is running.
-- **【✨】** Allow terminating same-permission game processes without elevating Snap Hutao, with better multi-process and access-denied handling.
-- **【✨】** Associate the release MSIX with Microsoft Store identity. GitHub continues to provide Setup; Store MSIX updates can use smaller differential packages.
+
+- **【✨Improved】** Reduced unnecessary process scans and used operating system exit notifications to update the running state promptly.
+- **【✨Improved】** Snap Hutao can now attempt to end game processes running at the same privilege level without running as administrator.
+- **【✨Improved】** Improved state checks after ending a game process, handling multiple matching processes and showing clearer error messages when the operation fails.
+- **【✨Improved】** All MSIX builds and Setup installers with bundled images skip bulk image downloads during first-run setup. Missing images download on demand. Standard Setup without bundled images can still preload images by category.
+- **【✨Improved】** Added an illustrated in-app tip for Catherine Redirect.
+- **【✨Improved】** Applied the saved theme to individual windows and dialogs and refined Settings animations and translations.
+- **【✨Improved】** Added support for new material categories in Genshin Impact 7.1.
 
 ### 🔨 Bug Fixes
-- **【🔨】** Fix the game running state not updating promptly after external game launch or exit.
-- **【🔨】** Fix stale Island connection state after game exit and missing read-only x:Bind UI notifications.
-- **【🔨】** Fix failed remote feature configuration requests remaining cached and preventing timely retries.
-- **【🔨】** Fix the list on the Wish Record retrieval page not scrolling.
 
-[Microsoft Store](https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered) · [GitHub Setup](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) · [MSIX migration](/en/advanced/msix-migration)
+- **【🔨Fix】** Fixed an issue that prevented some users from signing in to MiYouShe.
+- **【🔨Fix】** Fixed delays in updating the running state when the game was started or closed outside Snap Hutao.
+- **【🔨Fix】** Fixed Island sometimes showing as connected after the game process exited.
+- **【🔨Fix】** Fixed change notifications for certain read-only properties failing to refresh `x:Bind` bindings on the Game Launch page.
+- **【🔨Fix】** Fixed errors when ending the game if some processes were inaccessible or multiple matching processes were running.
+- **【🔨Fix】** Fixed failed remote feature configuration requests being cached for too long and delaying retries.
+- **【🔨Fix】** Fixed the list on the Wish Record retrieval page failing to scroll.
+- **【🔨Fix】** Fixed the refresh time overlapping the UID on Real-time Notes cards.
+- **【🔨Fix】** Fixed Island closing the game when account verification encountered a network error or timeout. It now displays a warning and leaves the game running.
+- **【🔨Fix】** Fixed version detection and repair when `config.ini` contains duplicate `game_version` entries, and improved handling of INI comments and section headers.
+- **【🔨Fix】** Separated standard and Miliastra Wonderland wish queries, improved validation of manually entered and cached wish URLs, and localized the missing wish metadata error.
+- **【🔨Fix】** Fixed failed inventory syncs potentially clearing previously synced items.
+- **【🔨Fix】** Fixed stalled image downloads taking too long to stop during first-run setup.
+- **【🔨Fix】** Fixed cleared plugin settings retaining old values, and fixed some blank dropdown options.
+- **【🔨Fix】** Fixed waiting on exit after closing the window and an error during account initialization.
+- **【🔨Fix】** Restored the Nod-Krai and Snezhnaya character affiliation icons.
 
-**Full Changelog:** https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/compare/2.0.1...2.0.2
+### Usage Notes
+
+If the game runs with elevated privileges, you may still need to run Snap Hutao as administrator to end the game process.
+
+[Full Changelog](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/compare/2.0.1...2.0.2)

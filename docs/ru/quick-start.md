@@ -44,25 +44,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ### Новая установка
 
-::: tabs
-
-== Microsoft Store (MSIX)
-
-Начиная с 2.0.2, MSIX распространяется и обновляется только через Microsoft Store. Страница может быть ещё не опубликована.
-
-<VPCard title="Microsoft Store" desc="Начиная с 2.0.2, MSIX распространяется и обновляется только через Microsoft Store. Страница может быть ещё не опубликована." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
-
-== GitHub (установщик Setup)
-
-В GitHub Releases по-прежнему доступен Setup.exe, но новые MSIX-пакеты не публикуются.
-
-<VPCard title="GitHub Releases" desc="В GitHub Releases по-прежнему доступен Setup.exe, но новые MSIX-пакеты не публикуются." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
-
-:::
-
-::: warning
-Старый MSIX и версия Store имеют разные идентификаторы и не разделяют данные. Перед переносом создайте резервную копию. [руководство по переносу данных](/ru/advanced/msix-migration).
-:::
+Скачайте `Setup.exe` со [страницы загрузки](/ru/download). Если вам нужен MSIX, проверьте примечания и вложения нужного выпуска на [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) и используйте подписанный MSIX, предоставленный проектом.
 
 ## Производные версии, разработанные сообществом
 
@@ -97,7 +79,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Обновление Snap Hutao
 
-Обновляйте MSIX через Microsoft Store. Версия Setup сохраняет встроенные обновления. Старый MSIX нельзя обновить на месте до версии Store. [руководство по переносу данных](/ru/advanced/msix-migration).
+Версия Setup поддерживает обновление из приложения. Чтобы обновить официальный MSIX 2.0.1 с сохранением данных, установите подписанный MSIX 2.0.2 поверх текущей версии. Для перехода на Setup см. [руководство по переносу данных](/ru/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Установка дополнительных компонентов
 
@@ -194,7 +176,7 @@ HoYoLAB по умолчанию блокирует сетевое подключ
 ---
 
 ::: warning
-Следующие советы относятся только к старым MSIX-пакетам, установленным вручную (2.0.1 и ранее). С 2.0.2 устанавливайте MSIX через Microsoft Store, а Setup — через GitHub.
+Следующие инструкции предназначены для подписанных пакетов MSIX, предоставленных проектом. Если в выпуске нет подписанного MSIX, используйте `Setup.exe`.
 :::
 
 ### Мой компьютер не может открыть установочный пакет в формате MSIX

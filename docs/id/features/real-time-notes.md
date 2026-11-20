@@ -63,6 +63,14 @@ Mengklik "Pengaturan Notifikasi" di pojok kanan atas jendela memungkinkan Anda u
 1. Arahkan mouse Anda ke jendela Catatan Real-time dari karakter yang ingin Anda hapus.
 2. Klik tombol hapus di pojok kanan atas jendela untuk menghapus Catatan Real-time untuk karakter tersebut.
 
+## Ubin aktif menu Mulai di Windows 10
+
+Ubin aktif Catatan Real-time memerlukan edisi MSIX di Windows 10. Jalankan Snap Hutao dengan izin pengguna biasa untuk memperbaruinya.
+
+1. Di menu Mulai Windows, sematkan **Snap Hutao Remastered** ke Mulai. Klik kanan ubinnya dan ubah ukuran menjadi **Lebar** atau **Besar**.
+2. Tambahkan karakter di halaman **Catatan Real-time**, lalu pilih opsi untuk memperbarui ubin pada bilah alat. Resin, komisi harian, dan data lain diperbarui saat catatan disegarkan.
+3. Di **Pengaturan Notifikasi**, buka pengaturan latar ubin dan cari karakter dengan pinyin atau bahasa Inggris. Gunakan kartu nama karakter atau pilih tanpa latar. Pilih opsi untuk membersihkan ubin guna mengosongkan isinya.
+
 ## Pertanyaan Umum
 
 ### Mengapa pengaturan penyegaran otomatis untuk Catatan Real-time menampilkan "Gagal mengubah Tugas Terjadwal"?

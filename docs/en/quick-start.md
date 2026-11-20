@@ -40,25 +40,7 @@ Go to [**Download Page**](/en/download) to get the latest installer
 
 ### New Installation
 
-::: tabs
-
-== Microsoft Store (MSIX)
-
-Starting with 2.0.2, MSIX is distributed and updated exclusively through Microsoft Store. The listing may not be public yet.
-
-<VPCard title="Microsoft Store" desc="Starting with 2.0.2, MSIX is distributed and updated exclusively through Microsoft Store. The listing may not be public yet." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
-
-== GitHub (Setup installer)
-
-GitHub Releases continues to offer the Setup.exe installer, but no new MSIX packages.
-
-<VPCard title="GitHub Releases" desc="GitHub Releases continues to offer the Setup.exe installer, but no new MSIX packages." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
-
-:::
-
-::: warning
-Legacy MSIX and Store MSIX have different package identities and do not share user data. Back up before migrating. [data migration guide](/en/advanced/msix-migration).
-:::
+Get `Setup.exe` from the [download page](/en/download). If you need MSIX, check the release notes and assets on [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) and install a signed MSIX supplied by the project.
 
 ## Community-developed Derivative Versions
 
@@ -93,7 +75,7 @@ If you are interested in making the Snap Hutao Remastered project better through
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Remastered
 
-Update Store MSIX through Microsoft Store. The Setup edition still supports in-app updates. A legacy MSIX cannot be upgraded in place to the Store identity. [data migration guide](/en/advanced/msix-migration).
+The Setup edition supports in-app updates. To upgrade from the official 2.0.1 MSIX, install the signed 2.0.2 MSIX over your existing installation to keep your data. To switch to Setup, follow the [data migration guide](/en/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Install Optional Components
 
@@ -190,7 +172,7 @@ You can try to repair missing components based on error messages, but the Snap H
 ---
 
 ::: warning
-The following troubleshooting applies only to legacy sideloaded MSIX packages (2.0.1 and earlier). Starting with 2.0.2, install MSIX through Microsoft Store or Setup through GitHub.
+The following troubleshooting applies to signed MSIX packages from the project. If the release has no signed MSIX, use `Setup.exe`.
 :::
 
 ### My Computer Cannot Open MSIX Format Installation Package

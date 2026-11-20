@@ -11,7 +11,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 # Menghapus Instalasi Snap Hutao
 
 ::: warning
-Jika berpindah dari MSIX lama ke Microsoft Store 2.0.2, **jangan hapus aplikasi atau data lama sebelum membuat cadangan**. Baca [panduan migrasi](/id/advanced/msix-migration).
+Cadangkan direktori data yang digunakan sebelum menghapus aplikasi. Untuk memperbarui MSIX resmi 2.0.1 ke 2.0.2, ikuti [panduan pembaruan](/id/advanced/msix-migration).
 :::
 
 Menghapus Snap Hutao adalah proses yang sederhana. Jika Anda ingin menghapus program dan semua datanya, silakan ikuti langkah-langkah berikut.
@@ -24,7 +24,7 @@ Menghapus Snap Hutao adalah proses yang sederhana. Jika Anda ingin menghapus pro
 
 ## Menghapus data aplikasi (hanya jika sudah tidak diperlukan)
 
-Lokasi penyimpanan tergantung metode instalasi dan pengaturan. MSIX lama biasanya memakai `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, edisi Store memakai `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`, sedangkan Setup biasanya `%LOCALAPPDATA%\SnapHutaoRemastered`. Tanda bintang mewakili akhiran nama paket, bukan jalur folder literal. Gunakan jalur khusus jika pernah diatur, dan cadangkan data sebelum menghapusnya.
+Periksa direktori data yang digunakan di Pengaturan. MSIX resmi secara default memakai `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, dengan tanda bintang sebagai akhiran nama paket. Edisi Setup biasanya memakai `%LOCALAPPDATA%\SnapHutaoRemastered`. Jika menggunakan direktori khusus atau folder `Hutao` lama di Dokumen, cadangkan direktori tersebut.
 
 ## Pertanyaan Umum
 
@@ -50,7 +50,7 @@ File `Userdata.db` berisi semua data Anda, termasuk `Cookie` HoYoLAB yang sangat
 
 #### **Untuk Backup:**
 
-1. Buka folder data Snap Hutao (lokasi default: `%userprofile%/Documents/Hutao`).
+1. Buka direktori data yang ditampilkan di Pengaturan Snap Hutao Remastered.
 2. Salin file `Userdata.db` dari folder tersebut ke lokasi backup pilihan Anda.
 
 #### **Untuk Restore:**

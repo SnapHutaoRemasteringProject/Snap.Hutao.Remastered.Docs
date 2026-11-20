@@ -1,11 +1,5 @@
-# Instalasi Sideload Lama (Arsip)
+# Instalasi MSIX
 
-::: warning
-Halaman ini hanya untuk instalasi MSIX versi lama (2.0.1 atau sebelumnya). Sejak 2.0.2, MSIX Snap Hutao Remastered hanya tersedia melalui Microsoft Store; paket MSIX baru tidak dipublikasikan di GitHub.
-:::
+Unduh `Setup.exe` dari [halaman unduhan](/id/download). Jika memerlukan MSIX, periksa catatan dan lampiran versi tersebut di [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest), lalu gunakan MSIX bertanda tangan yang disediakan proyek.
 
 Untuk pemasangan atau pembaruan versi terbaru, lihat [Panduan Awal](/id/quick-start).
-
-Jika berpindah dari MSIX lama, buat cadangan dan baca [panduan migrasi data](/id/advanced/msix-migration). Karena identitas paket berbeda, data lama tidak berpindah secara otomatis.
-
-Installer Setup.exe tetap tersedia pada [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest).

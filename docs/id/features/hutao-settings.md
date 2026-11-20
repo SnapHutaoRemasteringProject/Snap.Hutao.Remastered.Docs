@@ -52,7 +52,10 @@ Di sisi kanan halaman pengaturan, alat mode administrator disediakan untuk pengg
   - **Hapus Cache Konversi Server**: Membersihkan cache yang dihasilkan oleh fitur transfer server game.
 - **Folder Cache**:
   - **Buka Folder**: Membuka folder yang berisi cache gambar.
-  - **Setel Ulang Sumber Daya Gambar**: Menghapus dan mengunduh ulang sumber daya gambar.
+  - **Atur ulang sumber daya gambar** mengosongkan cache gambar yang dapat ditulis. Gambar dimuat kembali saat dibutuhkan.
+  - **Hapus cache gambar duplikat** menghapus salinan cache yang sama persis dengan gambar bawaan. Gambar versi lain dan gambar tema tetap tersimpan.
+
+Edisi MSIX dan Setup dengan gambar bawaan melewati pengunduhan gambar massal saat penyiapan awal. Gambar yang belum tersedia diunduh saat dibutuhkan. Setup standar tanpa gambar bawaan masih dapat mengunduh gambar per kategori terlebih dahulu.
 
 ## Pengaturan Tombol Pintas
 

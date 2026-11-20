@@ -33,6 +33,8 @@ Ketika Anda melihat catatan terbaru di riwayat gacha dalam game, statistik yang 
 
 ## Ambil Data Gacha
 
+Sebelum mengambil riwayat Miliastra Wonderland, pilih mode Odes pada bilah alat Riwayat Gacha. Wish biasa dan Odes diambil secara terpisah. Jika memasukkan URL secara manual, salin tautan riwayat lengkap yang dihasilkan game.
+
 ### Penyegaran SToken <Badge text="Direkomendasikan" type="tip" />
 
 ::: info Petunjuk

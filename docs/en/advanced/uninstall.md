@@ -11,7 +11,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 # Uninstall Snap Hutao Remastered
 
 ::: warning
-If you are moving from an older MSIX to the 2.0.2 Microsoft Store edition, **do not uninstall or delete old data first**. Follow the [migration guide](/en/advanced/msix-migration) and make a backup.
+Back up your actual data directory before uninstalling. If you only need to upgrade the official MSIX from 2.0.1 to 2.0.2, follow the [in-place upgrade guide](/en/advanced/msix-migration).
 :::
 
 Uninstalling Snap Hutao Remastered is a straightforward process. If you want to completely remove the program and its associated data, please follow these steps:
@@ -24,7 +24,7 @@ Uninstalling Snap Hutao Remastered is a straightforward process. If you want to 
 
 ## Delete application data (only when it is no longer needed)
 
-The location depends on the installation channel and your configuration. The old MSIX default is generally `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, the Store MSIX default is `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`, and the Setup edition usually uses `%LOCALAPPDATA%\SnapHutaoRemastered`. The asterisk stands for the package-name suffix, not a literal folder path. If you configured a custom directory, use that location instead. Back up before deleting any data.
+Check Settings for the data directory in use. The official MSIX defaults to `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, where the asterisk represents the package-name suffix. Setup usually uses `%LOCALAPPDATA%\SnapHutaoRemastered`. If you use a custom directory or still use the older `Hutao` folder in Documents, back up that directory.
 
 ## Frequently Asked Questions
 
@@ -50,7 +50,7 @@ The `Userdata.db` file contains all of your client data, including your sensitiv
 
 #### Backing Up Data
 
-1. Go to the Snap Hutao Remastered data directory (default path is `%userprofile%/Documents/Hutao`).
+1. Go to the data directory shown in Snap Hutao Remastered Settings.
 2. Copy the `Userdata.db` file from the folder to your chosen backup location.
 
 #### Restoring Data

@@ -44,25 +44,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ### 新規インストール
 
-::: tabs
-
-== Microsoft Store（MSIX）
-
-2.0.2 以降の MSIX は Microsoft Store 限定で配布・更新されます。ストアページが未公開の場合があります。
-
-<VPCard title="Microsoft Store" desc="2.0.2 以降の MSIX は Microsoft Store 限定で配布・更新されます。ストアページが未公開の場合があります。" logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
-
-== GitHub（Setup インストーラー）
-
-GitHub Releases では引き続き Setup.exe を配布しますが、新しい MSIX は配布しません。
-
-<VPCard title="GitHub Releases" desc="GitHub Releases では引き続き Setup.exe を配布しますが、新しい MSIX は配布しません。" logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
-
-:::
-
-::: warning
-旧 MSIX と Store 版はパッケージ ID が異なるため、データは共有されません。移行前にバックアップしてください。 [データ移行ガイド](/jp/advanced/msix-migration).
-:::
+[ダウンロードページ](/jp/download)から `Setup.exe` を入手できます。MSIX が必要な場合は、[GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) のリリースノートと添付ファイルを確認し、プロジェクトが配布する署名済み MSIX を使用してください。
 
 ## コミュニティ開発の派生バージョン
 
@@ -97,7 +79,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
-Store 版 MSIX は Microsoft Store から更新してください。Setup 版はアプリ内更新を利用できます。旧 MSIX から Store 版への上書き更新はできません。 [データ移行ガイド](/jp/advanced/msix-migration).
+Setup 版はアプリ内で更新できます。正式版 MSIX 2.0.1 からは、署名済みの 2.0.2 MSIX を上書きインストールすると既存のデータを引き継げます。Setup 版へ切り替える場合は[データ移行ガイド](/jp/advanced/msix-migration)を参照してください。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> オプションコンポーネントのインストール
 
@@ -194,7 +176,7 @@ Cookie 情報を適切に保管し、アカウントのリスクを回避して�
 ---
 
 ::: warning
-以下の対処方法は 2.0.1 以前の旧サイドロード MSIX 専用です。2.0.2 以降の MSIX は Microsoft Store から、Setup は GitHub から入手してください。
+以下の対処方法は、プロジェクトが配布する署名済み MSIX が対象です。署名済み MSIX が提供されていない場合は `Setup.exe` を使用してください。
 :::
 
 ### コンピューターで MSIX 形式のインストールパッケージを開くことができません

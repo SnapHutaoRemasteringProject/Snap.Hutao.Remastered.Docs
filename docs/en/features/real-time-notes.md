@@ -63,6 +63,14 @@ Clicking "Notification Settings" in the upper-right corner of the window allows 
 1. Hover your mouse over the Real-time Notes window of the character you want to delete.
 2. Click the remove button in the upper-right corner of the window to delete the Real-time Notes for that character.
 
+## Windows 10 Start menu live tile
+
+The Real-time Notes live tile requires the MSIX edition on Windows 10. Run Snap Hutao with standard user privileges to update it.
+
+1. In the Windows Start menu, pin **Snap Hutao Remastered** to Start. Right-click the tile and resize it to **Wide** or **Large**.
+2. Add a character on the **Real-time Notes** page and select **Update Tile** on the toolbar. Resin, daily commissions and other data update when the notes refresh.
+3. Under **Notification Settings**, expand **Tile Background**. Search for a character by pinyin or English to use their namecard, or select **No Background**. Select **Clear Tile** to clear the notes from the tile.
+
 ## Frequently Asked Questions
 
 ### Why does setting automatic refresh for Real-time Notes display "Failed to modify Scheduled Task"?

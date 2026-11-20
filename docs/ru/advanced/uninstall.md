@@ -15,7 +15,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/ru/advanced
 # Удаление Snap Hutao
 
 ::: warning
-При переходе со старого MSIX на версию Microsoft Store 2.0.2 **не удаляйте старое приложение и данные до создания резервной копии**. Следуйте [руководству по переносу](/ru/advanced/msix-migration).
+Перед удалением приложения сделайте резервную копию используемой папки данных. Для обновления официального MSIX с 2.0.1 до 2.0.2 следуйте [руководству по обновлению](/ru/advanced/msix-migration).
 :::
 
 Удаление Snap Hutao — это простой процесс. Если вы хотите полностью удалить программу и связанные с ней данные, выполните следующие действия:
@@ -28,7 +28,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/ru/advanced
 
 ## Удаление данных приложения (только когда они больше не нужны)
 
-Путь зависит от способа установки и настроек. Старый MSIX обычно использует `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, версия Store — `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`, версия Setup — `%LOCALAPPDATA%\SnapHutaoRemastered`. Звёздочка обозначает суффикс имени пакета, а не буквальный путь. При пользовательском расположении ориентируйтесь на него. Перед удалением сохраните данные.
+Проверьте фактический путь к данным в настройках. Официальный MSIX по умолчанию использует `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`, где звёздочка обозначает суффикс имени пакета. Версия Setup обычно использует `%LOCALAPPDATA%\SnapHutaoRemastered`. Если задан другой путь или используется прежняя папка `Hutao` в «Документах», сделайте резервную копию этой папки.
 
 ## Часто задаваемые вопросы
 
@@ -54,7 +54,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/ru/advanced
 
 #### Резервное копирование данных
 
-1. Перейдите в каталог данных Snap Hutao (путь по умолчанию: `%userprofile%/Documents/Hutao`).
+1. Откройте папку данных, указанную в настройках Snap Hutao Remastered.
 2. Скопируйте файл `Userdata.db` из этой папки в выбранное вами место для резервного копирования.
 
 #### Восстановление данных

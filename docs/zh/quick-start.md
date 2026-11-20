@@ -40,25 +40,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ### 全新安装
 
-::: tabs
-
-== Microsoft Store（MSIX）
-
-2.0.2 起 MSIX 仅通过 Microsoft Store 分发和更新。商店页面未公开时请等待上线。
-
-<VPCard title="Microsoft Store" desc="2.0.2 起 MSIX 仅通过 Microsoft Store 分发和更新。商店页面未公开时请等待上线。" logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
-
-== GitHub（Setup 安装程序）
-
-GitHub Releases 继续提供 Setup.exe 安装程序，不再发布新的 MSIX 包。
-
-<VPCard title="GitHub Releases" desc="GitHub Releases 继续提供 Setup.exe 安装程序，不再发布新的 MSIX 包。" logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
-
-:::
-
-::: warning
-旧版 MSIX 与商店版包身份不同，用户数据不自动互通。迁移前必须备份。 [数据迁移指南](/zh/advanced/msix-migration).
-:::
+推荐通过 [下载页面](/zh/download) 获取 `Setup.exe`。如需 MSIX，请查看 [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest) 中该版本的发布说明和附件，仅安装由项目提供的已签名 MSIX。
 
 ## 二次开发衍生版本
 
@@ -93,7 +75,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
-商店版 MSIX 请在 Microsoft Store 更新，Setup 版继续使用应用内更新。旧 MSIX 无法直接原位升级至商店版本。 [数据迁移指南](/zh/advanced/msix-migration).
+Setup 版可通过应用内更新。从正式版 MSIX 2.0.1 升级时，可直接安装已签名的 2.0.2 MSIX，保留原有数据。切换到 Setup 版时，请先查看[数据迁移指南](/zh/advanced/msix-migration)。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安装可选组件
 
@@ -190,7 +172,7 @@ HoYoLAB 默认阻止中国大陆网络连接。
 ---
 
 ::: warning
-以下故障排查仅针对 2.0.1 及更早的旧侧载 MSIX。2.0.2 起请从 Microsoft Store 安装 MSIX，或从 GitHub 获取 Setup 安装程序。
+以下故障排查仅适用于从项目发布渠道获取的已签名 MSIX。若该版本未提供已签名 MSIX，请使用 `Setup.exe`。
 :::
 
 ### 我的计算机无法打开 MSIX 格式的安装包

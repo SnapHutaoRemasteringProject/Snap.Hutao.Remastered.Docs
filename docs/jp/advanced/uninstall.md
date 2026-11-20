@@ -15,7 +15,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 # Snap Hutao のアンインストール
 
 ::: warning
-旧 MSIX から 2.0.2 の Microsoft Store 版へ移行する場合、**バックアップ前に旧版をアンインストールしたりデータを削除したりしないでください**。[移行ガイド](/jp/advanced/msix-migration)を参照してください。
+アンインストール前に、使用中のデータフォルダーをバックアップしてください。正式版 MSIX 2.0.1 から 2.0.2 への更新は、[更新ガイド](/jp/advanced/msix-migration)に沿って上書きインストールできます。
 :::
 
 Snap Hutao のアンインストールは簡単なプロセスです。プログラムとその関連データを完全に削除したい場合は、以下の手順に従ってください。
@@ -28,7 +28,7 @@ Snap Hutao のアンインストールは簡単なプロセスです。プログ
 
 ## アプリデータの削除（不要になった場合のみ）
 
-保存先はインストール方法と設定によって異なります。旧 MSIX の既定は `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao`、Store 版は `%LOCALAPPDATA%\Packages\SnapHutaoRemasteringProje.SnapHutaoRemastered_*\LocalState\Hutao`、Setup 版は通常 `%LOCALAPPDATA%\SnapHutaoRemastered` です。アスタリスクはパッケージ名の末尾部分を表し、そのまま使うパスではありません。カスタム保存先を設定している場合はそちらを使用し、削除前に必ずバックアップしてください。
+実際のデータフォルダーは設定で確認できます。正式版 MSIX の既定は `%LOCALAPPDATA%\Packages\E8B6E2B3-D2A0-4435-A81D-2A16AAF405C8_*\LocalState\Hutao` で、アスタリスクはパッケージ名の末尾部分を表します。Setup 版は通常 `%LOCALAPPDATA%\SnapHutaoRemastered` を使用します。カスタムフォルダーや「ドキュメント」内の旧 `Hutao` フォルダーを使用している場合は、そのフォルダーをバックアップしてください。
 
 ## よくある質問
 
@@ -54,7 +54,7 @@ Snap Hutao をアンインストールした後、上の図のように「この
 
 #### データのバックアップ
 
-1. Snap Hutao のデータディレクトリに移動します（デフォルトパスは `%userprofile%/Documents/Hutao` です）。
+1. Snap Hutao Remastered の設定に表示されているデータフォルダーを開きます。
 2. フォルダー内の `Userdata.db` ファイルを、選択したバックアップ場所にコピーします。
 
 #### データの復元

@@ -33,7 +33,7 @@ export const catalogTrees = {
           "path": "zh/advanced/loopback"
         },
         "msix-migration": {
-          "title": "旧版 MSIX 迁移到 Microsoft Store 版本",
+          "title": "MSIX 升级与安装方式切换",
           "path": "zh/advanced/msix-migration"
         },
         "uninstall": {
@@ -273,7 +273,7 @@ export const catalogTrees = {
           "path": "en/advanced/loopback"
         },
         "msix-migration": {
-          "title": "Migrate from a legacy MSIX installation to Microsoft Store",
+          "title": "Upgrade MSIX or switch installation types",
           "path": "en/advanced/msix-migration"
         },
         "uninstall": {
@@ -521,7 +521,7 @@ export const catalogTrees = {
           "path": "ru/advanced/loopback"
         },
         "msix-migration": {
-          "title": "Перенос данных со старого MSIX в Microsoft Store",
+          "title": "Обновление MSIX и смена типа установки",
           "path": "ru/advanced/msix-migration"
         },
         "uninstall": {
@@ -685,7 +685,7 @@ export const catalogTrees = {
       "path": "ru/quick-start"
     },
     "side-load": {
-      "title": "Устаревшая установка MSIX вручную (архив)",
+      "title": "Установка MSIX вручную",
       "path": "ru/side-load"
     },
     "star-request": {
@@ -769,7 +769,7 @@ export const catalogTrees = {
           "path": "id/advanced/loopback"
         },
         "msix-migration": {
-          "title": "Migrasi MSIX lama ke Microsoft Store",
+          "title": "Memperbarui MSIX atau mengganti jenis instalasi",
           "path": "id/advanced/msix-migration"
         },
         "uninstall": {
@@ -933,7 +933,7 @@ export const catalogTrees = {
       "path": "id/quick-start"
     },
     "side-load": {
-      "title": "Instalasi Sideload Lama (Arsip)",
+      "title": "Instalasi MSIX",
       "path": "id/side-load"
     },
     "star-request": {
@@ -1017,7 +1017,7 @@ export const catalogTrees = {
           "path": "jp/advanced/loopback"
         },
         "msix-migration": {
-          "title": "旧 MSIX 版から Microsoft Store 版へのデータ移行",
+          "title": "MSIX の更新とインストール形式の切り替え",
           "path": "jp/advanced/msix-migration"
         },
         "uninstall": {
@@ -1261,7 +1261,7 @@ export const catalogTrees = {
           "path": "tw/advanced/loopback"
         },
         "msix-migration": {
-          "title": "從舊 MSIX 遷移至 Microsoft Store",
+          "title": "MSIX 升級與切換安裝方式",
           "path": "tw/advanced/msix-migration"
         },
         "uninstall": {

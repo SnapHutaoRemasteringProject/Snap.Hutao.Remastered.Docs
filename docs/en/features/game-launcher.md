@@ -17,13 +17,16 @@ Developers are not responsible for any functions. Using related functions means 
 
 Snap Hutao Remastered's advanced launcher provides a more flexible game launch experience through various settings options.
 
-::: warning
-The advanced launcher feature has been temporarily discontinued. Custom launch depends on **unofficial software**, please be aware of the risks when using it.
-:::
 
 ::: caution
 Using **any unofficial software** has a **probability** of causing damage to your virtual property. Continuing to use related functions of this software will be deemed as **you have acknowledged and agreed** to our [Terms of Service](/en/statements/tos.md)
 :::
+
+## Game status and Island settings in 2.0.2
+
+Open the **Game Launch** page to detect Genshin Impact running in the current Windows session, including games started outside Snap Hutao. While the game is running, you can select **End Process**. Snap Hutao can attempt to end game processes running at the same privilege level. If the game is elevated, you may need to restart Snap Hutao as administrator.
+
+All users can find **Catherine Redirect** in the Island settings on the **Game Launch** page. It redirects the daily commission shortcut in the Adventurer Handbook to Catherine's reward confirmation. The first press of **Claim Rewards** opens the expedition page. If the commissions are complete, the second press opens the reward screen. **Legacy Paimon Menu** restores the positions of the Miliastra Wonderland shop and popular Wonders in the Paimon Menu. These settings require a compatible Island component.
 
 ::: tip
 The following content is for retention and reference only

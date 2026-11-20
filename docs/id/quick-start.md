@@ -40,25 +40,7 @@ Buka [**Halaman Unduhan**](/id/download) untuk mendapatkan pemasang terbaru
 
 ### Instalasi Baru
 
-::: tabs
-
-== Microsoft Store (MSIX)
-
-Mulai 2.0.2, MSIX hanya didistribusikan dan diperbarui melalui Microsoft Store. Halaman aplikasi mungkin belum tersedia.
-
-<VPCard title="Microsoft Store" desc="Mulai 2.0.2, MSIX hanya didistribusikan dan diperbarui melalui Microsoft Store. Halaman aplikasi mungkin belum tersedia." logo="/images/202409/Microsoft-logo.svg" link="https://apps.microsoft.com/search?query=Snap%20Hutao%20Remastered" background="rgba(85, 148, 230, 0.12)" />
-
-== GitHub (installer Setup)
-
-GitHub Releases masih menyediakan installer Setup.exe tetapi tidak lagi menerbitkan MSIX baru.
-
-<VPCard title="GitHub Releases" desc="GitHub Releases masih menyediakan installer Setup.exe tetapi tidak lagi menerbitkan MSIX baru." logo="/images/202312/github-mark.svg" link="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest" background="rgba(155, 233, 168, 0.15)" />
-
-:::
-
-::: warning
-MSIX lama dan versi Store memiliki identitas paket berbeda sehingga data pengguna tidak dibagikan. Cadangkan dahulu. [panduan migrasi data](/id/advanced/msix-migration).
-:::
+Unduh `Setup.exe` dari [halaman unduhan](/id/download). Jika memerlukan MSIX, periksa catatan dan lampiran versi tersebut di [GitHub Releases](https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/releases/latest), lalu gunakan MSIX bertanda tangan yang disediakan proyek.
 
 ## Versi Turunan yang Dikembangkan Komunitas
 
@@ -93,7 +75,7 @@ Jika Anda tertarik untuk membuat proyek Snap Hutao Remastered menjadi lebih baik
 
 ## <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Perbarui Snap Hutao
 
-Perbarui MSIX melalui Microsoft Store. Edisi Setup tetap mendukung pembaruan dalam aplikasi. MSIX lama tidak bisa diperbarui langsung ke identitas Store. [panduan migrasi data](/id/advanced/msix-migration).
+Edisi Setup mendukung pembaruan dalam aplikasi. Untuk memperbarui MSIX resmi 2.0.1, instal MSIX 2.0.2 bertanda tangan di atas instalasi yang ada agar data tetap tersimpan. Untuk beralih ke Setup, ikuti [panduan migrasi data](/id/advanced/msix-migration).
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Instal Komponen Opsional
 
@@ -190,7 +172,7 @@ Anda bisa mencoba memperbaiki komponen yang hilang berdasarkan pesan kesalahan, 
 ---
 
 ::: warning
-Langkah ini hanya berlaku untuk MSIX sideload lama (2.0.1 atau sebelumnya). Mulai 2.0.2 gunakan Microsoft Store untuk MSIX atau GitHub untuk Setup.
+Langkah berikut berlaku untuk MSIX bertanda tangan yang disediakan proyek. Jika rilis tersebut tidak menyertakan MSIX bertanda tangan, gunakan `Setup.exe`.
 :::
 
 ### Komputer Saya Tidak Bisa Membuka Paket Instalasi Format MSIX
