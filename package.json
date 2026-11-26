@@ -24,7 +24,7 @@
     "vitepress": "^1.0.0",
     "vitepress-plugin-tabs": "^0.9.1",
     "vitepress-sidebar": "^1.41.0",
-    "vue": "^3.5.45"
+    "vue": "^3.5.46"
   },
   "engines": {
     "node": ">=18.19.0"
@@ -35,7 +35,7 @@
   "packageManager": "pnpm@9.15.0",
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
-    "autoprefixer": "^10.6.2",
+    "autoprefixer": "^10.7.0",
     "tailwindcss": "^4.3.5"
   }
 }
